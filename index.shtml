@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>CS10 : BJC (The Beauty and Joy of Computing) | UC Berkeley EECS | Fall 2013</title>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+
+        <link href="scripts/cs10style.css" title="CS10 Style" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" language="Javascript" src="scripts/cs10.js"></script>
+    </head>
+
+    <body onload="updateCalendar()">
+      <!-- Top Section and Title -->
+      <table>
+        <tbody>
+          <tr>
+            <td width="180">
+              <div style="position:absolute;top:40px;left:200px;z-index:40;">
+                <img src="images/blank.gif" name="speech" />
+              </div>
+              <img width="250" border="0" align="bottom" height="244" src="images/snap_nav.gif"
+              class="navbar" alt="Your Navigation Bar didn't load." title="Click me to navigate."
+              usemap="#gobo" />
+              <map name="gobo">
+                <area shape="rect" coords="0,70,110,97" alt="Overview" href="#overview"
+                onmouseover="displaySpeech('speech', 'images/overview_jump.gif')"
+                onmouseout="displaySpeech('speech', 'images/blank.gif')" />
+                <area shape="rect" coords="0,97,76,124" alt="News" href="#news"
+                onmouseover="displaySpeech('speech', 'images/news_jump.gif')"
+                onmouseout="displaySpeech('speech', 'images/blank.gif')" />
+                <area shape="rect" coords="0,124,105,151" alt="Calendar" href="#calendar"
+                onmouseover="displaySpeech('speech', 'images/calendar_jump.gif')"
+                onmouseout="displaySpeech('speech', 'images/blank.gif')" />
+                <area shape="rect" coords="0,151,72,178" alt="Staff" href="#staff"
+                onmouseover="displaySpeech('speech', 'images/staff_jump.gif')"
+                onmouseout="displaySpeech('speech', 'images/blank.gif')" />
+                <area shape="rect" coords="0,178,97,205" alt="Grades" href="#grades"
+                onmouseover="displaySpeech('speech', 'images/grading_jump.gif')"
+                onmouseout="displaySpeech('speech', 'images/blank.gif')" />
+                <area shape="rect" coords="0,205,117,232" alt="Resources" href="#resources"
+                onmouseover="displaySpeech('speech', 'images/resources_jump.gif')"
+                onmouseout="displaySpeech('speech', 'images/blank.gif')" />
+              </map>
+            </td>
+            <td>
+              <p class="logo">
+                CS10 : BJC (The Beauty and Joy of Computing)<br />
+                UC Berkeley EECS<br />
+                Fall 2013
+              </p>
+            </td>
+            <td width="160"> <a href="http://www.berkeley.edu/">
+              <img border="0" src="images/bjc186.png" alt="BJC" /></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="heading ql">
+        <a name="quicklinks">QuickLinks</a>
+      </p>
+      <div class="ql">
+        <div class="ql">
+          <a href="http://snap.berkeley.edu/run/">Snap!</a>
+          <br />(our software)
+        </div>
+        <div class="ql">
+          <a href="https://piazza.com/class/hitwr8dq7oc7d8">Piazza</a>
+          <br />(our Q&amp;A)
+        </div>
+        <div class="ql">
+          <a href="https://bspace.berkeley.edu/">bSpace</a>
+          <br />(submissions)
+        </div>
+        <div class="ql">
+          <a href="https://plus.google.com/s/%23BJCnews">Google+ (#BJCnews)</a>
+          <br />(computing in news)
+        </div>
+      </div>
+
+      <a name="overview">
+        <p class="heading">Overview</p>
+      </a>
+      <!--#include file="includes/overview.html"-->
+
+      <a name="calendar">
+        <p class="heading">Calendar</p>
+      </a>
+      <!--#include file="includes/calendar.html"-->
+
+      <a name="weekly">
+        <p class="heading">Weekly Schedule</p>
+      </a>
+      <!--#include file="includes/weekly.html"-->
+
+      <a name="staff">
+        <p class="heading">Staff</p>
+      </a>
+      <!--#include file="includes/staff.html"-->
+
+      <!--grades -->
+      <a name="grades">
+        <p class="heading"> Grading </p>
+      </a>
+      <!--#include file="includes/grading.html"-->
+
+      <p class="heading">
+        <a name="resources"> Resources</a>
+      </p>
+      <p>
+        <ul class="lambda">
+        	<li><a href="http://codepath.co/">Codepath</a></li>
+        	<li><a href="http://byob.berkeley.edu/">BYOB : Build Your Own Blocks</a></li>
+        	<li><a href="http://scratch.mit.edu/forums/">Scratch Forums</a></li>
+        	<li><a href="http://www.bitsbook.com/">Blown to Bits</a></li>
+        	<li><a href="http://www.debuggingrules.com/">Debugging Rules!</a></li>
+        	<li><a href="http://www.berkeley.edu">UC Berkeley</a></li>
+        	<li><a href="http://coe.berkeley.edu/">College of Engineering</a> </li>
+        	<li><a href="http://www.eecs.berkeley.edu/">Department of Electrical Engineering &amp; Computer Sciences</a></li>
+        	<li><a href="http://webcast.berkeley.edu/course_details_new.php?seriesid=2010-D-26250&amp;semesterid=2010-D">Webcast archive of 2010Fa lectures</a></li>
+        	<li><a href="lab/solutions.html"> Solutions to Lab Exercises</a></li>
+        </ul>
+      </p>
+
+      <hr />
+      <!-- Page Footer, ql class centers -->
+      <div class="ql">
+        <code>
+          Contact <a href="mailto:web.cs10@gmail.com"> Webmaster</a>
+          |
+          <!-- <script language="JavaScript">var datedate=document.lastModifieddocument.write("Last modified on "+date)</script>-->
+            <!--#config timefmt="%Y-%m-%d@%H:%M:%S %Z"-->
+            <!--#flastmod file="index.shtml"-->
+       </code>
+      </div>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"> <img
+        align="right" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+      </a>
+      <p align="center"> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported
+        License</a>
+      </p>
+    </body>
+</html>

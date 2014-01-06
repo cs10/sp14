@@ -1,0 +1,17 @@
+- Where did you grow up? What was your path to Cal? 
+I was born and raised in the Bay Area! Cal has always been about a 15-20 minute drive from where I live (El Cerrito/Kensington). I began my freshman year dedicated to architecture, and then decided to switch into computer science after taking CS10. I am currently a senior (eww, feels so old) XD 
+
+- How much programming have you done (& what languages)?
+My first experience with programming was with BYOB, now known as SNAP. From there I learned Python, Java and some C through the CS lower division courses (61A, 61B, 61C). 
+ 
+- What are your hobbies?
+I enjoy spending time with family and friends. Aside from that, I have recently picked up photography, random music playing on the piano, and watching people game (such as LOL or Starcraft). I also love watching movies (especially animated films)! 
+
+- What are some of your talents & skills?
+Aside from hobby activities, I used to do Wushu, which is a type of Chinese Martial Arts. I participated in one of the collegiate teams in the Spring of 2012.
+ 
+- Have you done anything remarkable? Has anything memorable happened to you?
+I got to volunteer at the SIGGRAPH 2013 convention in Anaheim this summer. During this time, I was able to win a free 4G USB, but afterwards I got another free gift just because the representer thought I was cool. Yay! hehe =P
+
+- What commitments will be consuming your cycles this semester?
+This semester I will be taking CS188 (Artificial Intelligence), CS160 (User Interfaces), UGBA196 (Personal Finance), and a yoga class. In addition to being lab assistance for CS10, I am also a facilitator for UCBUGG (UC Berkeley's Undergraduate Graphics Group).

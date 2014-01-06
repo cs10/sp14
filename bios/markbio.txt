@@ -1,0 +1,19 @@
+Where did you grow up? What was your path to Cal?
+
+I was born in Tucson, Arizona where I lived for three years. I don't remember much from there, but I moved to Phoenix, Arizona and had lived there ever since I can remember, up until coming to Cal. There are a couple reasons why I ended up leaving the sunny state of Arizona: 1) It's hot there. As I'm sure you all know, Arizona has summers that reach temperatures of around 115 and winters that reach a super low temperature of 60. Basically, you can say I wanted to escape the heat and it's true! 2) I had lived in a suburban setting for my entire life, always having to drive everywhere; when applying to colleges, I wanted to experience the opposite end of the spectrum and try out an urban environment. Thus far, I have loved it!
+
+How much programming have you done (and what languages)?
+
+I am still in the process of learning as many languages as I can. I consider myself to be proficient in Python, Java, Scheme, Ruby on Rails, BYOB (from CS10!), Ruby, Objective-C, HTML, and CSS. I have also dabbled in Javascript, AJAX, jQuery, Sass, Coffeescript, and Json for web development which I do on the side. I also consider myself to be above average in Unix because I took the awesome self-paced CS9E class last semester (which I recommend because it is helpful to know Unix when coding!). I still have lots to learn in terms of languages so as time goes on, I will hopefully be able to add to this list.
+
+What are your hobbies? What are some of your talents and skills?
+
+I played soccer all throughout high school and many years before that. I continue to play soccer even in college by playing on two intramural soccer teams here at Cal (one in speed soccer and one in 11v11s.) I will always love the game of soccer and I will keep playing as much as I can. I also enjoy longboarding which I picked up a few years ago. I mainly ride around to relax and enjoy moving faster than walking speeds (I can't do any tricks). 
+
+Have you done anything remarkable? Has anything memorable happened to you?
+
+I played on the varsity soccer team for three years during high school. In my Junior year, we won the State Championship! My most memorable moment (besides winning the championship) was scoring my only playoff goal of my high school career in the first round of the playoffs that year. 
+
+What commitments will be consuming your cycles this summer?
+
+This fall, in addition to reading for CS10, I will also be working at ResComp as a Residential Computing Consultant working on small side projects and helping fix residents' computers. I will also be traveling to San Francisco twice a week for my internship at Inigral, Inc. the makers of Schools App. I will be fixing bugs, implementing new features, and experiencing, for the first time, the startup life. In addition, I will continue to run various websites that I have been running for quite a while now (if you're interested in working on a website, shoot me an email!). Lastly, I will continue to work on my beloved side projects which are usually websites, applications that run on websites, and iPhone apps. I also want to continue exploring the Bay Area so if you have any suggestions, shoot me an email!
