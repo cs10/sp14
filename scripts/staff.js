@@ -11,7 +11,7 @@ all = {
 /* DATA POPULATION FUNCTIONS  */
 /*****************************************************************************/
 function buildPerson(data, width) {
-    if (!!data.imgSrc) {
+    if (!data.imgSrc) {
         data.imgSrc = "../NPY3D.jpg"
     }
     // Create a table element with this person's data, setting a class for width

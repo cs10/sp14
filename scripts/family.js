@@ -17,7 +17,7 @@ danG = {
 michaelB = {
     name: 'TA Michael Ball',
     img: '/Fa12/MichaelBall.jpg',
-    imgSrc: '/MichaelBall.jpg',
+    imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     bio: 'MichaelBall.txt',
     email: 'cs10-ta@imail.eecs.berkeley.edu'
