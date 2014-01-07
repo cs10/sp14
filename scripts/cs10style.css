@@ -15,7 +15,7 @@ p.logo {
     color:#0F4D92;
     font-weight: bold;
     text-align: center;
-    margin: 3em auto;
+    vertical-align: middle;
 }
 
 h2 {
@@ -37,11 +37,12 @@ h1 {
 
 .ql { text-align: center; }
 
-td.ql {
+div.ql {
+    display: inline-block;
     font-size: large;
     width: 25%;
     text-align: center;
-    float: center;
+    float: left;
 }
 
 .bold {
