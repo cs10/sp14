@@ -19,7 +19,7 @@
       <table>
           <tbody>
               <tr>
-                  <td width="180">
+                  <td style="width: 20%">
                       <div style="position:absolute;top:40px;left:200px;z-index:40;">
                           <img src="images/blank.gif" name="speech">
                       </div>
@@ -33,7 +33,7 @@
                           <area shape="rect" coords="0,205,117,232" alt="Resources" href="#resources" onmouseover="displaySpeech('speech', 'images/resources_jump.gif')" onmouseout="displaySpeech('speech', 'images/blank.gif')">
                       </map>
                   </td>
-                  <td>
+                  <td style="width:65%">
                       <p class="logo">
                           CS10 : BJC (The Beauty and Joy of Computing)<br>
                           UC Berkeley EECS<br>

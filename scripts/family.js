@@ -1,7 +1,8 @@
 // JSON mappings for staff images.
-// Add a new object to add a new staff member
-// and add it to the appropriate lists
+// Create a new object to add a new staff member
+// and add it to the appropriate lists (below all objects)
 // Anonymous objects work just fine in lists
+// However, if someone belongs in multiple groups, this makes it very easy.
 
 // Instructors
 danG = {
@@ -41,7 +42,7 @@ ianB = {
 jeffreyS = {
     name: 'TA Jeffrey Snowiss',
     img: 'Fa12/MaxDougherty.jpg',
-    imgSrc: 'Fa12/MaxDougherty.jpg',
+    imgSrc: 'JeffreySnowiss.jpg',
     web: '',
     bio: 'JeffreyBio.txt',
     email: 'jasnowiss@berkeley.edu'
@@ -57,7 +58,7 @@ peterS = {
 victoriaS = {
     name: 'TA Victoria Shi',
     img: 'Fa12/MaxDougherty.jpg',
-    imgSrc: 'Fa12/MaxDougherty.jpg',
+    imgSrc: 'VictoriaShi.jpg',
     web: '',
     bio: 'VictoriaBio.txt',
     email: 'mdougherty@berkeley.edu'
@@ -65,23 +66,23 @@ victoriaS = {
 rachelH = {
     name: 'TA Rachel Huang',
     img: 'path',
-    imgSrc: 'path',
+    imgSrc: 'RachelHuang',
     web: '',
-    bio: 'MichaelBall.txt',
-    email: 'cs10-ta@imail.eecs.berkeley.edu'
+    bio: 'RachelHuang.txt',
+    email: ''
 }
 jannaG = {
     name: 'TA Janna Golden',
-    img: 'Fa12/MaxDougherty.jpg',
-    imgSrc: 'Fa12/MaxDougherty.jpg',
+    img: '',
+    imgSrc: 'JannaGolden.jpg',
     web: '',
     bio: 'JannaBio.txt',
-    email: 'mdougherty@berkeley.edu'
+    email: ''
 }
 sumerM = {
     name: 'TA Sumer Mohammad',
-    img: 'path',
-    imgSrc: 'path',
+    img: '',
+    imgSrc: 'SumerMohammad.jpg',
     web: '',
     bio: 'SumerBio.txt',
     email: ''
@@ -105,16 +106,16 @@ laurenM = {
 instructors = [ danG ];
 
 tas = [
-    michaelB,
-    ianB,
-    jannaG,
-    jeffreyS,
-    maxD,
-    peterS,
+    laurenM,
     rachelH,
     sumerM,
     victoriaS,
-    laurenM
+    jannaG,
+    michaelB,
+    ianB,
+    jeffreyS,
+    maxD,
+    peterS
 ];
 
 readers = [

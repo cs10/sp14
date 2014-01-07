@@ -11,6 +11,8 @@ body { /*code for watermark*/
 }
 
 p.logo {
+    width: auto;
+    margin: auto;
     font-size: 1.5em; /* FIXME */
     color:#0F4D92;
     font-weight: bold;

@@ -60,7 +60,7 @@ function buildGroup(group, w) {
 /** EDIT THIS TO ADD NEW GROUPS */
 window.onload = function() {
     buildGroup("instructors", 1);
-    buildGroup("tas", 4);
+    buildGroup("tas", 5);
     buildGroup("readers", 4);
     buildGroup("las", 5);
 }
