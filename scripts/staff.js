@@ -44,14 +44,14 @@ function buildGroup(group, w) {
     doc = document.getElementById(group)
     content = ''
     for (var i = 0; i < ppl.length; i += w) {
-        //content += "<div class=\"staffimg\">"
+        content += "<div class=\"staffimg\">"
         for(var j = i; j < (i + w) && j < ppl.length; j += 1) {
             if (i + w > ppl.length) {
                  w = ppl.length - i
              }
             content += buildPerson(ppl[j], w)
         }
-        //content += "</div>";
+        content += "</div>";
     }
     console.log()
     doc.innerHTML = content
