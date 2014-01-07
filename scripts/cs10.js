@@ -35,6 +35,14 @@ function updateCalendar() {
     } //closing for loop
 }
 
+/* TODO
+* Handle Month Edges
+* Handle multiple colspan
+* Handle multiple dates per cell
+    -- cells 4, 6 have 3 dates possible
+* Something else?
+*/
+
 function getCellDate(cellNum, date) {
     if (cellNum === 2) {
         return date - 1;
