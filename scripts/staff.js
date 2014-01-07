@@ -51,9 +51,9 @@ function buildGroup(group, w) {
              }
             content += buildPerson(ppl[j], w)
         }
-        content += "</div>"
+        content += "</div>";
     }
-    console.log(content)
+    console.log()
     doc.innerHTML = content
 }
 
