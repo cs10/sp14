@@ -93,7 +93,7 @@ sumerM = {
 laurenM = {
     name: 'Project Manager Lauren Mock',
     img: '',
-    imgSrc: '',
+    imgSrc: 'LaurenMock.jpg',
     web: 'http://linkedin.com/laurenmock',
     bio: 'LaurenMock.txt',
     email: 'lmock@berkeley.edu'
