@@ -82,7 +82,7 @@ jannaG = {
 sumerM = {
     name: 'TA Sumer Mohammad',
     img: '',
-    imgSrc: 'SumerMohammad.jpg',
+    imgSrc: 'SumerMohammed.jpg',
     web: '',
     bio: 'SumerBio.txt',
     email: ''
