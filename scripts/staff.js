@@ -51,7 +51,8 @@ function buildGroup(group, w) {
              }
             content += buildPerson(ppl[j], w)
         }
-        content += "</div>";
+        content += "</div>"
+        content += "<div style=\"clear: both;\"></div></";
     }
     console.log()
     doc.innerHTML = content

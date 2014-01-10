@@ -88,6 +88,10 @@ sumerM = {
     email: ''
 }
 // Readers
+audreyC = {}
+josephH = {}
+songS   = {}
+claireW = {}
 
 // Staff
 laurenM = {
@@ -98,6 +102,9 @@ laurenM = {
     bio: 'LaurenMock.txt',
     email: 'lmock@berkeley.edu'
 }
+
+// Lab Assistants
+
 
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
