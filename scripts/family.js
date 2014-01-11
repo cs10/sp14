@@ -4,6 +4,14 @@
 // Anonymous objects work just fine in lists
 // However, if someone belongs in multiple groups, this makes it very easy.
 
+sample = {
+    name: 'Title First Last',
+    img: 'path/to/FirstNameLastName.jpg',
+    imgSrc: 'FirstNameLastName.jpg', // is ~cs10/images/small/*
+    web: '',
+    bio: 'FirstNameLastName.txt', // is ~cs10/bios/*
+}
+
 // Instructors
 danG = {
     name: 'Sr. Lecturer SOE Dan Garcia',
@@ -87,11 +95,43 @@ sumerM = {
     bio: 'SumerBio.txt',
     email: ''
 }
+
 // Readers
-audreyC = {}
-josephH = {}
-songS   = {}
-claireW = {}
+audreyC = {
+    name: 'Reader Audrey Chou',
+    img: 'Fa13/AudreyChou.jpg',
+    imgSrc: 'AudreyChou.jpg',
+    web: '',
+    bio: 'AudreyChou.txt',
+}
+josephC = {
+    name: 'Reader Joseph Cawthorne',
+    img: 'Fa13/JosephCawthorne.jpg',
+    imgSrc: 'JosephCawthorne.jpg',
+    web: '',
+    bio: 'JosephCawthorne.txt',
+}
+songS   = {
+    name: 'Reader Song Sok',
+    img: 'Fa13/SongSok.jpg',
+    imgSrc: 'SongSok.jpg',
+    web: '',
+    bio: 'SongSok.txt',
+}
+claireW = {
+    name: 'Reader Claire Wantanabe',
+    img: 'Fa13/ClaireWantanabe.jpg',
+    imgSrc: 'ClaireWantanabe.jpg',
+    web: '',
+    bio: 'ClaireWantanabe.txt',
+}
+jaclynB = {
+    name: 'Reader',
+    img: 'Fa13/path.jpg',
+    imgSrc: '.jpg',
+    web: '',
+    bio: 'FirstLast.txt',
+}
 
 // Staff
 laurenM = {
@@ -113,11 +153,11 @@ laurenM = {
 instructors = [ danG ];
 
 tas = [
+    jannaG,
     laurenM,
     rachelH,
     sumerM,
     victoriaS,
-    jannaG,
     michaelB,
     ianB,
     jeffreyS,
@@ -126,22 +166,8 @@ tas = [
 ];
 
 readers = [
-    {
-        name: 'Name',
-        img: 'path',
-        imgSrc: 'path',
-        web: '',
-        bio: 'FirstLast.txt',
-        email: 'email'
-    },
+
 ];
 
 las = [
-    {
-        name: 'Name',
-        img: 'path',
-        imgSrc: 'path',
-        web: '',
-        bio: 'FirstLast.txt',
-    }
 ];
