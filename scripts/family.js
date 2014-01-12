@@ -132,6 +132,13 @@ jaclynB = {
     web: '',
     bio: 'JaclynBurge.txt',
 }
+andyS   = {
+    name: 'Reader Andy Schmidt',
+    img: 'Fa13/AndySchmidt.jpg',
+    imgSrc: 'AndySchmidt.jpg',
+    web: '',
+    bio: 'AndySchmidt.txt',
+}
 
 // Staff
 laurenM = {
@@ -166,7 +173,12 @@ tas = [
 ];
 
 readers = [
-
+    audreyC,
+    andyS,
+    songS,
+    claireW,
+    josephC,
+    jaclynB
 ];
 
 las = [
