@@ -126,11 +126,11 @@ claireW = {
     bio: 'ClaireWantanabe.txt',
 }
 jaclynB = {
-    name: 'Reader',
-    img: 'Fa13/path.jpg',
-    imgSrc: '.jpg',
+    name: 'Reader Jaclyn Burge',
+    img: 'Fa13/JaclynBurge.jpg',
+    imgSrc: 'JaclynBurge.jpg',
     web: '',
-    bio: 'FirstLast.txt',
+    bio: 'JaclynBurge.txt',
 }
 
 // Staff
