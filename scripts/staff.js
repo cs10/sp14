@@ -52,9 +52,9 @@ function buildGroup(group, w) {
             content += buildPerson(ppl[j], w)
         }
         content += "</div>"
-        content += "<div style=\"clear: both;\"></div></1";
+        content += "<div style=\"clear: both;\"></div>";
     }
-    console.log()
+    //console.log()
     doc.innerHTML = content
 }
 
