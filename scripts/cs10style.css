@@ -89,7 +89,7 @@ div.ql {
 /*****************************************************************************/
 /* All Cells */
 th {
-    background-color:#b0b0b0;
+    background-color:#B0B0B0;
     text-align:center;
 }
 
@@ -102,10 +102,10 @@ table.calendar > tr > td {
     margin: 2px; /* FIXME */
 }
 .cal:nth-child(even), .dark {
-    background-color:#e0e0e0;
+    background-color:#E0E0E0;
 }
 .cal:nth-child(odd), .light {
-    background-color:#f0f0f0;
+    background-color:#F0F0F0;
 }
 
 /* This is the date column */
@@ -131,7 +131,7 @@ tr.cal > td:nth-child(2) {
 .hard, .hard:visited {
     color: #008000;
 }
-/* Readings which may need to be accessed from bSpace. */
+/* Readings which may need to be accessed from bCourses. */
 .bcourses, .bcourses:visited {
     color: #00A383;
 }
@@ -221,39 +221,12 @@ table.grades {
     width:400px; /* FIXME */
     align:center;
 }
-/*
-td.stafflink {
-    background-color: white;
-    border:0;
-}
-
-td.istafflink {
-    background-color:LemonChiffon;
-    height:60px;
-}*/
 
 td {
  border:1px;
  text-align:center;
  border:0;
 }
-
-
-th {
-    background-color:#b0b0b0;
-    text-align:center;
-}
-
-
-p.bodytext {
-    position:relative;
-    /* left:20px;*/
-}
-
-p.newsheadline {
-    font-weight:900;
-}
-
 
 img.navbar {
     position:relative;

@@ -9,9 +9,7 @@
         <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
         <link href="scripts/cs10style.css" title="CS10 Style" rel="stylesheet" type="text/css" />
         <script type="text/javascript" language="Javascript" src="scripts/cs10.js"></script>
-        <!-- These populate the webpage with staff images -->
-        <script type="text/javascript" language="Javascript" src="scripts/family.js"></script>
-        <!-- NOTE: STAFF DEPENDS ON FAMILY.JS -->
+        <!-- This populates the webpage with staff images -->
         <script type="text/javascript" language="Javascript" src="scripts/staff.js"></script>
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js'></script>
         <script type='text/javascript' src='scripts/gcal.js'></script>
