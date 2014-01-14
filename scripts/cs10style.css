@@ -21,9 +21,10 @@ p.logo {
 }
 
 h2 {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 1.5em;
-    color:#0F4D92;
+    font-family: 'Helvetica', Verdana, Arial, sans-serif;
+    font-size: 2em;
+    color: #0F4D92;
+    margin: .4em;
 }
 
 h1 {
