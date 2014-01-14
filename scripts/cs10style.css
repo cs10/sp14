@@ -86,10 +86,10 @@ div.ql {
 .center {
   text-align: center;
 }
-.left {
+td.left {
   text-align: left;
 }
-.right {
+td.right {
   text-align: right;
 }
 .top-table {
@@ -98,14 +98,14 @@ div.ql {
 
 /* ALL TABLE ATTRIBUTES */
 tr:nth-child(even), .dark {
-    background-color:#E0E0E0;
+    background-color: #E0E0E0;
 }
 tr:nth-child(odd), .light {
-    background-color:#F0F0F0;
+    background-color: #F0F0F0;
 }
 th {
-    background-color:#B0B0B0;
-    text-align:center;
+    background-color: #B0B0B0;
+    text-align: center;
 }
 td {
     border: 2px solid white;
