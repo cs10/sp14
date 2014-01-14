@@ -43,7 +43,7 @@ danG = {
 // TAs
 michaelB = {
     name: 'TA Michael Ball',
-    img: '/Fa12/MichaelBall.jpg',
+    img: 'Fa12/MichaelBall.jpg',
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     bio: 'MichaelBall.txt',
@@ -59,7 +59,7 @@ maxD = {
 }
 ianB = {
     name: 'TA Ian Birnam',
-    img: 'images/Fa12/IanBirnam.jpg',
+    img: 'Fa12/IanBirnam.jpg',
     imgSrc: 'IanBirnam.jpg',
     web: '',
     bio: 'IanBio.txt',
@@ -67,7 +67,7 @@ ianB = {
 }
 jeffreyS = {
     name: 'TA Jeffrey Snowiss',
-    img: 'Fa12/MaxDougherty.jpg',
+    img: 'Fa12/JeffreySnowiss.jpg',
     imgSrc: 'JeffreySnowiss.jpg',
     web: '',
     bio: 'JeffreyBio.txt',
@@ -75,7 +75,7 @@ jeffreyS = {
 }
 peterS = {
     name: 'TA Peter Sujan',
-    img: 'PeterSujan.jpg',
+    img: 'Fa12/PeterSujan.jpg',
     imgSrc: 'PeterSujan.jpg',
     web: '',
     bio: 'PeterBio.txt',
@@ -83,35 +83,35 @@ peterS = {
 }
 victoriaS = {
     name: 'TA Victoria Shi',
-    img: 'Fa12/MaxDougherty.jpg',
+    img: 'Fa13/VictoriaShi.jpg',
     imgSrc: 'VictoriaShi.jpg',
     web: '',
-    bio: 'VictoriaBio.txt',
-    email: 'mdougherty@berkeley.edu'
+    bio: 'VictoriaShi.txt',
+    email: 'victoria.shi@berkeley.edu'
 }
 rachelH = {
     name: 'TA Rachel Huang',
-    img: 'path',
-    imgSrc: 'RachelHuang',
+    img: 'Fa13/RachelHuang.jpg',
+    imgSrc: 'RachelHuang.jpg',
     web: '',
     bio: 'RachelHuang.txt',
-    email: ''
+    email: 'rachelhuang072@berkeley.edu'
 }
 jannaG = {
     name: 'TA Janna Golden',
-    img: '',
+    img: 'Su13/JannaGolden.jpg',
     imgSrc: 'JannaGolden.jpg',
     web: '',
     bio: 'JannaBio.txt',
-    email: ''
+    email: 'jannagolden@berkeley.edu'
 }
 sumerM = {
     name: 'TA Sumer Mohammad',
-    img: '',
+    img: 'Fa12/SumerMohammed.jpg',
     imgSrc: 'SumerMohammed.jpg',
     web: '',
     bio: 'SumerBio.txt',
-    email: ''
+    email: 'sumermohammed@berkeley.edu'
 }
 
 // Readers
@@ -121,6 +121,7 @@ audreyC = {
     imgSrc: 'AudreyChou.jpg',
     web: '',
     bio: 'AudreyChou.txt',
+    email: 'EMAIL@berkeley.edu'
 }
 josephC = {
     name: 'Reader Joseph Cawthorne',
@@ -128,6 +129,7 @@ josephC = {
     imgSrc: 'JosephCawthorne.jpg',
     web: '',
     bio: 'JosephCawthorne.txt',
+    email: 'EMAIL@berkeley.edu'
 }
 songS   = {
     name: 'Reader Song Sok',
@@ -135,6 +137,7 @@ songS   = {
     imgSrc: 'SongSok.jpg',
     web: '',
     bio: 'SongSok.txt',
+    email: 'EMAIL@berkeley.edu'
 }
 claireW = {
     name: 'Reader Claire Watanabe',
@@ -142,6 +145,7 @@ claireW = {
     imgSrc: 'ClaireWatanabe.jpg',
     web: '',
     bio: 'ClaireWatanabe.txt',
+    email: 'EMAIL@berkeley.edu'
 }
 jaclynB = {
     name: 'Reader Jaclyn Burge',
@@ -149,6 +153,7 @@ jaclynB = {
     imgSrc: 'JaclynBurge.jpg',
     web: '',
     bio: 'JaclynBurge.txt',
+    email: 'EMAIL@berkeley.edu'
 }
 andyS   = {
     name: 'Reader Andrew Schmitt',
@@ -156,12 +161,13 @@ andyS   = {
     imgSrc: 'AndrewSchmitt.jpg',
     web: '',
     bio: 'AndrewSchmitt.txt',
+    email: 'EMAIL@berkeley.edu'
 }
 
 // Staff
 laurenM = {
     name: 'Project Manager Lauren Mock',
-    img: '',
+    img: 'Fa12/LaurenMock.jpg',
     imgSrc: 'LaurenMock.jpg',
     web: 'http://linkedin.com/laurenmock',
     bio: 'LaurenMock.txt',

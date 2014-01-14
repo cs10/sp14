@@ -43,7 +43,6 @@ div.ql {
     display: inline-block;
     font-size: large;
     width: 25%;
-    text-align: center;
     float: left;
 }
 
@@ -83,16 +82,40 @@ div.ql {
     padding: .5em;
     font-weight: bold;
 }
+/* Used for the top table */
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.top {
+  width: 100%;
+}
 
-/*****************************************************************************/
-/** CALENDAR CLASSES **/
-/*****************************************************************************/
-/* All Cells */
+/* ALL TABLE ATTRIBUTES */
+tr:nth-child(even), .dark {
+    background-color:#E0E0E0;
+}
+tr:nth-child(odd), .light {
+    background-color:#F0F0F0;
+}
 th {
     background-color:#B0B0B0;
     text-align:center;
 }
-
+td {
+    border:1px;
+    text-align:center;
+    border:0;
+}
+/*****************************************************************************/
+/** CALENDAR CLASSES **/
+/*****************************************************************************/
+/* All Cells */
 tr.cal > td,
 table.calendar > thead > tr > th {
     border: 2px solid white;
@@ -100,12 +123,6 @@ table.calendar > thead > tr > th {
 }
 table.calendar > tr > td {
     margin: 2px; /* FIXME */
-}
-.cal:nth-child(even), .dark {
-    background-color:#E0E0E0;
-}
-.cal:nth-child(odd), .light {
-    background-color:#F0F0F0;
 }
 
 /* This is the date column */
@@ -204,7 +221,7 @@ td.inner {
 span.inner {
     vertical-align: middle;
 }
-
+/* */
 table.itable {
     /*width:250px;*/
     /*height:284px;*/
@@ -222,17 +239,7 @@ table.grades {
     align:center;
 }
 
-td {
- border:1px;
- text-align:center;
- border:0;
-}
-
-img.navbar {
-    position:relative;
-    left:-5px; /* FIXME */
-}
-
+/* WEEKLY CALENDAR */
 div.lecture {
     background-color:#fa8072;
 }

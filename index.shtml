@@ -18,11 +18,11 @@
 
     <body onload="updateCalendar()">
       <!-- Top Section and Title -->
-      <table>
+      <table class="top-table">
           <tbody>
               <tr>
-                  <td style="width: 20%">
-                      <div style="position:absolute;top:40px;left:200px;z-index:40;">
+                  <td class="left">
+                      <div> <!-- style="position:absolute;top:40px;left:200px;z-index:40;" -->
                           <img src="images/blank.gif" name="speech">
                       </div>
                       <img width="250" border="0" align="bottom" height="244" src="images/snap_nav.gif" class="navbar" alt="Your Navigation Bar didn't load." title="Click me to navigate." usemap="#gobo">
@@ -35,15 +35,17 @@
                           <area shape="rect" coords="0,205,117,232" alt="Resources" href="#resources" onmouseover="displaySpeech('speech', 'images/resources_jump.gif')" onmouseout="displaySpeech('speech', 'images/blank.gif')">
                       </map>
                   </td>
-                  <td style="width:65%">
+                  <td class="center">
                       <p class="logo">
                           CS10 : BJC (The Beauty and Joy of Computing)<br>
                           UC Berkeley EECS<br>
                           Spring 2014
                       </p>
                   </td>
-                  <td width="160"> <a href="http://www.berkeley.edu/">
-                      <img border="0" src="images/bjc186.png" alt="BJC"></a>
+                  <td class="right">
+                      <a href="http://www.berkeley.edu/">
+                          <img border="0" src="images/bjc186.png" alt="BJC">
+                      </a>
                   </td>
               </tr>
           </tbody>
