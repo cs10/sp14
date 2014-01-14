@@ -22,9 +22,9 @@
           <tbody>
               <tr class="white">
                   <td class="left">
-                      <div> <!-- style="position:absolute;top:40px;left:200px;z-index:40;" -->
+                      <!-- <div> style="position:absolute;top:40px;left:200px;z-index:40;"
                           <img src="images/blank.gif" name="speech">
-                      </div>
+                      </div> -->
                       <img width="250" border="0" align="bottom" height="244" src="images/snap_nav.gif" class="navbar" alt="Your Navigation Bar didn't load." title="Click me to navigate." usemap="#gobo">
                       <map name="gobo">
                           <area shape="rect" coords="0,70,110,97" alt="Overview" href="#overview" onmouseover="displaySpeech('speech', 'images/overview_jump.gif')" onmouseout="displaySpeech('speech', 'images/blank.gif')">
