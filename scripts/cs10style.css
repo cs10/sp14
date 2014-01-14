@@ -92,7 +92,7 @@ div.ql {
 .right {
   text-align: right;
 }
-.top {
+.top-table {
   width: 100%;
 }
 
@@ -220,16 +220,6 @@ td.inner {
 }
 span.inner {
     vertical-align: middle;
-}
-/* */
-table.itable {
-    /*width:250px;*/
-    /*height:284px;*/
-    position:relative;
-    bottom: 7px; /* FIXME */
-    right: 6px; /*this is a c.p. solution*/
-    border:0;
-    background-color:Black;
 }
 
 table.grades {
