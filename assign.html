@@ -6,10 +6,18 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+        <link href="style/assign.css" type="text/css" rel="stylesheet">
     </head>
 
-     <body onload="updateAssignment()">
-
-     </body>
+    <body onload="updateAssignment()">
+        <script>
+            updateAssignment() {
+                u = document.URL
+                doc = u.split("?")[1]
+                document.body = "<iframe src=\"" + doc + "?embedded=true\"></iframe>"
+            }
+            window.onload = updateAssignment
+        </script>
+    </body>
 </html>
+
