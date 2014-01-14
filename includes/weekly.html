@@ -10,24 +10,32 @@
     <script type='text/javascript' src='scripts/fullcalendar.js'></script>
     <script type='text/javascript' src='scripts/gcal.js'></script>
     <style>
-      table.fc-agenda-allday, /* hide all day section and divider */
-      div.fc-agenda-divider, /* diver between all-day and time slots */
-      tr.fc-minor, /* hide half-hour slots */
-      tr.fc-slot0, tr.fc-slot2, tr.fc-slot4, /* hide before 8am */
-      tr.fc-slot6, tr.fc-slot8, tr.fc-slot10,
-      tr.fc-slot12, tr.fc-slot14 {
-        display: none;
-      }
-      /* Increase the default cell height */
-      table.fc-agenda-slots > tbody > tr > td {
-        height: 2.50em;
-        font-size: 1.2em;
-        font-color: black;
-      }
-      /* Make today be highlighted in gold. */
-      .fc-today {
-        background-color: Gold;
-      }
+        table.fc-agenda-allday, /* hide all day section and divider */
+        div.fc-agenda-divider, /* diver between all-day and time slots */
+        tr.fc-minor, /* hide half-hour slots */
+        tr.fc-slot0, tr.fc-slot2, tr.fc-slot4, /* hide before 8am */
+        tr.fc-slot6, tr.fc-slot8, tr.fc-slot10,
+        tr.fc-slot12, tr.fc-slot14 {
+            display: none;
+        }
+        /* Increase the default cell height */
+        table.fc-agenda-slots > tbody > tr > td {
+            height: 2.50em;
+        }
+        /* Make today be highlighted in gold. */
+        .fc-today {
+            background-color: Gold;
+        }
+        .fc-event-time, .fc-event-title {
+            color: black;
+            font-weight: 400;
+            font-size: 1em;
+            text-align: center;
+        }
+        .fc-widget-header {
+            text-align: center;
+            font-weight: bold;
+        }
     </style>
   </head>
   <body>
