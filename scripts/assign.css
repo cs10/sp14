@@ -11,3 +11,7 @@ body {
     border-radius: 20px;
     border: 4px solid black;
 }
+.doc {
+  width: 100%;
+  height: 100%;
+}
