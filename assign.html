@@ -8,7 +8,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="style/assign.css" type="text/css" rel="stylesheet">
         <script>
-            updateAssignment() {
+            function updateAssignment() {
                 u = document.URL
                 doc = u.split("?")[1]
                 document.body = "<iframe src=\"" + doc + "?embedded=true\"></iframe>"
@@ -18,7 +18,7 @@
     </head>
 
     <body onload="updateAssignment()">
-        There should be an assignment here. Oops!
+        There should be an assignment here. Oops!s
     </body>
 </html>
 
