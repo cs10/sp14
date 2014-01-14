@@ -83,7 +83,7 @@ div.ql {
     font-weight: bold;
 }
 /* Used for the top table */
-.center {
+td.center {
   text-align: center;
 }
 td.left {
@@ -92,10 +92,18 @@ td.left {
 td.right {
   text-align: right;
 }
-.top-table {
+table.top-table {
   width: 100%;
 }
 
+td {
+    border: none;
+    text-align: center;
+}
+th {
+    background-color: #B0B0B0;
+    text-align: center;
+}
 /* ALL TABLE ATTRIBUTES */
 tr:nth-child(even), .dark {
     background-color: #E0E0E0;
@@ -103,13 +111,8 @@ tr:nth-child(even), .dark {
 tr:nth-child(odd), .light {
     background-color: #F0F0F0;
 }
-th {
-    background-color: #B0B0B0;
-    text-align: center;
-}
-td {
-    border: none;
-    text-align: center;
+tr.white {
+    background-color: white;
 }
 /*****************************************************************************/
 /** CALENDAR CLASSES **/

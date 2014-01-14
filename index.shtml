@@ -20,7 +20,7 @@
       <!-- Top Section and Title -->
       <table class="top-table">
           <tbody>
-              <tr>
+              <tr class="white">
                   <td class="left">
                       <div> <!-- style="position:absolute;top:40px;left:200px;z-index:40;" -->
                           <img src="images/blank.gif" name="speech">
