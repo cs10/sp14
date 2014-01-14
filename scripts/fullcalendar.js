@@ -3995,6 +3995,9 @@ function AgendaEventRenderer() {
 			"<div class='fc-event-title'>" +
 			htmlEscape(event.title || '') +
 			"</div>" +
+			"<div class='fc-event-location'>" +
+			htmlEscape(event.location || '') +
+			"</div>" +
 			"</div>" +
 			"<div class='fc-event-bg'></div>";
 		if (seg.isEnd && isEventResizable(event)) {
@@ -5362,8 +5365,7 @@ function DayEventRenderer() {
 		html +=
 			"<span class='fc-event-title'>" +
 			htmlEscape(event.title || '') +
-			"</span>" +
-			"</div>";
+			"</span>";
 		html += /* MICHAELS CHANGES */
 			"<span class='fc-event-location'>" +
 			htmlEscape(event.location || '') +
