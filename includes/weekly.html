@@ -10,18 +10,19 @@
     <script type='text/javascript' src='scripts/fullcalendar.js'></script>
     <script type='text/javascript' src='scripts/gcal.js'></script>
     <style>
-      /* Don't display slots before 8am,
-          and don't display half-hour slots */
-      table.fc-agenda-allday,
-      div.fc-agenda-divider,
-      tr.fc-slot0, tr.fc-slot2, tr.fc-slot4,
+      table.fc-agenda-allday, /* hide all day section and divider */
+      div.fc-agenda-divider, /* diver between all-day and time slots */
+      tr.fc-minor, /* hide half-hour slots */
+      tr.fc-slot0, tr.fc-slot2, tr.fc-slot4, /* hide before 8am */
       tr.fc-slot6, tr.fc-slot8, tr.fc-slot10,
-      tr.fc-slot12, tr.fc-slot14, tr.fc-minor {
+      tr.fc-slot12, tr.fc-slot14 {
         display: none;
       }
       /* Increase the default cell height */
       table.fc-agenda-slots > tbody > tr > td {
-        height: 2.25em;
+        height: 2.50em;
+        font-size: 1.2em;
+        font-color: black;
       }
       /* Make today be highlighted in gold. */
       .fc-today {
@@ -60,10 +61,9 @@
               { // OH
                   url: '    http://www.google.com/calendar/feeds/berkeley.edu_k2g60q1sehd2u0ujd257jqm7h0%40group.calendar.google.com/public/basic',
                   className: 'oh'
-              },
+              }
             ]
           })
-
       });
     </script>
     <div id="calendar"></div>
