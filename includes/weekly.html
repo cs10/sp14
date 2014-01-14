@@ -28,10 +28,11 @@
         }
         .fc-event-time, .fc-event-title,
         .fc-event-location {
+            padding-top: .1em;
             color: black;
             font-weight: 400;
             font-size: .85em;
-            text-align: center;
+            text-align: left;
         }
         td.fc-agenda-axis {
             text-align: center;
@@ -53,7 +54,7 @@
             defaultView: 'agendaWeek',
             firstHour: 8,
             maxTime: 22,
-            contentHeight: 600,
+            contentHeight: 660,
             eventSources: [
               { // Lecture
                   url: 'http://www.google.com/calendar/feeds/berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk%40group.calendar.google.com/public/basic',
