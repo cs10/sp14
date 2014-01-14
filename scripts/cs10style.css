@@ -106,16 +106,16 @@ th {
     text-align: center;
 }
 
-table.grading > tr:nth-child(even),
+table.grading > tbody > tr:nth-child(even),
 tr.cal:nth-child(even), .dark {
     background-color: #E0E0E0;
 }
-table.grading > tr:nth-child(odd),
+table.grading > tbody > tr:nth-child(odd),
 tr.cal:nth-child(odd), .light {
     background-color: #F0F0F0;
 }
 
-table.grades {
+table.grading {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
