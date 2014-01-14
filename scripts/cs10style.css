@@ -82,6 +82,7 @@ div.ql {
     padding: .5em;
     font-weight: bold;
 }
+/*****************************************************************************/
 /* Used for the top table */
 td.center {
   text-align: center;
@@ -104,27 +105,32 @@ th {
     background-color: #B0B0B0;
     text-align: center;
 }
-/* ALL TABLE ATTRIBUTES */
-tr:nth-child(even), .dark {
+
+table.grading > tr:nth-child(even),
+tr.cal:nth-child(even), .dark {
     background-color: #E0E0E0;
 }
-tr:nth-child(odd), .light {
+table.grading > tr:nth-child(odd),
+tr.cal:nth-child(odd), .light {
     background-color: #F0F0F0;
 }
-tr.white {
-    background-color: white;
+
+table.grades {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    align: center;
+    text-align: center;
 }
 /*****************************************************************************/
 /** CALENDAR CLASSES **/
 /*****************************************************************************/
 /* All Cells */
 tr.cal > td,
-table.calendar > thead > tr > th {
+tr.cal > th {
     border: 2px solid white;
     padding: 3px; /* FIXME */
-}
-table.calendar > tr > td {
-    margin: 2px; /* FIXME */
+    margin: 2px;
 }
 
 /* This is the date column */
@@ -222,13 +228,6 @@ td.inner {
 }
 span.inner {
     vertical-align: middle;
-}
-
-table.grades {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    align: center;
 }
 
 /* WEEKLY CALENDAR */
