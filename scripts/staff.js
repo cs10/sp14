@@ -137,11 +137,11 @@ songS   = {
     bio: 'SongSok.txt',
 }
 claireW = {
-    name: 'Reader Claire Wantanabe',
-    img: 'Fa13/ClaireWantanabe.jpg',
-    imgSrc: 'ClaireWantanabe.jpg',
+    name: 'Reader Claire Watanabe',
+    img: 'Fa13/ClaireWatanabe.jpg',
+    imgSrc: 'ClaireWatanabe.jpg',
     web: '',
-    bio: 'ClaireWantanabe.txt',
+    bio: 'ClaireWatanabe.txt',
 }
 jaclynB = {
     name: 'Reader Jaclyn Burge',
@@ -151,11 +151,11 @@ jaclynB = {
     bio: 'JaclynBurge.txt',
 }
 andyS   = {
-    name: 'Reader Andy Schmidt',
-    img: 'Fa13/AndySchmidt.jpg',
-    imgSrc: 'AndySchmidt.jpg',
+    name: 'Reader Andrew Schmitt',
+    img: 'Sp13/AndrewSchmitt.jg',
+    imgSrc: 'AndrewSchmitt.jpg',
     web: '',
-    bio: 'AndySchmidt.txt',
+    bio: 'AndrewSchmitt.txt',
 }
 
 // Staff
@@ -191,12 +191,12 @@ tas = [
 ];
 
 readers = [
-    audreyC,
     andyS,
-    songS,
+    audreyC,
     claireW,
+    jaclynB,
     josephC,
-    jaclynB
+    songS
 ]
 
 las = [
