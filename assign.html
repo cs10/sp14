@@ -11,14 +11,14 @@
             function updateAssignment() {
                 u = document.URL
                 doc = u.split("?")[1]
-                document.body = "<iframe src=\"" + doc + "?embedded=true\"></iframe>"
+                document.body.innerHTML = "<iframe src=\"" + doc + "?embedded=true\"></iframe>"
             }
             window.onload = updateAssignment
         </script>
     </head>
 
     <body onload="updateAssignment()">
-        There should be an assignment here. Oops!s
+        There should be an assignment here. Oops!
     </body>
 </html>
 
