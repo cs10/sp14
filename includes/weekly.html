@@ -20,13 +20,14 @@
         }
         /* Increase the default cell height */
         table.fc-agenda-slots > tbody > tr > td {
-            height: 2.50em;
+            height: 3em;
         }
         /* Make today be highlighted in gold. */
         .fc-today {
             background-color: Gold;
         }
-        .fc-event-time, .fc-event-title {
+        .fc-event-time, .fc-event-title,
+        .fc-event-location {
             color: black;
             font-weight: 400;
             font-size: 1em;
@@ -52,7 +53,7 @@
             defaultView: 'agendaWeek',
             firstHour: 8,
             maxTime: 22,
-            contentHeight: 550,
+            contentHeight: 600,
             eventSources: [
               { // Lecture
                   url: 'http://www.google.com/calendar/feeds/berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk%40group.calendar.google.com/public/basic',
