@@ -6,12 +6,12 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="style/assign.css" type="text/css" rel="stylesheet">
+        <link href="scripts/assign.css" type="text/css" rel="stylesheet">
         <script>
             function updateAssignment() {
                 u = document.URL
                 doc = u.split("?")[1]
-                document.body.innerHTML = "<iframe src=\"" + doc + "?embedded=true\"></iframe>"
+                document.body.innerHTML = "\<iframe style=\"doc\"   src=\"" + doc + "?embedded=true\">\</iframe>"
             }
             window.onload = updateAssignment
         </script>
