@@ -269,8 +269,8 @@ function buildGroup(group, w) {
         }
         content += "</div>"
         content += "<div style=\"clear: both;\"></div>";
-        doc.innerHTML += content
     }
+    doc.innerHTML += content
 }
 
 /** EDIT THIS TO ADD NEW GROUPS */
