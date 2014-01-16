@@ -13,18 +13,12 @@ body { /*code for watermark*/
 p.logo {
     width: auto;
     margin: auto;
-    font-size: 1.5em;
+    font-size: 1.7
+    em;
     color: #0F4D92;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
-}
-
-h2 {
-    font-family: 'Helvetica', Verdana, Arial, sans-serif;
-    font-size: 2em;
-    color: #0F4D92;
-    margin: .4em;
 }
 
 h1 {
@@ -35,7 +29,14 @@ h1 {
     font-size: 18pt;
     font-weight: 400;
     vertical-align: middle;
-    z-index: 5;
+    /*z-index: 5;*/
+}
+
+h2 { /* Used for Staff Headings */
+    font-family: 'Helvetica', Verdana, Arial, sans-serif;
+    font-size: 2em;
+    color: #0F4D92;
+    margin: .4em;
 }
 
 .ql { text-align: center; }
@@ -47,10 +48,13 @@ div.ql {
     float: left;
 }
 
-.bold {
+b, .bold {
     font-weight: 700;
 }
 
+i, em {
+    font-style: italic;
+}
 .wp-caption {
     border: 1px solid #dddddd;
     text-align: center;

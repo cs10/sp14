@@ -4,6 +4,24 @@
  * (c) 2013 Adam Shaw
  */
 
+// 
+function getRoomUrl(loc) {
+    // TODO refactor to be more flexible. Use JSON object
+    // TODO TEST...
+    base = "http://www.berkeley.edu/map/3dmap/3dmap.shtml?"
+    if (loc.indexOf("SD") > -1) {
+        room = "sutardja"
+    } else if (loc.indexOf("Soda") > -1) {
+        room = "soda"
+    } else if (loc.indexOf("VLSB") > -1) {
+        room = "valleylifesciences" // FIXME -- guess
+    } else if (loc.indexOf("LKS") > -1) {
+        room = "likashing"
+    }
+
+    return base + room
+}
+
 (function($) {
 
 
@@ -77,7 +95,7 @@ function transformOptions(sourceOptions, start, end) {
                     events.push({
                         id: entry['gCal$uid']['value'],
                         title: entry['title']['$t'],
-                        // url: url,
+                        url: getRoomUrl(entry['gd$where'][0]['valueString']),
                         start: start,
                         end: end,
                         allDay: allDay,
