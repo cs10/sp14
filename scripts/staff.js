@@ -61,7 +61,7 @@ ianB = {
     name: 'TA Ian Birnam',
     img: 'Fa12/IanBirnam.jpg',
     imgSrc: 'IanBirnam.jpg',
-    web: 'ianbirnam.com',
+    web: 'http://ianbirnam.com',
     bio: 'IanBio.txt',
     email: 'ibirnam@berkeley.edu'
 }
