@@ -217,7 +217,7 @@ all = {
     instructors: instructors,
     las: las,
     readers: readers,
-    tas: tas
+    tas: tas,
     tait: tait
 };
 
