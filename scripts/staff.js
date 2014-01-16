@@ -61,7 +61,7 @@ ianB = {
     name: 'TA Ian Birnam',
     img: 'Fa12/IanBirnam.jpg',
     imgSrc: 'IanBirnam.jpg',
-    web: '',
+    web: 'ianbirnam.com',
     bio: 'IanBio.txt',
     email: 'ibirnam@berkeley.edu'
 }
@@ -106,7 +106,7 @@ jannaG = {
     email: 'jannagolden@berkeley.edu'
 }
 sumerM = {
-    name: 'TA Sumer Mohammad',
+    name: 'TA Sumer Mohammed',
     img: 'Fa12/SumerMohammed.jpg',
     imgSrc: 'SumerMohammed.jpg',
     web: '',
@@ -277,4 +277,5 @@ window.onload = function() {
     buildGroup("tas", 5);
     buildGroup("readers", 3);
     buildGroup("las", 5);
+    buildGroup("tait", 5);
 }
