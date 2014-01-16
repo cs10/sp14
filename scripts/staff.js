@@ -208,6 +208,9 @@ readers = [
 las = [
 ]
 
+tait = [
+]
+
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
 all = {
@@ -215,6 +218,7 @@ all = {
     las: las,
     readers: readers,
     tas: tas
+    tait: tait
 };
 
 /*****************************************************************************/
