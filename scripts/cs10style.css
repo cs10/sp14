@@ -13,8 +13,7 @@ body { /*code for watermark*/
 p.logo {
     width: auto;
     margin: auto;
-    font-size: 1.7
-    em;
+    font-size: 1.75em;
     color: #0F4D92;
     font-weight: bold;
     text-align: center;
@@ -49,22 +48,20 @@ div.ql {
 }
 
 b, .bold {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 i, em {
     font-style: italic;
 }
+
 .wp-caption {
-    border: 1px solid #dddddd;
+    border: 1px solid #DDD;
     text-align: center;
     align:right;
-    background-color: #f3f3f3;
+    background-color: #F3F3F3;
     padding-top: 4px;
-    margin: 10px 0 0 0; /* FIXME */
-    -moz-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    margin: 10px 0 0 0;
     border-radius: 3px;
 }
 
@@ -74,7 +71,7 @@ i, em {
     align:right;
     padding: 2px 4px 5px;
     margin: 0;
-    color: #666666;
+    color: #666;
 }
 
 /* For resources List */
@@ -155,7 +152,7 @@ tr.cal > td:nth-child(2) {
 
 /* The standard color for readings */
 .required, .required:visited {
-    color: #0000EE;
+    color: #00E;
 }
 /* Readings that are very technical */
 .hard, .hard:visited {
@@ -167,7 +164,7 @@ tr.cal > td:nth-child(2) {
 }
 /* Recommended Readings */
 .optional, .optional:visited {
-    color: #880000;
+    color: #800;
     font-style: italic;
 }
 /* Reading Assignments Key Box */
@@ -182,17 +179,17 @@ tr.cal > td:nth-child(2) {
     background-color: #FFFFCB;
 }
 .paper {
-    background-color:#CCFFCC;
+    background-color: #CFC;
 }
 .project {
-    background-color:#FFCCCC;
+    background-color: #FCC;
 }
 .exam {
     background-color:#CCCCFF;
     font-weight: bold;
 }
 .noClass {
-    background-color:#333;
+    background-color: #333;
     color: #FFF;
 }
 
@@ -200,7 +197,7 @@ tr.cal > td:nth-child(2) {
 table.calendar > tbody > tr > td > table,
 .nested {
     border: none;
-    background-color: white;
+    background-color: #FFF;
     vertical-align: middle;
     padding: 0;
 }
@@ -238,22 +235,22 @@ span.inner {
 /* WEEKLY CALENDAR */
 div.lecture, div.lab, div.oh, div.disc {
     font-size: 1.2em;
-    font-color: black;
+    font-color: #000;
 }
 div.lecture {
-    background-color:#fa8072;
+    background-color: #FA8072;
 }
 
 div.lab {
-    background-color:#99ccff;
+    background-color: #9CF;
 }
 
 div.disc {
-    background-color:#99ff66;
+    background-color: #9F6;
 }
 
 div.oh {
-    background-color:#FFCC33;
+    background-color: #FC3;
 }
 
 /******************************************************************************/

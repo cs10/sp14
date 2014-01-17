@@ -5369,6 +5369,11 @@ function DayEventRenderer() {
             "<span class='fc-event-title'>" +
             htmlEscape(event.title || '') +
             "</span>";
+        if (event.description) { /* MICHAELS CHANGES */
+            html += "<span class='fc-event-descrip bold'>TA: " +
+            htmlEscape(event.location) +
+            "</span>";
+        }
         html += /* MICHAELS CHANGES */
             "<span class='fc-event-location'>" +
             htmlEscape(event.location || '') +
