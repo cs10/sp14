@@ -169,7 +169,7 @@ laurenM = {
     name: 'Project Manager Lauren Mock',
     img: 'Fa12/LaurenMock.jpg',
     imgSrc: 'LaurenMock.jpg',
-    web: 'http://linkedin.com/laurenmock',
+    web: 'http://linkedin.com/in/laurenmock',
     bio: 'LaurenMock.txt',
     email: 'lmock@berkeley.edu'
 }
