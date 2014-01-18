@@ -3977,38 +3977,34 @@ function AgendaEventRenderer() {
             html += "a href='" + htmlEscape(event.url) + "'";
         } else {
             html += "div";
-        }
-        html +=
-            " class='" + classes.join(' ') + "'" +
-            " style='" +
-                "position:absolute;" +
+        } /* MICHAELS FIXES */
+        html += " class='" + classes.join(' ') + "'" +
+            " style='" + "position:absolute;" +
                 "top:" + seg.top + "px;" +
                 "left:" + seg.left + "px;" +
                 skinCss + "'>" +
             "<div class='fc-event-inner'>" +
-            "<div class='fc-event-time'>" +
-                htmlEscape(formatDates(event.start, event.end, opt('timeFormat'))) +
-            "</div>" +
-            "<div class='fc-event-title'>" +
-                htmlEscape(event.title || '') +
-            "</div>";
+                "<div class='fc-event-time'>" +
+                    htmlEscape(formatDates(event.start, event.end, opt('timeFormat'))) +
+                "</div>"
+            if (event.title && event.title.indexOf("CS10") > -1 ) {
+                event.title = event.title.split("CS10 ")[1]
+            }
+            html += "<div class='fc-event-title'>" +
+                    htmlEscape(event.title || '') +
+                    "</div>";
             if (event.description) {
-                html += "<div class='fc-event-descrip'>" +
-                    "<b>TA:</b>" +
-                    htmlEscape(event.description || '') +
-                    "</div>"
+                html += "<div class='fc-event-descrip bold'>" +
+                    "TA: " + htmlEscape(event.description) + "</div>"
             }
             html += "<div class='fc-event-location'>" +
-                    htmlEscape(event.location || '') +
-                    "</div>" +
-                    "</div>" +
+                    htmlEscape(event.location || '') + "</div>" +
+                    "</div>" + // Close 'inner' div
                     "<div class='fc-event-bg'></div>";
         if (seg.isEnd && isEventResizable(event)) {
-            html +=
-                "<div class='ui-resizable-handle ui-resizable-s'>=</div>";
+            html += "<div class='ui-resizable-handle ui-resizable-s'>=</div>";
         }
-        html +=
-            "</" + (url ? "a" : "div") + ">";
+        html += "</" + (url ? "a" : "div") + ">";
         return html;
     }
 

@@ -4,7 +4,7 @@
  * (c) 2013 Adam Shaw
  */
 
-// 
+//
 function getRoomUrl(loc) {
     // TODO refactor to be more flexible. Use JSON object
     // TODO TEST...
@@ -14,9 +14,11 @@ function getRoomUrl(loc) {
     } else if (loc.indexOf("Soda") > -1) {
         room = "soda"
     } else if (loc.indexOf("VLSB") > -1) {
-        room = "valleylifesciences" // FIXME -- guess
+        room = "valleylifesciences"
     } else if (loc.indexOf("LKS") > -1) {
         room = "likashing"
+    } else {
+        room = ''
     }
 
     return base + room
