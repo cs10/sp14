@@ -47,7 +47,7 @@ michaelB = {
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     bio: 'MichaelBall.txt',
-    email: 'cs10-ta@imail.eecs.berkeley.edu'
+    email: 'ball@berkeley.edu'
 }
 maxD = {
     name: 'TA Max Dougherty',
@@ -118,9 +118,9 @@ sumerM = {
 audreyC = {
     name: 'Reader Audrey Chou',
     img: 'Fa13/AudreyChou.jpg',
-    imgSrc: 'AudreyChou.jpg',
+    imgSrc: '', // AudreyChou.jpg
     web: '',
-    bio: 'AudreyChou.txt',
+    bio: '', // AudreyChou.txt
     email: 'EMAIL@berkeley.edu'
 }
 josephC = {
