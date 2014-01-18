@@ -229,21 +229,32 @@ function buildPerson(data, width) {
     // width is used to control how many are on a row on the page.
     if (!data.imgSrc) {
         data.imgSrc = "../NPY3D.jpg"
+        data.img = ''
     }
     // Create a table element with this person's data, setting a class for width
-    elm = "<div style=\"width:" + 100/width + "%;\"> <a href=\"images/" + data.img + "\">";
-    elm += "<img class=\"staff\" width=\"200\" height=\"300\" align=\"center\" ";
-    elm += "alt=\"" + data.name + "\" title=\"" + data.name + "\" src=\"images/small/";
-    elm += data.imgSrc + "\" />";
-    elm += "</a><br /><strong>";
+    elm = "<div style=\"width:" + 100/width + "%;\">";
+    if (!!data.img) {
+        elm += "<a href=\"images/" + data.img + "\">"
+    }
+    elm += "<img class=\"staff\" width=\"200\" height=\"300\" align=\"center\" "
+    elm += "alt=\"" + data.name + "\" title=\"" + data.name + "\" src=\"images/small/"
+    elm += data.imgSrc + "\" />"
+    if (!!data.img) {
+        elm += "</a>"
+    }
+    elm += "<br /><strong>"
     if (!!data.web) {
         elm += "<a href=\"" + data.web + "\">" + data.name + "</a>"
     } else {
         elm += data.name
     }
-    elm += "</strong> (<a href=\"../bios/" + data.bioURL + "\">bio</a>)"
+    elm += "</strong> "
+    if (!!data.bio) {
+        elm += "(<a href=\"../bios/" + data.bio + "\">bio</a>)"
+    }
     if (!!data.email) {
-        elm += "<br /><a href=\"mailto:" + data.email + "?subject=[CS10]\"><code>" + data.email + "</code></a>";
+        elm += "<br /><a href=\"mailto:" + data.email + 
+        "?subject=[CS10] SUBJECT\"><code>" + data.email + "</code></a>";
     }
     if (!!data.office) {
         elm +=  "<br />" + data.office
