@@ -229,7 +229,7 @@ function buildPerson(data, width) {
     // width is used to control how many are on a row on the page.
     if (!data.imgSrc) {
         data.imgSrc = "../NPY3D.jpg"
-        data.img = ''
+        data.img    = ''
     }
     // Create a table element with this person's data, setting a class for width
     elm = "<div style=\"width:" + 100/width + "%;\">";
