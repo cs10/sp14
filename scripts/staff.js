@@ -157,7 +157,7 @@ jaclynB = {
 }
 andyS   = {
     name: 'Reader Andrew Schmitt',
-    img: 'Sp13/AndrewSchmitt.jg',
+    img: 'Sp13/AndrewSchmitt.jpg',
     imgSrc: 'AndrewSchmitt.jpg',
     web: '',
     bio: 'AndrewSchmitt.txt',
@@ -231,7 +231,7 @@ function buildPerson(data, width) {
         data.imgSrc = "../NPY3D.jpg"
     }
     // Create a table element with this person's data, setting a class for width
-    elm = "<div style=\"width:" + 100/width + "%;\"> <a href=\"" + data.img + "\">";
+    elm = "<div style=\"width:" + 100/width + "%;\"> <a href=\"images/" + data.img + "\">";
     elm += "<img class=\"staff\" width=\"200\" height=\"300\" align=\"center\" ";
     elm += "alt=\"" + data.name + "\" title=\"" + data.name + "\" src=\"images/small/";
     elm += data.imgSrc + "\" />";
