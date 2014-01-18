@@ -234,7 +234,7 @@ span.inner {
 
 /* WEEKLY CALENDAR */
 .lecture, .lab, .oh, .disc {
-    font-size: 1.2em;
+    font-color: #000;
 }
 .lecture {
     background-color: #FA8072;
