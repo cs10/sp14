@@ -253,7 +253,7 @@ function buildPerson(data, width) {
         elm += "(<a href=\"../bios/" + data.bio + "\">bio</a>)"
     }
     if (!!data.email) {
-        elm += "<br /><a href=\"mailto:" + data.email + 
+        elm += "<br /><a href=\"mailto:" + data.email +
         "?subject=[CS10] SUBJECT\"><code>" + data.email + "</code></a>";
     }
     if (!!data.office) {
