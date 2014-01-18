@@ -233,23 +233,22 @@ span.inner {
 }
 
 /* WEEKLY CALENDAR */
-div.lecture, div.lab, div.oh, div.disc {
+.lecture, .lab, .oh, .disc {
     font-size: 1.2em;
-    font-color: #000;
 }
-div.lecture {
+.lecture {
     background-color: #FA8072;
 }
 
-div.lab {
+.lab {
     background-color: #9CF;
 }
 
-div.disc {
+.disc {
     background-color: #9F6;
 }
 
-div.oh {
+.oh {
     background-color: #FC3;
 }
 
