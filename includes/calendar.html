@@ -1,20 +1,34 @@
-<!-- NOTE: For future proofing try to avoid using <tt> and <b> and <i> -->
-
 <!DOCTYPE html>
 <html>
   <head>
       <link rel="shortcut icon" href="http://bjc.berkeley.edu/bjcfav.png" type="image/png">
-      <link href="../scripts/cs10style.css" title="CS10 Style" rel="stylesheet" type="text/css" />
       <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+      <link href="../scripts/cs10style.css" title="CS10 Style" rel="stylesheet" type="text/css" />
       <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-      <script type="text/javascript" language="Javascript" src="scripts/cs10.js"></script>
+      <script src="scripts/cs10.js" type="text/javascript"></script>
   </head>
   <body>
+    <script>
+    labData = {
+      'Broadcast, Animations, Music' : {
+          link: 'intro/broadcast-animations-music.topic',
+          video: 'http://www.youtube.com/watch?v=Aub6BAxAT-c&amp;list=PLAE5AE3CD22628741&amp;index=1&amp;feature=plpp_video'
+      },
+      'lab1' : { 
+          link: 'here',
+          video: 'here1' 
+      },
+    }
+
+
+    </script>
     <a name="schedule"></a>
     <h2>Semester Schedule</h2>
     <h3>
         <strong>
             NOTE: This is a preliminary calendar for the semester.
+            <br />
+            Some of the weeks will be missing as we work and making changes. 
         </strong>
     </h3>
     <div class="key">
@@ -22,7 +36,6 @@
       <ul>
         <li><span class="bold required">Blue</span> readings are required,</li>
         <li><span class="bold hard">Green</span> readings are required-but-challenging (understand the "big idea" concepts, rather than the technical details),</li>
-        <li><span class="bold bcourses">Teal</span> readings are required but available on <a href="https://bcourses.berkeley.edu/courses/1182135/files#CS10%3A%20The%20Beauty%20and%20Joy%20of%20Computing" class="bold">bCourses</a> under the "Files" section and,</li>
         <li><span class="bold optional">Red</span> readings are optional but recommended. Note that these readings are <em>NOT</em> tested.</li>
       </ul>
     </div>
@@ -94,9 +107,12 @@
                 <td>2</td>
                 <td>1-27 to 1-31</td>
                 <td>
-                    <a class="reading required" href="http://inst.eecs.berkeley.edu/%7Ecs10/sp11/lec/01/2010-08-30-CS10-L01-BH-Abstraction.txt">Prof. Harvey's Intro to Abstraction</a><br />
-                    <a class="reading bcourses" href="http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html">Why Software is Eating the World</a><br />
-                    <a class="reading optional" href="http://doi.acm.org/10.1145/1232743.1232745">Is Abstraction the Key to Computing?</a><br />
+                    <a class="reading required" href="http://inst.eecs.berkeley.edu/~cs10/sp11/lec/01/2010-08-30-CS10-L01-BH-Abstraction.txt">Prof. Harvey's Intro to Abstraction</a>
+                    <br />
+                    <a class="reading required" href="https://bcourses.berkeley.edu/courses/1182135/files/44430883/download?wrap=1">Why Software is Eating the World</a>
+                    <br />
+                    <a class="reading optional" href="http://doi.acm.org/10.1145/1232743.1232745">Is Abstraction the Key to Computing?</a>
+                    <br />
                     <a class="reading optional" href="http://doi.acm.org/10.1145/1592761.1592779">Scratch: Programming for All</a>
                 </td><!--Week 2-->
                 <td>
@@ -105,7 +121,7 @@
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/12">Sp12 HD video with Qs</a>
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/intro/loops-variables-conditionals.topic">Loops, Variables, and Conditionals</a>
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/intro/loops-variables-conditionals.topic">Loops, Variables, and Conditionals</a>
                     <br />
                     Watch a TA do the lab <a href="http://www.youtube.com/watch?v=rn6mlhS6ZdY&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
                     <br />
@@ -116,7 +132,7 @@
                     <br />
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/intro/putting-it-together.topic">Conditionals</a>
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/intro/putting-it-together.topic">Conditionals</a>
                     <br />
                     Watch a TA do the lab <a href="http://www.youtube.com/watch?v=YGen0fAO0Y8&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
                     <br />
@@ -147,7 +163,7 @@
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/10">Sp12 HD video with Qs</a>
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/intro/building-blocks.topic">Loops and Blocks with Abstraction</a>
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/intro/building-blocks.topic">Loops and Blocks with Abstraction</a>
                     <strong>Reading Quiz 2 (in-lab)</strong>
                 </td>
                 <td>
@@ -157,7 +173,7 @@
                     <a target="_blank" href="http://www.youtube.com/watch?v=CQhrMmbiaM0">Extra Lecture Video</a>
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/lists/lists-I.topic">Lists I</a>
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/lists/lists-I.topic">Lists I</a>
                     <br />
                     Watch a TA do the lab <a href="http://www.youtube.com/watch?v=lhuEMtcPgB8&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
                     <br />
@@ -172,7 +188,7 @@
                     <i>due 2/7 @ 11:59pm</i>
                 </td>
             </tr>
-            <tr class="cal">
+            <!-- <tr class="cal">
                 <td>4</td>
                 <td>2-10 to 2-14</td>
                 <td>
@@ -188,23 +204,27 @@
                     <a class="reading optional" href="http://inst.eecs.berkeley.edu/%7Ecs10/fa10/readings/videogames/extra/">More readings on video games</a>
                     <br />
                     <a class="reading optional" href="http://www.msnbc.msn.com/id/40077373/ns/technology_and_science-games/">Kinect's Future a Game Controller in Everything</a>
-                </td><!--Week 4-->
+                </td>
                 <td>
                     <a href="lec/06/">Algorithms</a>
                     <br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/14">Sp12 HD video with Qs</a>
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/lists/lists-I.topic"><strong>Lists I</strong></a><br />
-                    Watch a TA do the lab <a href="http://www.youtube.com/watch?v=8549sTGQwLQ&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
+                  <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/algorithms.topic">Algorithms</a>
+                  <br />
+                  Watch a TA do the lab <a href="http://www.youtube.com/watch?v=-Pu-B85uCKU&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
+                  <br />
+                  <strong>Reading Quiz 3 (in-lab)</strong>
+                </td>
+                <td>
+                    <a href="lec/07/">Algorithmic Complexity</a>
                     <br />
-                    <strong>Reading Quiz 3 (in-lab)</strong>
+                    <a target="_blank" href="https://coursesharing.org/courses/6/lectures/15">Sp12 HD video with Qs</a>
                 </td>
                 <td>
-                    <a href="lec/05/">Programming Paradigms</a> (D)<br />
-                </td>
-                <td>
-                    <a href="../labs/topic/topic.html?topic=berkeley_bjc/lists/tic-tac-toe.topic"><strong>Lists II</strong></a><br />
+                    <a href="../labs/topic/topic.html?topic=berkeley_bjc/lists/tic-tac-toe.topic"><strong>Lists II</strong></a>
+                    <br />
                     Watch a TA do the lab <a href="http://www.youtube.com/watch?v=lhuEMtcPgB8&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
                 </td>
                 <td>
@@ -223,7 +243,7 @@
                     <strong>Quest Review</strong>
                     <br />
                     Sun 2/16 TBD
-                </td><!--Week 5-->
+                </td>
                 <td class="noClass">
                     No Class
                 </td>
@@ -234,10 +254,7 @@
                     <a href="exams/quest/">Quest</a> (in-class exam)
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/algorithms.topic">Algorithms</a>
-                    <br />
-                    Watch a TA do the lab <a href="http://www.youtube.com/watch?v=-Pu-B85uCKU&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
-                    <br />
+
                 </td>
                 <td>
                     Go Over Quest Solutions
@@ -258,14 +275,14 @@
                     <a class="reading required" href="http://computer.howstuffworks.com/moores-law.htm">How Moore's Law Works</a><br />
                     <a class="reading hard" href="http://www.gotw.ca/publications/concurrency-ddj.htm">Free Lunch is Over</a><br />
                     <a class="reading optional" href="http://doi.acm.org/10.1145/1506409.1506425">Spending Moore's dividend (CACM)</a>
-                </td><!--Week 6-->
+                </td>
                 <td>
                     <a href="lec/07">Algorithms II,<br />
                     Orders of Growth (G)</a><br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/15">Sp12 HD video with Qs</a>
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/algorithm-complexity.topic">Algorithmic Complexity</a><br />
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/algorithm-complexity.topic">Algorithmic Complexity</a><br />
                     Watch a TA do the lab <a href="http://www.youtube.com/watch?v=7WBC-d7NqnI&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
                     <br />
                     <strong>Reading Quiz 4 (in lab)</strong>
@@ -275,7 +292,7 @@
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/16">Sp12 HD video with Qs</a><br />
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/concurrency.topic">Concurrency</a>
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/concurrency.topic">Concurrency</a>
                     <br />
                     Watch a TA do the lab <a href="http://youtu.be/Z0VKC_LZWOA?hd=1">here</a>.
                     <br />
@@ -294,21 +311,27 @@
                 <td>7</td>
                 <td>3-3 to 3-7</td>
                 <td>
-                    <a class="reading required" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf">BtB Chapter 2</a><br />
-                    <a class="reading required" href="http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL">Data explosion creates revolution</a><br />
-                    <a class="reading required" href="http://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf">Data Mining</a><br />
-                    <a class="reading required" href="http://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls">Data Pitfalls</a><br />
-                    <a class="reading optional" href="http://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext">Computing as Social Science</a><br />
-                    <a class="reading optional" href="http://datavisualization.ch/">Data Visualization</a><br />
+                    <a class="reading required" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf">BtB Chapter 2</a>
+                    <br />
+                    <a class="reading required" href="http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL">Data explosion creates revolution</a>
+                    <br />
+                    <a class="reading required" href="http://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf">Data Mining</a>
+                    <br />
+                    <a class="reading required" href="http://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls">Data Pitfalls</a>
+                    <br />
+                    <a class="reading optional" href="http://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext">Computing as Social Science</a>
+                    <br />
+                    <a class="reading optional" href="http://datavisualization.ch/">Data Visualization</a>
+                    <br />
                     <a class="reading optional" href="http://www.cimt.plymouth.ac.uk/projects/mepres/stats/handlg_data_ch3.pdf">Basic Statistics (Helpful for Project)</a>
-                </td><!--Week 7-->
+                </td>
                 <td>
                     <a href="lec/09">Recursion I</a>
                     <br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/17">Sp12 HD video with Qs</a>
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/recur/recursion-trees-fractals.topic"><strong>Recursion I</a>
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/recur/recursion-trees-fractals.topic"><strong>Recursion I</a>
                     <br />
                     Watch a TA do the lab <a href="http://www.youtube.com/watch?v=8UIyqtDRFjU&list=PLAE5AE3CD22628741&index=10&feature=plpp_video">here</a>.
                     <br />
@@ -348,11 +371,14 @@
                 <td>8</td>
                 <td>3-10 to 3-14</td>
                 <td>
-                    <a class="reading required" href="http://inst.eecs.berkeley.edu/%7Ecs10/sp12/readings/BtB4-pt1.pdf">BtB Chapter 4 Reading Segment 1</a><br />
-                    <a class="reading required" href="http://inst.eecs.berkeley.edu/%7Ecs10/sp12/readings/BtB4-pt2.pdf">BtB Chapter 4 Reading Segment 2</a><br />
-                    <a class="reading optional" href="http://cacm.acm.org/magazines/2011/10/131393-living-in-a-digital-world/pdf">Living in a Digital World</a><br />
+                    <a class="reading required" href="http://inst.eecs.berkeley.edu/%7Ecs10/sp12/readings/BtB4-pt1.pdf">BtB Chapter 4 Reading Segment 1</a>
+                    <br />
+                    <a class="reading required" href="http://inst.eecs.berkeley.edu/%7Ecs10/sp12/readings/BtB4-pt2.pdf">BtB Chapter 4 Reading Segment 2</a>
+                    <br />
+                    <a class="reading optional" href="http://cacm.acm.org/magazines/2011/10/131393-living-in-a-digital-world/pdf">Living in a Digital World</a>
+                    <br />
                     <a class="reading optional" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf">BtB Chapter 3</a>
-                </td><!--Week 8-->
+                </td>
                 <td>
                     <a href="lec/11">Recursion II</a><br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/19">Sp12 HD video with Qs</a>
@@ -366,7 +392,7 @@
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/20">Sp12 HD video with Qs</a>
                 </td>
                 <td>
-                    <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/recur/recursive-reporters.topic">Recursion II</a>
+                    <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/recur/recursive-reporters.topic">Recursion II</a>
                         <br />
                     Watch a TA do the lab <a href="http://youtu.be/ZtahpH0QyfE?hd=1">here</a>.
                 </td>
@@ -389,12 +415,16 @@
                 <td>9</td>
                 <td>4-17 to 4-21</td>
                 <td>
-                    <a class="reading required" href="../sp12/readings/BtB5-pt1.pdf">BtB Chapter 5 Reading Segment 1</a><br />
-                    <a class="reading required" href="../sp12/readings/BtB5-pt2.pdf">BtB Chapter 5 Reading Segment 2</a><br />
-                    <a class="reading required" href="../sp12/readings/BtB5-pt3.pdf">BtB Chapter 5 Reading Segment 3</a><br />
-                    <a class="reading required" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf">BtB Chapter 6 (27-37)</a><br />
+                    <a class="reading required" href="../sp12/readings/BtB5-pt1.pdf">BtB Chapter 5 Reading Segment 1</a>
+                    <br />
+                    <a class="reading required" href="../sp12/readings/BtB5-pt2.pdf">BtB Chapter 5 Reading Segment 2</a>
+                    <br />
+                    <a class="reading required" href="../sp12/readings/BtB5-pt3.pdf">BtB Chapter 5 Reading Segment 3</a>
+                    <br />
+                    <a class="reading required" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf">BtB Chapter 6 (27-37)</a>
+                    <br />
                     <a class="reading required" href="../fa13/readings/Btb_Appendix.pdf">BtB Appendix</a>
-                </td><!--Week 9-->
+                </td>
                 <td>
                     <a href="lec/13/">Social Implications II</a><br />
                     <a target="_blank" href="http://youtu.be/v_tOSw-vhug">Fa11 SD video</a>
@@ -424,7 +454,7 @@
                     <i>due 10/25</i>
                     <br />
                 </td>
-            </tr>
+            </tr> -->
             <tr class="cal">
                 <td>10</td>
                 <td>3-24 to 3-28</td>
@@ -475,7 +505,7 @@
                     </table>
                 </td>
                 <td>
-                  <a class="lablinks" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/internet.topic">Internet</a>
+                  <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/internet.topic">Internet</a>
                 </td>
                 <td>
                     The Impact Performance Task Introduction
@@ -484,14 +514,14 @@
                     None
                 </td>
             </tr> -->
-            <tr class="cal">
+            <!-- <tr class="cal">
                 <td>11</td>
                 <td>3-31 to 4-4</td>
                 <td>
                     <a class="reading required" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter7.pdf">BtB Chapter 7</a>
                     <br />
                     <a class="reading optional" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter8.pdf">BtB Chapter 8</a>
-                </td><!--Week 11-->
+                </td>
                 <td>
                     <a href="lec/17">Lambda + HOFs I</a>
                     <br />
@@ -522,12 +552,12 @@
                 <td>4-7 to 141-11</td>
                 <td>
                   <a class="reading required" href="http://www.hulu.com/watch/23347/nova-the-great-robot-race">The Great Robot Race (Video)</a><br />
-                </td><!--Week 12-->
-                <td class="noClass">
-                  No Lecture, Veteran's Day
+                </td>
+                <td>
+                  
                 </td>
                 <td class="project">
-                  <strong>Impact Performance Task Work</strong><br />
+                  <strong>Impact Performance Task Work</strong>
                 </td>
                 <td>
                   <a href="lec/19">Computational Game Theory (D)</a><br />
@@ -546,7 +576,7 @@
                     <a href="blog/CS Principles Performance Assessment 2013-10-1.pdf"><strong>Impact Performance Task</strong></a>
                     <br />
                     <i>due 11/15</i>
-			<br />
+                    <br />
                     <a href="https://docs.google.com/presentation/d/1-MhNWsE3tNFf6UmdRkcG4IeC8KgkZ6i2YdkvIBrPvZw/pub?start=false&loop=false&delayms=3000">Artifact Examples</a>
                 </td>
             </tr>
@@ -554,12 +584,16 @@
                 <td>13</td>
                 <td>4-14 to 4-18</td>
                 <td>
-                    <a class="reading required" href="http://www.nytimes.com/2010/06/20/magazine/20Computer-t.html">What is IBM's Watson?</a><br />
-                    <a class="reading required" href="http://www.scientificamerican.com/article.cfm?id=computers-solve-checkers-its-a-draw">Computers Solve Checkers - It's a Draw</a><br />
-                    <a class="reading required" href="http://inst.eecs.berkeley.edu/%7Ecs10/fa10/lec/21/ai.txt">Brian Harvey's AI notes</a><br />
-                    <a class="reading optional" href="http://www.nytimes.com/2010/08/09/opinion/09lanier.html">The First Church of Robotics</a><br />
+                    <a class="reading required" href="http://www.nytimes.com/2010/06/20/magazine/20Computer-t.html">What is IBM's Watson?</a>
+                    <br />
+                    <a class="reading required" href="http://www.scientificamerican.com/article.cfm?id=computers-solve-checkers-its-a-draw">Computers Solve Checkers - It's a Draw</a>
+                    <br />
+                    <a class="reading required" href="http://inst.eecs.berkeley.edu/~cs10/fa10/lec/21/ai.txt">Brian Harvey's AI notes</a>
+                    <br />
+                    <a class="reading optional" href="http://www.nytimes.com/2010/08/09/opinion/09lanier.html">The First Church of Robotics</a>
+                    <br />
                     <a class="reading optional" href="http://www.youtube.com/watch?v=4gzpd0irP58">The Thinking Machine (Video)</a>
-                </td><!--Week 13-->
+                </td>
                 <td>
                     <strong>Guest Lecturer Anna Rafferty</strong>
                     <br />
@@ -574,7 +608,8 @@
                 </td>
                 <td>
                     <strong>Guest Lecturer Björn Hartmann</strong><br />
-                    <a href="lec/21">HCI</a><br />
+                    <a href="lec/21">HCI</a>
+                    <br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/21">Sp12 HD video with Qs</a>
                 </td>
                 <td>
@@ -601,11 +636,12 @@
                     <a class="reading required" href="http://money.cnn.com/2006/07/26/magazines/fortune/futureoftech_quantum.fortune/index.htm">Quantum Leap</a><br />
                     <a class="reading required" href="http://www.bbc.co.uk/news/magazine-16536598">Twenty TopPredictions for life 100 years from now</a><br />
                     <a class="reading optional" href="http://introcs.cs.princeton.edu/java/76computability/halting-poem.html">Halting Problem Poem</a>
-                </td><!-- Week 14-->
+                </td>
                 <td>
                     <strong>Guest Lecturer Prof Kathy Yelick</strong>
                     <br />
-                    <a href="lec/22">Saving the World with Computing (CS + X)</a><br />
+                    <a href="lec/22">Saving the World with Computing (CS + X)</a>
+                    <br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/29">Sp12 HD video with Qs</a>
                 </td>
                 <td class="project" >
@@ -614,9 +650,9 @@
                     <strong>Reading Quiz (in-lab quiz)</strong>
                 </td>
                 <td class="due">
-                    <a href="lec/23">Limits of Computing (D)</a><br />
-                    <a target="_blank" href="https://coursesharing.org/courses/6/lectures/30">Sp12 HD video with Qs</a>
+                    <a href="lec/23">Limits of Computing (D)</a>
                     <br />
+                    <a target="_blank" href="https://coursesharing.org/courses/6/lectures/30">Sp12 HD video with Qs</a>
                 </td>
                 <td>
                     Some Lab
@@ -641,7 +677,7 @@
                     <a class="reading optional" href="http://www.youtube.com/watch?v=tnRJaHZH9lo">The Future of Augmented Reality</a><br />
                     <a class="reading optional" href="http://youtu.be/5pg6fho-xb4">Apple's Siri</a><br />
                     <a class="reading optional" href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter9.pdf">BtB: Conclusion</a>
-                </td><!--Week 15-->
+                </td>
                 <td>
                     <a href="lec/24">Future of Computing (G)</a><br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/31">Sp12 HD video with Qs</a>
@@ -670,7 +706,7 @@
                     <br />
                     <!-- (<a href="https://docs.google.com/document/d/1VOLIvFKrD8MPIg3TJp35i2Efoq1HK4nwOu3hgLVWZ1k/edit?hl=en_US">BYOB Project tips</a>) -->
                 </td>
-            </tr>
+            </tr> -->
             <tr class="cal">
                 <td>16</td>
                 <td>5-5 to 5-9</td>
@@ -695,8 +731,7 @@
                     <strong>Tues, 3-6pm</strong>
                     <a href="exams/final/2013Fa-CS10-Paper-Final-Writing-Snap-Code-On-Paper.pdf">Writing Snap! on Paper</a>
                 </td>
-                <td>
-                </td>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
