@@ -33,6 +33,15 @@ function updateCalendar() {
             }
         }
     } //closing for loop
+    // 
+    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=berkeley_bjc.html";
+    links = $(".lablink");
+    for(var i = 0; i < links.length; i++) {
+        a = links[i];
+        a.href += urlEnd;
+        a.style.fontWeight = 700;
+        a.target = "_blank"
+    }
 }
 
 /* TODO
@@ -58,14 +67,7 @@ function displaySpeech(img_name, img_src) {
 window.onload = function() {
 
     updateCalendar();
-    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=berkeley_bjc.html";
-    links = $(".lablink");
-    for(var i = 0; i < links.length; i++) {
-        a = links[i];
-        a.href += urlEnd;
-        a.style.fontWeight = 700;
-        a.target = "_blank"
-    }
+    
     readings = $(".reading");
     for(var i = 0; i < links.length; i++) {
         a = links[i];
