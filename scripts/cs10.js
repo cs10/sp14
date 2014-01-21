@@ -5,8 +5,9 @@ function updateCalendar() {
     tmonth = today.getMonth() + 1;
     tday   = today.getDay();
 
-    tableCellArr = new Array();
-    tableCellArr = document.getElementsByClassName("cal");
+    // tableCellArr = new Array();
+    tableCellArr = document.getElementsByClassName("cal")
+    tableCellArr = tableCellArr.slice(1) // Remove Header row
     for(var i = 0; i < tableCellArr.length; i++) {
         row = tableCellArr[i];
         // Cells has 9 items
