@@ -71,7 +71,7 @@ jeffreyS = {
     imgSrc: 'JeffreySnowiss.jpg',
     web: '',
     bio: 'JeffreyBio.txt',
-    email: 'jasnowiss@berkeley.edu'
+    email: 'jasnowiss10@gmail.com'
 }
 peterS = {
     name: 'TA Peter Sujan',

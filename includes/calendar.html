@@ -3,7 +3,7 @@
   <head>
       <link rel="shortcut icon" href="http://bjc.berkeley.edu/bjcfav.png" type="image/png">
       <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-      <link href="../scripts/cs10style.css" title="CS10 Style" rel="stylesheet" type="text/css" />
+      <link href="scripts/cs10style.css" title="CS10 Style" rel="stylesheet" type="text/css" />
       <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
       <script src="scripts/cs10.js" type="text/javascript"></script>
   </head>
@@ -13,25 +13,20 @@
         updateCalendar()
     }
     labData = {
-      'Broadcast, Animations, Music' : {
+      'intro1' : {
+          title: 'Welcome to Snap!',
           link: 'intro/broadcast-animations-music.topic',
           video: 'http://www.youtube.com/watch?v=Aub6BAxAT-c&amp;list=PLAE5AE3CD22628741&amp;index=1&amp;feature=plpp_video'
       },
       'lab1' : {
+          title: 'here',
           link: 'here',
           video: 'here1'
       },
     }
     </script>
     <a name="schedule"></a>
-    <h2>Semester Schedule</h2>
-    <h3>
-        <strong>
-            NOTE: This is a preliminary calendar for the semester.
-            <br />
-            Some of the weeks will be missing as we work and making changes.
-        </strong>
-    </h3>
+    <h2>Semester Schedule (subject to change)</h2>
     <div class="key">
       Reading Assignments Key:
       <br />
@@ -41,6 +36,14 @@
         <li><span class="bold optional">Red</span> readings are optional but recommended. Note that these readings are <em>NOT</em> tested.</li>
       </ul>
     </div>
+    
+    <h3>
+        <strong>
+            NOTE: This is a preliminary calendar for the semester.
+            <br />
+            Some of the weeks will be missing as we work and making changes.
+        </strong>
+    </h3>
 
     <!--beginning of semester calendar code-->
     <table width="100%" border="0" onload="updateCalendar()" cellpadding="0" cellspacing="0" class="calendar">
@@ -142,7 +145,6 @@
                 <td>
                     Anatomy of a Computer<br />
                     The Power of Binary<br />
-                    (<a href="disc/Disc_2.pdf">slides</a>)
                 </td>
                 <td class="due">
                   <a href="assign.html?https://docs.google.com/document/d/1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI/pub">Homework 1</a><br />
@@ -166,6 +168,7 @@
                 </td>
                 <td>
                     <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/intro/building-blocks.topic">Loops and Blocks with Abstraction</a>
+                    <br />
                     <strong>Reading Quiz 2 (in-lab)</strong>
                 </td>
                 <td>
@@ -178,7 +181,6 @@
                     <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/lists/lists-I.topic">Lists I</a>
                     <br />
                     Watch a TA do the lab <a href="http://www.youtube.com/watch?v=lhuEMtcPgB8&amp;feature=bf_next&amp;list=PLAE5AE3CD22628741">here</a>.
-                    <br />
                 </td>
                 <td>
                     Lists
@@ -187,7 +189,7 @@
                 <td class="due">
                     <a href="assign.html?https://docs.google.com/document/d/18RPHqtdohWA6rAEYGkLcthGVS32RK7GB7zL3OP_y--Q/pub">Homework 2</a>
                     <br />
-                    <i>due 2/7 @ 11:59pm</i>
+                    <i>due 2/12 @ 11:59pm</i>
                 </td>
             </tr>
             <tr class="cal">
@@ -223,6 +225,8 @@
                     <a href="lec/07/">Algorithmic Complexity</a>
                     <br />
                     <a target="_blank" href="https://coursesharing.org/courses/6/lectures/15">Sp12 HD video with Qs</a>
+                    <br />
+                    <strong>Homework 2 Due @ 11:59PM</strong>  
                 </td>
                 <td>
                     <a class="lablink" href="../labs/topic/topic.html?topic=berkeley_bjc/areas/algorithm-complexity.topic">Algorithmic Complexity</a>
@@ -234,12 +238,14 @@
                     Algorithmic Complexity &amp;
                     <br />
                     Quest Review
+                    <br />
+                    Homework 3 Overview
                 </td>
                 <td>
-                    Start on Homework 3!
+                    Start on <a href="assign.html?https://docs.google.com/document/d/1te9C3CtM2JsGRraT_9vFGK2jPgdaPI-VWS7Qcd4C_bw/pub">Homework 3</a>!
                 </td>
             </tr>
-            <!-- <tr class="cal">
+            <tr class="cal">
                 <td>5</td>
                 <td>2-17 to 2-21</td>
                 <td>
@@ -263,8 +269,6 @@
                 </td>
                 <td>
                     Go Over Quest Solutions
-                    <br />
-                    Homework 3 Overview
                 </td>
                 <td class="due">
                     <a href="assign.html?https://docs.google.com/document/d/1te9C3CtM2JsGRraT_9vFGK2jPgdaPI-VWS7Qcd4C_bw/pub">Homework 3</a>
@@ -272,7 +276,7 @@
                     <i>due Fri 2/21 @ 11:59pm</i>
                 </td>
             </tr>
-            <tr class="cal">
+            <!-- <tr class="cal">
                 <td>6</td>
                 <td>2-24 to 2-28</td>
                 <td>
