@@ -104,6 +104,7 @@ function transformOptions(sourceOptions, start, end) {
                         location: entry['gd$where'][0]['valueString'],
                         description: entry['content']['$t']
                     });
+                    console.log(events[events.length-1]);
                 });
             }
             var args = [events].concat(Array.prototype.slice.call(arguments, 1));
