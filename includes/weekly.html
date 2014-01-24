@@ -10,14 +10,6 @@
     <script type='text/javascript' src='scripts/fullcalendar.js'></script>
     <script type='text/javascript' src='scripts/gcal.js'></script>
     <style>
-        table.fc-agenda-allday, /* hide all day section and divider */
-        div.fc-agenda-divider, /* diver between all-day and time slots */
-        tr.fc-minor, /* hide half-hour slots */
-        tr.fc-slot0, tr.fc-slot2, tr.fc-slot4, /* hide before 8am */
-        tr.fc-slot6, tr.fc-slot8, tr.fc-slot10,
-        tr.fc-slot12, tr.fc-slot14 {
-            display: none;
-        }
         /* Increase the default cell height */
         table.fc-agenda-slots > tbody > tr > td {
             height: 4.75em;
@@ -29,16 +21,12 @@
         /* */
         .fc-event-time, .fc-event-title,
         .fc-event-location, .fc-event-descrip {
-            padding: .1em 0 0 .3em;
-            color: black;
-            font-color: #000;
-            font-weight: 400;
+            color: #333;
             font-size: 1em;
-            /*text-align: left;*/
         }
-        th.fc-agenda-axis {
-            text-align: center;
-            font-weight: bold;
+        .fc-agenda-axis {
+            text-align: center !important;
+            font-weight: bold !important;
         }
     </style>
   </head>
@@ -52,9 +40,11 @@
       $(document).ready(function() {
 
           $('#calendar').fullCalendar({
+            allDaySlot: false,
+            slotMinutes: 60,
             weekends: false,
             defaultView: 'agendaWeek',
-            firstHour: 8,
+            minTime: 8,
             maxTime: 22,
             contentHeight: 840,
             eventSources: [
@@ -72,14 +62,20 @@
               },
               { // Discussion
                   url: 'http://www.google.com/calendar/feeds/berkeley.edu_1g3duo9lb53vu09orjictriud4%40group.calendar.google.com/public/basic',
-                  className: 'disc'
+                  className: 'disc',
+              },
+              { // Discussion -- FIX FOR BUG WITH LAST 2 DISCUSSIONS
+                  url: 'http://www.google.com/calendar/feeds/berkeley.edu_21jprgg43p44oq62g94agbumv8%40group.calendar.google.com/public/basic',
+                  className: 'disc',
+                  currentTimezone: 'America/Chicago'
               }
             ]
           })
       });
     </script>
-    <h3>This is a calendar of CS10 class and office hours throughout the semester.</h3>
     <h3>Click on any event to see the building location on a map.</h3>
+    <br />
+    <h3>PLEASE NOTE: There are discussions Friday at 4PM and 5PM. There is a bug in the calendar which will be fixed soon!</h3> 
     <!-- Add key? -->
     <div id="calendar"></div>
   </body>
