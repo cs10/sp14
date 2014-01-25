@@ -177,11 +177,14 @@ laurenM = {
 // Lab Assistants
 
 
+// edX and Other Staff
+
+
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
-instructors = [ danG ];
+instructors = [ danG ]
 
 tas = [
     jannaG,
@@ -194,7 +197,7 @@ tas = [
     jeffreyS,
     maxD,
     peterS
-];
+]
 
 readers = [
     andyS,
@@ -211,6 +214,10 @@ las = [
 tait = [
 ]
 
+edx = [
+]
+
+
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
 all = {
@@ -218,8 +225,9 @@ all = {
     las: las,
     readers: readers,
     tas: tas,
-    tait: tait
-};
+    tait: tait,
+    edx: edx
+}
 
 /*****************************************************************************/
 /* DATA POPULATION FUNCTIONS  */
@@ -292,4 +300,5 @@ window.onload = function() {
     buildGroup("readers", 3);
     buildGroup("las", 5);
     buildGroup("tait", 5);
+    buildGroup("edx", 5);
 }
