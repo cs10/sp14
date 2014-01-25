@@ -1,0 +1,39 @@
+WHERE DID YOU GROW UP?  WHAT WAS YOUR ACADEMIC PATH?
+
+I actually grew up here in Cali!
+
+
+HOW MUCH PROGRAMMING HAVE YOU DONE?  WHAT LANGUAGES?
+
+I would say that my programming experience mimicks the recipe for shortbread cookies: 
+
+2 cups Scratch/BYOB,
+
+2 cups python,
+
+and 1/2 cup C#
+
+(for shortbread cookies, please replace Scratch with flour and C# with sugar. Then divide the amount of python by 2 and replace python with softened butter. Mix ingredients together to form a batter. Place batter into 13' pan and bake at 300 degrees for half an hour.)
+ 
+
+WHAT ARE YOUR HOBBIES?
+
+I always enjoy a good book or TV show. I also enjoy hiking and rockclimbing and getting coffee with my cs10 friends. (These friends are for life, yo. So don't knock your cs10 class).
+
+But the most pervasive hobby of mine is making awful puns and unnecessarily flowery analogies. (See recipe for shortbread cookies)
+ 
+
+WHAT ARE SOME OF YOUR TALENTS AND SKILLS?
+
+making awful puns and unnecessarily flowery analogies.
+ 
+
+HAVE YOU EVER DONE ANYTHING REMARKABLE?
+
+Once I was in this terrible boating accident and ended up marooned on a deserted desert island. My only companion was a prisoner I released from the native cannibals, who I most uncreatively named after a day of the week. Hold on...that was Robinson Crusoe.
+ 
+Umm...once I gave a friend a refillable teabag in the shape of a deep sea diver. It was called the Deep Tea Diver. I was pretty proud of myself there.
+
+WHAT COMMITMENTS WILL BE CONSUMING YOUR CYCLES THIS TERM?
+
+I'm taking CS61B and CS70, which promise to fun and time-consuming. I'll also be lab assisting for the online version of CS10 and hopefully taking a class on animated graphics. Lots of great nerdy stuff going on this semester.

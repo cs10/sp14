@@ -2,7 +2,7 @@
 
 <html lang="en">
     <head>
-        <title>CS10 : BJC (The Beauty and Joy of Computing) | UC Berkeley EECS | Spring 2014</title>
+        <title>CS10 : BJC | UC Berkeley EECS | Spring 2014</title>
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -37,8 +37,10 @@
                   </td>
                   <td class="center">
                       <p class="logo">
-                          CS10 : BJC (The Beauty and Joy of Computing)<br>
-                          UC Berkeley EECS<br>
+                          CS10 : BJC (The Beauty and Joy of Computing)
+                          <br />
+                          UC Berkeley EECS
+                          <br />
                           Spring 2014
                       </p>
                   </td>
@@ -103,7 +105,6 @@
       <p>
         <ul class="lambda">
           <li><a href="http://codepath.co/">Codepath</a></li>
-          <li><a href="http://byob.berkeley.edu/">BYOB : Build Your Own Blocks</a></li>
           <li><a href="http://scratch.mit.edu/forums/">Scratch Forums</a></li>
           <li><a href="http://www.bitsbook.com/">Blown to Bits</a></li>
           <li><a href="http://www.debuggingrules.com/">Debugging Rules!</a></li>

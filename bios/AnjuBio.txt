@@ -1,0 +1,25 @@
+WHERE DID YOU GROW UP?  WHAT WAS YOUR ACADEMIC PATH?
+
+I grew up in Bombay, India most of my life and came to the US around 8 years ago. I later moved from LA to a small town in California called Elk Grove. I graduated from Franklin High and was admitted into Berkeley in fall 2011. I became interested in Computer Science and have since taken CS10, CS61a and CS61bl. I have also worked as a Quality Analyst Intern in Netvarth, helping manage the Restaurant Management System and update the Forkworld Search engine, volunteered as a CS10 lab assistant, and have been a member of AWE(Association of Women in EECS), CSUA and Leadership Symposium. 
+
+HOW MUCH PROGRAMMING HAVE YOU DONE?  WHAT LANGUAGES?
+
+I have been programming for more than a year in Python, Scheme, Java and BYOB :). I am also familiar with some UNIX. 
+
+WHAT ARE YOUR HOBBIES?
+
+My hobbies include learning, laughing, interacting with other people, traveling, dancing, biking, swimming, badminton, and singing in the Church choir. 
+
+WHAT ARE SOME OF YOUR TALENTS AND SKILLS?
+
+Some of my skills include drawing, wiggling my ears, writing poetry, creating stained glass artwork, dancing, and choreographing Indian dances. I also like thinking of creative, innovative, and unique ideas, whether in CS, arts or dances. 
+
+HAVE YOU EVER DONE ANYTHING REMARKABLE?
+
+I can say the Alphabet backwards in less than 5 seconds :) and speak about 4 languages, including Hindi, Malayalam (native Indian language), English, and some Spanish. Thanks to CS10, my partner's and my speech synthesis project( a sound based application in BYOB that converts text to speech) was chosen to be presented at the CS Education day. I have also created video tutorials and user guides for the Forkworld Search engine. Some past honors include Zeta Beta Scholarship (2011), PG&E Scholarship (2011), Blessed Marie Rose Durocher (2007), Student of the Month (2005), and Principal's Honors Roll Award. 
+
+WHAT COMMITMENTS WILL BE CONSUMING YOUR CYCLES THIS TERM?
+
+Other commitments mainly include taking CS70 and EE42 this term. 
+
+
