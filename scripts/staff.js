@@ -42,7 +42,7 @@ danG = {
 
 // TAs
 michaelB = {
-    name: 'TA Michael Ball',
+    name: 'Head TA Michael Ball',
     img: 'Fa12/MichaelBall.jpg',
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
@@ -224,7 +224,7 @@ tas = [
     jeffreyS,
     maxD,
     peterS
-];
+]
 
 readers = [
     andyS,
@@ -239,7 +239,7 @@ las = [
 ]
 
 labdev = [
-peterS, laurenM, jessicaA, paulI
+peterS, laurenM, jessicaA, paulI, andyS, michaelB
 ]
 
 tait = [

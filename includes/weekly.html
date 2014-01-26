@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="shortcut icon" href="http://bjc.berkeley.edu/bjcfav.png" type="image/png">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
     <link href='scripts/fullcalendar.css' rel='stylesheet' type='text/css' />
     <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
     <script type='text/javascript' src='scripts/fullcalendar.js'></script>
@@ -11,7 +9,7 @@
     <style>
         /* Increase the default cell height */
         table.fc-agenda-slots > tbody > tr > td {
-            height: 4.75em;
+            height: 4.7em;
         }
         /* Make today be highlighted in gold. */
         .fc-today {
@@ -22,6 +20,7 @@
         .fc-event-location, .fc-event-descrip {
             color: #333;
             font-size: 1em;
+            padding: 0 0 0 .3em;
         }
         .fc-agenda-axis {
             text-align: center !important;
@@ -33,8 +32,7 @@
   <body>
     <!-- This uses the "FullCalendar" JS tool
           http://arshaw.com/fullcalendar/
-          Note: The version of gcal.js I'm using has a line commented
-          out to prevent linking to events.
+          The CS10 scripts have been slightly modified for CS10 use
      -->
     <script type="text/javascript" language="Javascript">
       $(document).ready(function() {
@@ -46,7 +44,7 @@
             defaultView: 'agendaWeek',
             minTime: 8,
             maxTime: 22,
-            contentHeight: 840,
+            contentHeight: 820,
             eventSources: [
               { // Lecture
                   url: 'http://www.google.com/calendar/feeds/berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk%40group.calendar.google.com/public/basic',
