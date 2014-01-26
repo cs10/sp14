@@ -47,7 +47,7 @@ michaelB = {
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     bio: 'MichaelBall.txt',
-    email: 'ball@berkeley.edu'
+    email: 'cs10-ta@imail.eecs.berkeley.edu'
 }
 maxD = {
     name: 'TA Max Dougherty',
@@ -175,6 +175,36 @@ laurenM = {
 }
 
 // Lab Assistants
+benC = {
+    name: 'TAiT Ben Carvalho',
+    img: 'Fa13/BenCarvalho.jpg',
+    imgSrc: 'BenCarvalho.jpg',
+    bio: ''
+}
+// Lab Dev
+paulI = {
+    name: 'Paul Irwin',
+    img: 'Fa13/PaulIrwin.jpg',
+    imgSrc: 'PaulIrwin.jpg',
+    bio: ''
+}
+
+jessicaA = {
+    name: 'Jessica Andrich',
+    img: 'Fa13/JessicaAndrich.jpg',
+    imgSrc: 'JessicaAndrich.jpg',
+    bio: ''
+}
+
+// edX
+seanS = {
+    name: 'Sean Scofield',
+    img: 'SeanScofield.jpg',
+    imgSrc: 'SeanScofield.jpg',
+    bio: ''
+}
+
+// snap
 
 
 /*****************************************************************************/
@@ -208,8 +238,21 @@ readers = [
 las = [
 ]
 
-tait = [
+labdev = [
+peterS, laurenM, jessicaA, paulI
 ]
+
+tait = [
+benC, songS, josephC, seanS,
+]
+
+edx = [
+frankL, songS, josephC, seanS, jocelynT, 
+]
+
+snap = [
+]
+
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
@@ -218,7 +261,10 @@ all = {
     las: las,
     readers: readers,
     tas: tas,
-    tait: tait
+    tait: tait,
+    edx: edx,
+    snap: snap,
+    labdev: labdev
 };
 
 /*****************************************************************************/
@@ -250,7 +296,7 @@ function buildPerson(data, width) {
     }
     elm += "</strong> "
     if (!!data.bio) {
-        elm += "(<a href=\"../bios/" + data.bio + "\">bio</a>)"
+        elm += "(<a href=\"bios/" + data.bio + "\">bio</a>)"
     }
     if (!!data.email) {
         elm += "<br /><a href=\"mailto:" + data.email +
@@ -292,4 +338,7 @@ window.onload = function() {
     buildGroup("readers", 3);
     buildGroup("las", 5);
     buildGroup("tait", 5);
+    buildGroup("edx", 5);
+    buildGroup("snap", 5);
+    buildGroup("labdev", 5);
 }
