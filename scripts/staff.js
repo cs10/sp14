@@ -340,5 +340,5 @@ window.onload = function() {
     buildGroup("tait", 5);
     buildGroup("edx", 5);
     buildGroup("snap", 5);
-    buildGroup("labdev", 5);
+    buildGroup("labdev", 6);
 }
