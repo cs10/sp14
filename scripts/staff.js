@@ -247,7 +247,7 @@ benC, songS, josephC, seanS,
 ]
 
 edx = [
-frankL, songS, josephC, seanS, jocelynT, 
+ josephC, seanS, songS,
 ]
 
 snap = [
