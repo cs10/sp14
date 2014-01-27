@@ -34,8 +34,8 @@ function updateCalendar() {
             }
         }
     } //closing for loop
-    // 
-    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=berkeley_bjc.html";
+
+    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=cs10_sp14.html";
     links = $(".lablink");
     for(var i = 0; i < links.length; i++) {
         a = links[i];
