@@ -175,34 +175,137 @@ laurenM = {
 }
 
 // Lab Assistants
-benC = {
-    name: 'TAiT Ben Carvalho',
+benC = { name: 'TAiT Ben Carvalho',
     img: 'Fa13/BenCarvalho.jpg',
     imgSrc: 'BenCarvalho.jpg',
     bio: ''
 }
+sulaimanS = { name: 'TAiT Sulaiman Saed Haruna',
+    img: 'Sp14/Sulaiman Saed Haruna.jpg',
+    imgSrc: 'Sulaiman Saed Haruna.jpg',
+    bio: '' }
+rafayelM = { name: 'TAiT Rafayel Mkrtchyan',
+    img: 'Sp14/Rafayel Mkrtchyan.jpg',
+    imgSrc: 'Rafayel Mkrtchyan.jpg',
+    bio: '' }
+kalleyT = { name: 'TAiT Kalley Thompson',
+    img: 'Sp14/Kalley Thompson.jpg',
+    imgSrc: 'Kalley Thompson.jpg',
+    bio: '' }
+oliverO = { name: 'TAiT Oliver O\'Donnell',
+    img: 'Sp14/Oliver ODonnell.jpg',
+    imgSrc: 'Oliver ODonnell.jpg',
+    bio: '' }
+kylaS = { name: 'TAiT Kyla Sorin',
+    img: 'Sp14/Kyla Sorin.jpg',
+    imgSrc: 'Kyla Sorin.jpg',
+    bio: '' }
+carenT = { name: 'TAiT Caren Thomas',
+    img: 'Sp14/Caren Thomas.jpg',
+    imgSrc: 'Caren Thomas.jpg',
+    bio: '' }
+jobelV = { name: 'TAiT Jobel Kyle Vecino',
+    img: 'Sp14/Jobel Kyle Vecino.jpg',
+    imgSrc: 'Jobel Kyle Vecino.jpg',
+    bio: '' }
+brandonC = { name: 'TAiT Brandon Chen',
+    img: 'Sp14/Brandon Chen.jpg',
+    imgSrc: 'Brandon Chen.jpg',
+    bio: '' }
+saagarB = { name: 'TAiT Saagar Bakshi',
+    img: 'Sp14/Saagar Bakshi.jpg',
+    imgSrc: 'Saagar Bakshi.jpg',
+    bio: '' }
+lukeD = { name: 'TAiT Luke Dodds',
+    img: 'Sp14/Luke Dodds.jpg',
+    imgSrc: 'Luke Dodds.jpg',
+    bio: '' }
+hunterB = { name: 'TAiT Hunter Brown',
+    img: 'Sp14/Hunter Brown.jpg',
+    imgSrc: 'Hunter Brown.jpg',
+    bio: '' }
+adamK = { name: 'TAiT Adam Kuphaldt',
+    img: 'Sp14/Adam Kuphaldt.jpg',
+    imgSrc: 'Adam Kuphaldt.jpg',
+    bio: '' }
+/* TAIT
+Sulaiman Saed Haruna
+Rafayel Mkrtchyan
+Kalley Thompson
+Oliver O'Donnell
+Kyla Sorin
+Caren Thomas
+Jobel Kyle Vecino
+Brandon Chen
+Saagar Bakshi
+Luke Dodds
+Hunter Brown
+Adam Kuphaldt
+*/
+/* NON-TAIT
+Nick Rose
+Zhenzheng (Helen) Hu
+Serena Chan
+Jiawei Jiang
+Derek Chiu
+Mona (Hee-Jae) Lee
+Amruta Yelamanchili
+Liuxiao Zhang
+Christine Liu
+Carlos Flores
+Ji Jun (Jenny) Chen
+Joshua Perline
+Yinxue Bian
+Tammy Chen
+Luise Rygaard
+Alex Freeman
+Michelle Tsai
+Maria Can 
+Caroline Chan
+Ryan Riddle
+Charles Thorson
+Fangzhou Chen
+Nicholas Dill
+Gurubala Kotta
+Adam Brown
+Kalon Cheung
+Nolan Takeshita
+Christopher Kilian
+Amy Shu
+Michelle Han
+Tierney Henderson
+Harris Quraishi
+Priscilla Bermudez
+Alison Tang
+Veersuvrat Rajpal
+Franklin Lee
+Mateo Marin del Real
+Victor Solis
+Bryce Smith
+Brooke Tencer
+Navsharan Singh
+Kwan Kit Cheung
+Edwan Hernandez
+Steven Holman
+*/
+
+
 // Lab Dev
-paulI = {
-    name: 'Paul Irwin',
+paulI = { name: 'Paul Irwin',
     img: 'Fa13/PaulIrwin.jpg',
     imgSrc: 'PaulIrwin.jpg',
-    bio: ''
-}
+    bio: '' }
 
-jessicaA = {
-    name: 'Jessica Andrich',
+jessicaA = { name: 'Jessica Andrich',
     img: 'Fa13/JessicaAndrich.jpg',
     imgSrc: 'JessicaAndrich.jpg',
-    bio: ''
-}
+    bio: '' }
 
 // edX
-seanS = {
-    name: 'Sean Scofield',
+seanS = { name: 'Sean Scofield',
     img: 'SeanScofield.jpg',
     imgSrc: 'SeanScofield.jpg',
-    bio: ''
-}
+    bio: '' }
 
 // snap
 
