@@ -4,8 +4,8 @@
    <meta charset="UTF-8">
    <title>Directory Contents</title>
 
-   <link rel="stylesheet" href="../../scripts/style.css">
-   <script src="../../scripts/sorttable.js"></script>
+   <link rel="stylesheet" href=".style.css">
+   <script src=".sorttable.js"></script>
 </head>
 
 <body>

@@ -26,7 +26,7 @@ function updateCalendar() {
 
         //golden rectangle for current date
         for (var j = 2; j < cells.length - 1; j++) {
-            celldate = getCellDate(j, day);
+            celldates = getCellDate(j, day);
             if (celldate == tdate && mon == tmonth) {
                 cells[j].style.border = "10px solid Gold";
             } else if (mon < tmonth || (mon == tmonth && celldate < tdate)) {
@@ -34,15 +34,6 @@ function updateCalendar() {
             }
         }
     } //closing for loop
-
-    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=cs10_sp14.html";
-    links = $(".lablink");
-    for(var i = 0; i < links.length; i++) {
-        a = links[i]
-        a.href += urlEnd
-        a.style.fontWeight = 700
-        a.target = "_blank"
-    }
 }
 
 /* TODO
@@ -66,8 +57,18 @@ function displaySpeech(img_name, img_src) {
 }
 
 window.onload = function() {
-
+    
+    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=cs10_sp14.html";
+    links = $(".lablink");
+    for(var i = 0; i < links.length; i++) {
+        a = links[i]
+        a.href += urlEnd
+        a.style.fontWeight = 700
+        a.target = "_blank"
+    }
+    
     updateCalendar();
+
 
     readings = $(".reading");
     for(var i = 0; i < links.length; i++) {

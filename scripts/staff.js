@@ -43,7 +43,7 @@ danG = {
 // TAs
 michaelB = {
     name: 'Head TA Michael Ball',
-    img: 'Fa12/MichaelBall.jpg',
+    img: 'Sp14/MichaelBall.jpg',
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     bio: 'MichaelBall.txt',
@@ -59,7 +59,7 @@ maxD = {
 }
 ianB = {
     name: 'TA Ian Birnam',
-    img: 'Fa12/IanBirnam.jpg',
+    img: 'Sp14/IanBirnam.jpg',
     imgSrc: 'IanBirnam.jpg',
     web: 'http://ianbirnam.com',
     bio: 'IanBio.txt',
@@ -115,21 +115,13 @@ sumerM = {
 }
 
 // Readers
-audreyC = {
-    name: 'Reader Audrey Chou',
-    img: 'Fa13/AudreyChou.jpg',
-    imgSrc: '', // AudreyChou.jpg
-    web: '',
-    bio: '', // AudreyChou.txt
-    email: 'EMAIL@berkeley.edu'
-}
 josephC = {
     name: 'Reader Joseph Cawthorne',
     img: 'Fa13/JosephCawthorne.jpg',
     imgSrc: 'JosephCawthorne.jpg',
     web: '',
     bio: 'JosephCawthorne.txt',
-    email: 'EMAIL@berkeley.edu'
+    email: ''
 }
 songS   = {
     name: 'Reader Song Sok',
@@ -137,7 +129,7 @@ songS   = {
     imgSrc: 'SongSok.jpg',
     web: '',
     bio: 'SongSok.txt',
-    email: 'EMAIL@berkeley.edu'
+    email: ''
 }
 claireW = {
     name: 'Reader Claire Watanabe',
@@ -145,7 +137,7 @@ claireW = {
     imgSrc: 'ClaireWatanabe.jpg',
     web: '',
     bio: 'ClaireWatanabe.txt',
-    email: 'EMAIL@berkeley.edu'
+    email: ''
 }
 jaclynB = {
     name: 'Reader Jaclyn Burge',
@@ -153,7 +145,7 @@ jaclynB = {
     imgSrc: 'JaclynBurge.jpg',
     web: '',
     bio: 'JaclynBurge.txt',
-    email: 'EMAIL@berkeley.edu'
+    email: ''
 }
 andyS   = {
     name: 'Reader Andrew Schmitt',
@@ -161,13 +153,13 @@ andyS   = {
     imgSrc: 'AndrewSchmitt.jpg',
     web: '',
     bio: 'AndrewSchmitt.txt',
-    email: 'EMAIL@berkeley.edu'
+    email: ''
 }
 
 // Staff
 laurenM = {
     name: 'Project Manager Lauren Mock',
-    img: 'Fa12/LaurenMock.jpg',
+    img: 'Sp14/LaurenMock.jpg',
     imgSrc: 'LaurenMock.jpg',
     web: 'http://linkedin.com/in/laurenmock',
     bio: 'LaurenMock.txt',
@@ -175,309 +167,242 @@ laurenM = {
 }
 
 // Lab Assistants
+// TAiT
 benC = { name: 'TAiT Ben Carvalho',
     img: 'Fa13/BenCarvalho.jpg',
     imgSrc: 'BenCarvalho.jpg',
     bio: '' }
 sulaimanS = { name: 'TAiT Sulaiman Saed Haruna',
-    img: 'Sp14/Sulaiman Saed Haruna.jpg',
-    imgSrc: 'Sulaiman Saed Haruna.jpg',
+    img: 'Sp14/SulaimanSaedHaruna.jpg',
+    imgSrc: 'SulaimanSaedHaruna.jpg',
     bio: '' }
 rafayelM = { name: 'TAiT Rafayel Mkrtchyan',
-    img: 'Sp14/Rafayel Mkrtchyan.jpg',
-    imgSrc: 'Rafayel Mkrtchyan.jpg',
+    img: 'Sp14/RafayelMkrtchyan.jpg',
+    imgSrc: 'RafayelMkrtchyan.jpg',
     bio: '' }
 kalleyT = { name: 'TAiT Kalley Thompson',
-    img: 'Sp14/Kalley Thompson.jpg',
-    imgSrc: 'Kalley Thompson.jpg',
+    img: 'Sp14/KalleyThompson.jpg',
+    imgSrc: 'KalleyThompson.jpg',
     bio: '' }
 oliverO = { name: 'TAiT Oliver O\'Donnell',
-    img: 'Sp14/Oliver ODonnell.jpg',
-    imgSrc: 'Oliver ODonnell.jpg',
-    bio: 'Oliver ODonnell Bio.txt' }
+    img: 'Sp14/OliverODonnell.jpg',
+    imgSrc: 'OliverODonnell.jpg',
+    bio: 'OliverODonnellBio.txt' }
 kylaS = { name: 'TAiT Kyla Sorin',
-    img: 'Sp14/Kyla Sorin.jpg',
-    imgSrc: 'Kyla Sorin.jpg',
+    img: 'Sp14/KylaSorin.jpg',
+    imgSrc: 'KylaSorin.jpg',
     bio: '' }
 carenT = { name: 'TAiT Caren Thomas',
-    img: 'Sp14/Caren Thomas.jpg',
-    imgSrc: 'Caren Thomas.jpg',
+    img: 'Sp14/CarenThomas.jpg',
+    imgSrc: 'CarenThomas.jpg',
     bio: '' }
 jobelV = { name: 'TAiT Jobel Kyle Vecino',
-    img: 'Sp14/Jobel Kyle Vecino.jpg',
-    imgSrc: 'Jobel Kyle Vecino.jpg',
+    img: 'Sp14/JobelKyleVecino.jpg',
+    imgSrc: 'JobelKyleVecino.jpg',
     bio: '' }
 brandonC = { name: 'TAiT Brandon Chen',
-    img: 'Sp14/Brandon Chen.jpg',
-    imgSrc: 'Brandon Chen.jpg',
+    img: 'Sp14/BrandonChen.jpg',
+    imgSrc: 'BrandonChen.jpg',
     bio: '' }
 saagarB = { name: 'TAiT Saagar Bakshi',
-    img: 'Sp14/Saagar Bakshi.jpg',
-    imgSrc: 'Saagar Bakshi.jpg',
+    img: 'Sp14/SaagarBakshi.jpg',
+    imgSrc: 'SaagarBakshi.jpg',
     bio: '' }
 lukeD = { name: 'TAiT Luke Dodds',
-    img: 'Sp14/Luke Dodds.jpg',
-    imgSrc: 'Luke Dodds.jpg',
+    img: 'Sp14/LukeDodds.jpg',
+    imgSrc: 'LukeDodds.jpg',
     bio: '' }
 hunterB = { name: 'TAiT Hunter Brown',
-    img: 'Sp14/Hunter Brown.jpg',
-    imgSrc: 'Hunter Brown.jpg',
+    img: 'Sp14/HunterBrown.jpg',
+    imgSrc: 'HunterBrown.jpg',
     bio: '' }
 adamK = { name: 'TAiT Adam Kuphaldt',
-    img: 'Sp14/Adam Kuphaldt.jpg',
-    imgSrc: 'Adam Kuphaldt.jpg',
+    img: 'Sp14/AdamKuphaldt.jpg',
+    imgSrc: 'AdamKuphaldt.jpg',
+    bio: '' }
+StevenTraversi = { name: 'TAiT Steven Traversi',
+    img: 'Sp14/StevenTraversi.jpg',
+    imgSrc: 'StevenTraversi.jpg',
+    bio: '' }
+CarlosFlores = { name: 'TAiT Carlos Flores',
+    img: 'Sp14/CarlosFlores.jpg',
+    imgSrc: 'CarlosFlores.jpg',
     bio: '' }
 
 /* NON-TAIT */
 NickRose = { name: 'Nick Rose',
-    img: 'Sp14/Nick Rose.jpg',
-    imgSrc: 'Nick Rose.jpg',
+    img: 'Sp14/NickRose.jpg',
+    imgSrc: 'NickRose.jpg',
     bio: '' }
-
-ZhenzhengHu = { name: 'Zhenzheng (Helen) Hu',
-    img: 'Sp14/Zhenzheng (Helen) Hu.jpg',
-    imgSrc: 'Zhenzheng (Helen) Hu.jpg',
+ZhenzhengHu = { name: 'Helen Hu',
+    img: 'Sp14/HelenHu.jpg',
+    imgSrc: 'HelenHu.jpg',
     bio: '' }
-
 SerenaChan = { name: 'Serena Chan',
-    img: 'Sp14/Serena Chan.jpg',
-    imgSrc: 'Serena Chan.jpg',
+    img: 'Sp14/SerenaChan.jpg',
+    imgSrc: 'SerenaChan.jpg',
     bio: '' }
-
 JiaweiJiang = { name: 'Jiawei Jiang',
-    img: 'Sp14/Jiawei Jiang.jpg',
-    imgSrc: 'Jiawei Jiang.jpg',
+    img: 'Sp14/JiaweiJiang.jpg',
+    imgSrc: 'JiaweiJiang.jpg',
     bio: '' }
-
 DerekChiu = { name: 'Derek Chiu',
-    img: 'Sp14/Derek Chiu.jpg',
-    imgSrc: 'Derek Chiu.jpg',
+    img: 'Sp14/DerekChiu.jpg',
+    imgSrc: 'DerekChiu.jpg',
     bio: '' }
-
 MonaLee = { name: 'Mona (Hee-Jae) Lee',
-    img: 'Sp14/Mona (Hee-Jae) Lee.jpg',
-    imgSrc: 'Mona (Hee-Jae) Lee.jpg',
+    img: 'Sp14/MonaLee.jpg',
+    imgSrc: 'MonaLee.jpg',
     bio: '' }
-
 AmrutaYelamanchili = { name: 'Amruta Yelamanchili',
-    img: 'Sp14/Amruta Yelamanchili.jpg',
-    imgSrc: 'Amruta Yelamanchili.jpg',
+    img: 'Sp14/AmrutaYelamanchili.jpg',
+    imgSrc: 'AmrutaYelamanchili.jpg',
     bio: '' }
-
 LiuxiaoZhang = { name: 'Liuxiao Zhang',
-    img: 'Sp14/Liuxiao Zhang.jpg',
-    imgSrc: 'Liuxiao Zhang.jpg',
+    img: 'Sp14/LiuxiaoZhang.jpg',
+    imgSrc: 'LiuxiaoZhang.jpg',
     bio: '' }
-
 ChristineLiu = { name: 'Christine Liu',
-    img: 'Sp14/Christine Liu.jpg',
-    imgSrc: 'Christine Liu.jpg',
+    img: 'Sp14/ChristineLiu.jpg',
+    imgSrc: 'ChristineLiu.jpg',
     bio: '' }
-
-CarlosFlores = { name: 'Carlos Flores',
-    img: 'Sp14/Carlos Flores.jpg',
-    imgSrc: 'Carlos Flores.jpg',
-    bio: '' }
-
 JiJunChen = { name: 'Ji Jun (Jenny) Chen',
-    img: 'Sp14/Ji Jun (Jenny) Chen.jpg',
-    imgSrc: 'Ji Jun (Jenny) Chen.jpg',
+    img: 'Sp14/JiJunChen.jpg',
+    imgSrc: 'JiJunChen.jpg',
     bio: '' }
-
 JoshuaPerline = { name: 'Joshua Perline',
-    img: 'Sp14/Joshua Perline.jpg',
-    imgSrc: 'Joshua Perline.jpg',
+    img: 'Sp14/JoshPerline.jpg',
+    imgSrc: 'JoshPerline.jpg',
     bio: '' }
-
 YinxueBian = { name: 'Yinxue Bian',
-    img: 'Sp14/Yinxue Bian.jpg',
-    imgSrc: 'Yinxue Bian.jpg',
+    img: 'Sp14/YinxueBian.jpg',
+    imgSrc: 'YinxueBian.jpg',
     bio: '' }
-
 TammyChen = { name: 'Tammy Chen',
-    img: 'Sp14/Tammy Chen.jpg',
-    imgSrc: 'Tammy Chen.jpg',
+    img: 'Sp14/TammyChen.jpg',
+    imgSrc: 'TammyChen.jpg',
     bio: '' }
-
 LuiseRygaard = { name: 'Luise Rygaard',
-    img: 'Sp14/Luise Rygaard.jpg',
-    imgSrc: 'Luise Rygaard.jpg',
+    img: 'Sp14/LuiseRygaard.jpg',
+    imgSrc: 'LuiseRygaard.jpg',
     bio: '' }
-
 AlexFreeman = { name: 'Alex Freeman',
-    img: 'Sp14/Alex Freeman.jpg',
-    imgSrc: 'Alex Freeman.jpg',
+    img: 'Sp14/AlexFreeman.jpg',
+    imgSrc: 'AlexFreeman.jpg',
     bio: '' }
-
 MichelleTsai = { name: 'Michelle Tsai',
-    img: 'Sp14/Michelle Tsai.jpg',
-    imgSrc: 'Michelle Tsai.jpg',
+    img: 'Sp14/MichelleTsai.jpg',
+    imgSrc: 'MichelleTsai.jpg',
     bio: '' }
-
 MariaCan = { name: 'Maria Can',
-    img: 'Sp14/Maria Can.jpg',
-    imgSrc: 'Maria Can.jpg',
+    img: 'Sp14/MariaCan.jpg',
+    imgSrc: 'MariaCan.jpg',
     bio: '' }
-
 CarolineChan = { name: 'Caroline Chan',
-    img: 'Sp14/Caroline Chan.jpg',
-    imgSrc: 'Caroline Chan.jpg',
+    img: 'Sp14/CarolineChan.jpg',
+    imgSrc: 'CarolineChan.jpg',
     bio: '' }
-
 RyanRiddle = { name: 'Ryan Riddle',
-    img: 'Sp14/Ryan Riddle.jpg',
-    imgSrc: 'Ryan Riddle.jpg',
+    img: 'Sp14/RyanRiddle.jpg',
+    imgSrc: 'RyanRiddle.jpg',
     bio: '' }
-
 CharlesThorson = { name: 'Charles Thorson',
-    img: 'Sp14/Charles Thorson.jpg',
-    imgSrc: 'Charles Thorson.jpg',
+    img: 'Sp14/CharlesThorson.jpg',
+    imgSrc: 'CharlesThorson.jpg',
     bio: '' }
-
 FangzhouChen = { name: 'Fangzhou Chen',
-    img: 'Sp14/Fangzhou Chen.jpg',
-    imgSrc: 'Fangzhou Chen.jpg',
+    img: 'Sp14/FangzhouChen.jpg',
+    imgSrc: 'FangzhouChen.jpg',
     bio: '' }
-
 NicholasDill = { name: 'Nicholas Dill',
-    img: 'Sp14/Nicholas Dill.jpg',
-    imgSrc: 'Nicholas Dill.jpg',
+    img: 'Sp14/NicholasDill.jpg',
+    imgSrc: 'NicholasDill.jpg',
     bio: '' }
-
 GurubalaKotta = { name: 'Gurubala Kotta',
-    img: 'Sp14/Gurubala Kotta.jpg',
-    imgSrc: 'Gurubala Kotta.jpg',
+    img: 'Sp14/GurubalaKotta.jpg',
+    imgSrc: 'GurubalaKotta.jpg',
     bio: '' }
-
 AdamBrown = { name: 'Adam Brown',
-    img: 'Sp14/Adam Brown.jpg',
-    imgSrc: 'Adam Brown.jpg',
+    img: 'Sp14/AdamBrown.jpg',
+    imgSrc: 'AdamBrown.jpg',
     bio: '' }
-
 KalonCheung = { name: 'Kalon Cheung',
-    img: 'Sp14/Kalon Cheung.jpg',
-    imgSrc: 'Kalon Cheung.jpg',
+    img: 'Sp14/KalonCheung.jpg',
+    imgSrc: 'KalonCheung.jpg',
     bio: '' }
-
 NolanTakeshita = { name: 'Nolan Takeshita',
-    img: 'Sp14/Nolan Takeshita.jpg',
-    imgSrc: 'Nolan Takeshita.jpg',
+    img: 'Sp14/NolanTakeshita.jpg',
+    imgSrc: 'NolanTakeshita.jpg',
     bio: '' }
-
 ChristopherKilian = { name: 'Christopher Kilian',
-    img: 'Sp14/Christopher Kilian.jpg',
-    imgSrc: 'Christopher Kilian.jpg',
+    img: 'Sp14/ChristopherKilian.jpg',
+    imgSrc: 'ChristopherKilian.jpg',
     bio: '' }
-
 AmyShu = { name: 'Amy Shu',
-    img: 'Sp14/Amy Shu.jpg',
-    imgSrc: 'Amy Shu.jpg',
+    img: 'Sp14/AmyShu.jpg',
+    imgSrc: 'AmyShu.jpg',
     bio: '' }
-
 MichelleHan = { name: 'Michelle Han',
-    img: 'Sp14/Michelle Han.jpg',
-    imgSrc: 'Michelle Han.jpg',
+    img: 'Sp14/MichelleHan.jpg',
+    imgSrc: 'MichelleHan.jpg',
     bio: '' }
-
 TierneyHenderson = { name: 'Tierney Henderson',
-    img: 'Sp14/Tierney Henderson.jpg',
-    imgSrc: 'Tierney Henderson.jpg',
+    img: 'Sp14/TierneyHenderson.jpg',
+    imgSrc: 'TierneyHenderson.jpg',
     bio: '' }
-
 HarrisQuraishi = { name: 'Harris Quraishi',
-    img: 'Sp14/Harris Quraishi.jpg',
-    imgSrc: 'Harris Quraishi.jpg',
+    img: 'Sp14/HarrisQuraishi.jpg',
+    imgSrc: 'HarrisQuraishi.jpg',
     bio: '' }
-
 PriscillaBermudez = { name: 'Priscilla Bermudez',
-    img: 'Sp14/Priscilla Bermudez.jpg',
-    imgSrc: 'Priscilla Bermudez.jpg',
+    img: 'Sp14/PriscillaBermudez.jpg',
+    imgSrc: 'PriscillaBermudez.jpg',
     bio: '' }
-
 AlisonTang = { name: 'Alison Tang',
-    img: 'Sp14/Alison Tang.jpg',
-    imgSrc: 'Alison Tang.jpg',
+    img: 'Sp14/AlisonTang.jpg',
+    imgSrc: 'AlisonTang.jpg',
     bio: '' }
-
 VeersuvratRajpal = { name: 'Veersuvrat Rajpal',
-    img: 'Sp14/Veersuvrat Rajpal.jpg',
-    imgSrc: 'Veersuvrat Rajpal.jpg',
+    img: 'Sp14/VeersuvratRajpal.jpg',
+    imgSrc: 'VeersuvratRajpal.jpg',
     bio: '' }
-
 FranklinLee = { name: 'Franklin Lee',
     img: 'Sp14/Franklin Lee.jpg',
     imgSrc: 'Franklin Lee.jpg',
     bio: '' }
-
 MateoMarindelReal = { name: 'Mateo Marin del Real',
-    img: 'Sp14/Mateo Marin del Real.jpg',
-    imgSrc: 'Mateo Marin del Real.jpg',
+    img: 'Sp14/MateoMarindelReal.jpg',
+    imgSrc: 'MateoMarindelReal.jpg',
     bio: '' }
-
 VictorSolis = { name: 'Victor Solis',
-    img: 'Sp14/Victor Solis.jpg',
-    imgSrc: 'Victor Solis.jpg',
+    img: 'Sp14/VictorSolis.jpg',
+    imgSrc: 'VictorSolis.jpg',
     bio: '' }
-
 BryceSmith = { name: 'Bryce Smith',
-    img: 'Sp14/Bryce Smith.jpg',
-    imgSrc: 'Bryce Smith.jpg',
+    img: 'Sp14/BryceSmith.jpg',
+    imgSrc: 'BryceSmith.jpg',
     bio: '' }
-
 BrookeTencer = { name: 'Brooke Tencer',
-    img: 'Sp14/Brooke Tencer.jpg',
-    imgSrc: 'Brooke Tencer.jpg',
+    img: 'Sp14/BrookeTencer.jpg',
+    imgSrc: 'BrookeTencer.jpg',
     bio: '' }
-
 NavsharanSingh = { name: 'Navsharan Singh',
-    img: 'Sp14/Navsharan Singh.jpg',
-    imgSrc: 'Navsharan Singh.jpg',
+    img: 'Sp14/NavsharanSingh.jpg',
+    imgSrc: 'NavsharanSingh.jpg',
     bio: '' }
-
 KwanKitCheung = { name: 'Kwan Kit Cheung',
-    img: 'Sp14/Kwan Kit Cheung.jpg',
-    imgSrc: 'Kwan Kit Cheung.jpg',
+    img: 'Sp14/KwanKitCheung.jpg',
+    imgSrc: 'KwanKitCheung.jpg',
     bio: '' }
-
 EdwanHernandez = { name: 'Edwan Hernandez',
-    img: 'Sp14/Edwan Hernandez.jpg',
-    imgSrc: 'Edwan Hernandez.jpg',
+    img: 'Sp14/EdwanHernandez.jpg',
+    imgSrc: 'EdwanHernandez.jpg',
     bio: '' }
-
 StevenHolman = { name: 'Steven Holman',
-    img: 'Sp14/Steven Holman.jpg',
-    imgSrc: 'Steven Holman.jpg',
+    img: 'Sp14/StevenHolman.jpg',
+    imgSrc: 'StevenHolman.jpg',
     bio: '' }
 
-NickRose = { name: 'Nick Rose',
-    img: 'Sp14/Nick Rose.jpg',
-    imgSrc: 'Nick Rose.jpg',
-    bio: '' }
-
-ZhenzhengHu = { name: 'Zhenzheng (Helen) Hu',
-    img: 'Sp14/Zhenzheng (Helen) Hu.jpg',
-    imgSrc: 'Zhenzheng (Helen) Hu.jpg',
-    bio: '' }
-
-SerenaChan = { name: 'Serena Chan',
-    img: 'Sp14/Serena Chan.jpg',
-    imgSrc: 'Serena Chan.jpg',
-    bio: '' }
-
-JiaweiJiang = { name: 'Jiawei Jiang',
-    img: 'Sp14/Jiawei Jiang.jpg',
-    imgSrc: 'Jiawei Jiang.jpg',
-    bio: '' }
-
-DerekChiu = { name: 'Derek Chiu',
-    img: 'Sp14/Derek Chiu.jpg',
-    imgSrc: 'Derek Chiu.jpg',
-    bio: '' }
-
-MonaLee = { name: 'Mona (Hee-Jae) Lee',
-    img: 'Sp14/Mona (Hee-Jae) Lee.jpg',
-    imgSrc: 'Mona (Hee-Jae) Lee.jpg',
-    bio: '' }
 
 // Lab Dev
 paulI = { name: 'Paul Irwin',
@@ -486,7 +411,7 @@ paulI = { name: 'Paul Irwin',
     bio: '' }
 
 jessicaA = { name: 'Jessica Andrich',
-    img: 'Fa13/JessicaAndrich.jpg',
+    img:`` 'Fa13/JessicaAndrich.jpg',
     imgSrc: 'JessicaAndrich.jpg',
     bio: '' }
 
@@ -505,87 +430,32 @@ seanS = { name: 'Sean Scofield',
 
 instructors = [ danG ];
 
-tas = [
-    jannaG,
-    laurenM,
-    rachelH,
-    sumerM,
-    victoriaS,
-    michaelB,
-    ianB,
-    jeffreyS,
-    maxD,
-    peterS
-]
+tas = [ laurenM, jannaG, rachelH, sumerM, victoriaS, michaelB, ianB, jeffreyS,
+maxD, peterS ]
 
-readers = [
-    andyS,
-    audreyC,
-    claireW,
-    jaclynB,
-    josephC,
-    songS
-]
+readers = [ andyS, claireW, jaclynB, josephC, songS ]
 
-las = [ NickRose,
-        ZhenzhengHu,
-        SerenaChan,
-        JiaweiJiang,
-        DerekChiu,
-        MonaLee,
-        AmrutaYelamanchili,
-        LiuxiaoZhang,
-        ChristineLiu,
-        JiJunChen,
-        JoshuaPerline,
-        YinxueBian,
-        TammyChen,
-        LuiseRygaard,
-        AlexFreeman,
-        MichelleTsai,
-        MariaCan,
-        CarolineChan,
-        RyanRiddle,
-        CharlesThorson,
-        FangzhouChen,
-        NicholasDill,
-        GurubalaKotta,
-        AdamBrown,
-        KalonCheung,
-        NolanTakeshita,
-        ChristopherKilian,
-        AmyShu,
-        MichelleHan,
-        TierneyHenderson,
-        HarrisQuraishi,
-        PriscillaBermudez,
-        AlisonTang,
-        VeersuvratRajpal,
-        FranklinLee,
-        MateoMarindelReal,
-        VictorSolis,
-        BryceSmith,
-        BrookeTencer,
-        NavsharanSingh,
-        KwanKitCheung,
-        EdwanHernandez,
-        StevenHolman ]
+las = [ NickRose, ZhenzhengHu, SerenaChan, JiaweiJiang, DerekChiu, MonaLee,
+    AmrutaYelamanchili, LiuxiaoZhang, ChristineLiu, JiJunChen, JoshuaPerline,
+    YinxueBian, TammyChen, LuiseRygaard, AlexFreeman, MichelleTsai, MariaCan,
+    CarolineChan, RyanRiddle, CharlesThorson, FangzhouChen, NicholasDill,
+    GurubalaKotta, AdamBrown, KalonCheung, NolanTakeshita, ChristopherKilian,
+    AmyShu, MichelleHan, TierneyHenderson, HarrisQuraishi, PriscillaBermudez,
+    AlisonTang, VeersuvratRajpal, FranklinLee, MateoMarindelReal, VictorSolis,
+    BryceSmith, BrookeTencer, NavsharanSingh, KwanKitCheung, EdwanHernandez,
+    StevenHolman ]
 
 labdev = [
     peterS, laurenM, jessicaA, paulI, andyS, michaelB
 ]
 
-tait = [
-    benC, songS, josephC, seanS, benC, sulaimanS, rafayelM, kalleyT, oliverO,
-    kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK, CarlosFlores,
-]
+tait = [ benC, songS, josephC, seanS, sulaimanS, rafayelM, kalleyT, oliverO,
+    kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
+    CarlosFlores ]
 
-edx = [
- josephC, seanS, songS,
-]
+edx = [ josephC, seanS, songS, laurenM, michaelB, ]
 
-snap = [
-]
+snap = [ ]
 
 
 // If you need to add a new SECTION add it to this object.
@@ -682,10 +552,10 @@ window.onload = function() {
     // Parameters: a section (HTML 'id') and num of images per row.
     buildGroup("instructors", 1);
     buildGroup("tas", 5);
-    buildGroup("readers", 3);
+    buildGroup("readers", 5);
     buildGroup("las", 5);
     buildGroup("tait", 5);
     buildGroup("edx", 5);
     buildGroup("snap", 5);
-    buildGroup("labdev", 3);
+    buildGroup("labdev", 5);
 }

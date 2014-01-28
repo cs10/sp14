@@ -1,0 +1,40 @@
+// Maps days since saturday to the appropriate cells
+// Item # is the days since
+// It's value is the cell numbers to deal with.
+since = [
+    [2],     // 0 days -- readings
+    [2],     // 1 day  -- readings
+    [3,4],   // 2 days -- monday: lec lab 1
+    [4],     // 3 days -- Tues: lab 1
+    [4,5,6], // 4 days -- Wed: lab 1, lec2, lab 2
+    [6],     // 5 days -- thurs: lab 2
+    [6,7,8]  // 6 days -- fri: lab 2, disc, hw
+]
+
+MILISEC_DAY = 1000*60*60*24
+// Function used to highlight the current day.
+function updateCalendar() {
+
+    // The SATURDAY before the first week of the calendar.
+    start = new Date(2014, 0, 18)
+    today = new Date().now()
+    days  = Math.floor((today - start) / MS_DAY)
+
+    tableRows = document.getElementsByClassName("cal")
+    tableRows = tableRows.slice(1) // Remove Header row
+    cellcount = 0
+    for(var i = 0; i < tableRows.length; i++) {
+        row = tableRows[i];
+
+        cells = row.getElementsByTagName('td');
+        for (var j = 2; j < cells.length - 1; j++) {
+            cellcount += 1
+            if (cellcount < days) {
+                cells[j].style.backgroundColor = "#BABABA"
+            }
+        }
+
+    } //closing for loop
+}
+
+
