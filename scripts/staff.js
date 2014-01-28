@@ -411,7 +411,7 @@ paulI = { name: 'Paul Irwin',
     bio: '' }
 
 jessicaA = { name: 'Jessica Andrich',
-    img:`` 'Fa13/JessicaAndrich.jpg',
+    img: 'Fa13/JessicaAndrich.jpg',
     imgSrc: 'JessicaAndrich.jpg',
     bio: '' }
 
