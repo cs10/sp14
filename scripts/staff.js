@@ -241,7 +241,7 @@ ZhenzhengHu = { name: 'Helen Hu',
 SerenaChan = { name: 'Serena Chan',
     img: 'Sp14/SerenaChan.jpg',
     imgSrc: 'SerenaChan.jpg',
-    bio: '' }w
+    bio: '' }
 DerekChiu = { name: 'Derek Chiu',
     img: 'Sp14/DerekChiu.jpg',
     imgSrc: 'DerekChiu.jpg',
