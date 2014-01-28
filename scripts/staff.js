@@ -241,11 +241,7 @@ ZhenzhengHu = { name: 'Helen Hu',
 SerenaChan = { name: 'Serena Chan',
     img: 'Sp14/SerenaChan.jpg',
     imgSrc: 'SerenaChan.jpg',
-    bio: '' }
-JiaweiJiang = { name: 'Jiawei Jiang',
-    img: 'Sp14/JiaweiJiang.jpg',
-    imgSrc: 'JiaweiJiang.jpg',
-    bio: '' }
+    bio: '' }w
 DerekChiu = { name: 'Derek Chiu',
     img: 'Sp14/DerekChiu.jpg',
     imgSrc: 'DerekChiu.jpg',
@@ -418,10 +414,6 @@ JiaweiWillJiang = { name: 'Jiawei Will Jiang',
     img: 'Sp14/JiaweiWillJiang.jpg',
     imgSrc: 'JiaweiWillJiang.jpg',
     bio: '' }
-KalleyThompson = { name: 'Kalley Thompson',
-    img: 'Sp14/KalleyThompson.jpg',
-    imgSrc: 'KalleyThompson.jpg',
-    bio: '' }
 MohanGanesan = { name: 'Mohan Ganesan',
     img: 'Sp14/MohanGanesan.jpg',
     imgSrc: 'MohanGanesan.jpg',
@@ -469,7 +461,7 @@ maxD, peterS ]
 
 readers = [ andyS, claireW, jaclynB, josephC, songS ]
 
-las = [ NickRose, ZhenzhengHu, SerenaChan, JiaweiJiang, DerekChiu, MonaLee,
+las = [ NickRose, ZhenzhengHu, SerenaChan, DerekChiu, MonaLee,
     AmrutaYelamanchili, LiuxiaoZhang, ChristineLiu, JiJunChen, JoshuaPerline,
     YinxueBian, TammyChen, LuiseRygaard, AlexFreeman, MichelleTsai, MariaCan,
     CarolineChan, RyanRiddle, CharlesThorson, FangzhouChen, NicholasDill,
@@ -477,8 +469,8 @@ las = [ NickRose, ZhenzhengHu, SerenaChan, JiaweiJiang, DerekChiu, MonaLee,
     AmyShu, MichelleHan, TierneyHenderson, HarrisQuraishi, PriscillaBermudez,
     AlisonTang, VeersuvratRajpal, FranklinLee, MateoMarindelReal, VictorSolis,
     BryceSmith, BrookeTencer, NavsharanSingh, KwanKitCheung, EdwanHernandez,
-    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar, JiaweiWillJiang,
-    KalleyThompson, MohanGanesan, StevenTraversi, VictoriaBian, YibingChen ]
+    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar, 
+    JiaweiWillJiang, MohanGanesan, StevenTraversi, VictoriaBian, YibingChen ]
 
 labdev = [
     peterS, laurenM, jessicaA, paulI, andyS, michaelB
