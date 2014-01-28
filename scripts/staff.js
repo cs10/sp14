@@ -194,7 +194,7 @@ kalleyT = { name: 'TAiT Kalley Thompson',
 oliverO = { name: 'TAiT Oliver O\'Donnell',
     img: 'Sp14/Oliver ODonnell.jpg',
     imgSrc: 'Oliver ODonnell.jpg',
-    bio: '' }
+    bio: 'Oliver ODonnell Bio.txt' }
 kylaS = { name: 'TAiT Kyla Sorin',
     img: 'Sp14/Kyla Sorin.jpg',
     imgSrc: 'Kyla Sorin.jpg',
@@ -536,7 +536,6 @@ las = [ NickRose,
         AmrutaYelamanchili,
         LiuxiaoZhang,
         ChristineLiu,
-        CarlosFlores,
         JiJunChen,
         JoshuaPerline,
         YinxueBian,
@@ -573,12 +572,12 @@ las = [ NickRose,
         StevenHolman ]
 
 labdev = [
-peterS, laurenM, jessicaA, paulI, andyS, michaelB
+    peterS, laurenM, jessicaA, paulI, andyS, michaelB
 ]
 
 tait = [
-benC, songS, josephC, seanS, benC, sulaimanS, rafayelM, kalleyT, oliverO,
-kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
+    benC, songS, josephC, seanS, benC, sulaimanS, rafayelM, kalleyT, oliverO,
+    kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK, CarlosFlores,
 ]
 
 edx = [
