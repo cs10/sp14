@@ -197,8 +197,8 @@ carenT = { name: 'TAiT Caren Thomas',
     imgSrc: 'CarenThomas.jpg',
     bio: '' }
 jobelV = { name: 'TAiT Jobel Kyle Vecino',
-    img: 'Sp14/JobelKyleVecino.jpg',
-    imgSrc: 'JobelKyleVecino.jpg',
+    img: 'Sp14/JobelVecino.jpg',
+    imgSrc: 'Jobelecino.jpg',
     bio: '' }
 brandonC = { name: 'TAiT Brandon Chen',
     img: 'Sp14/BrandonChen.jpg',
@@ -326,6 +326,10 @@ AdamBrown = { name: 'Adam Brown',
     img: 'Sp14/AdamBrown.jpg',
     imgSrc: 'AdamBrown.jpg',
     bio: '' }
+AlexMcKinney = { name: 'Alex McKinney',
+    img: 'Sp14/AlexMcKinney.jpg',
+    imgSrc: 'AlexMcKinney.jpg',
+    bio: '' }
 KalonCheung = { name: 'Kalon Cheung',
     img: 'Sp14/KalonCheung.jpg',
     imgSrc: 'KalonCheung.jpg',
@@ -367,16 +371,20 @@ VeersuvratRajpal = { name: 'Veersuvrat Rajpal',
     imgSrc: 'VeersuvratRajpal.jpg',
     bio: '' }
 FranklinLee = { name: 'Franklin Lee',
-    img: 'Sp14/Franklin Lee.jpg',
-    imgSrc: 'Franklin Lee.jpg',
+    img: 'Sp14/FranklinLee.jpg',
+    imgSrc: 'FranklinLee.jpg',
     bio: '' }
 MateoMarindelReal = { name: 'Mateo Marin del Real',
-    img: 'Sp14/MateoMarindelReal.jpg',
-    imgSrc: 'MateoMarindelReal.jpg',
+    img: 'Sp14/MateoOMarin.jpg',
+    imgSrc: 'MateoOMarin.jpg',
     bio: '' }
 VictorSolis = { name: 'Victor Solis',
     img: 'Sp14/VictorSolis.jpg',
     imgSrc: 'VictorSolis.jpg',
+    bio: '' }
+ItzelMartinez = { name: 'Itzel Martinez',
+    img: 'Sp14/ItzelMartinez.jpg',
+    imgSrc: 'ItzelMartinez.jpg',
     bio: '' }
 BryceSmith = { name: 'Bryce Smith',
     img: 'Sp14/BryceSmith.jpg',
@@ -390,9 +398,9 @@ NavsharanSingh = { name: 'Navsharan Singh',
     img: 'Sp14/NavsharanSingh.jpg',
     imgSrc: 'NavsharanSingh.jpg',
     bio: '' }
-KwanKitCheung = { name: 'Kwan Kit Cheung',
-    img: 'Sp14/KwanKitCheung.jpg',
-    imgSrc: 'KwanKitCheung.jpg',
+KwanKitCheung = { name: 'Kwan Cheung',
+    img: 'Sp14/KwanCheung.jpg',
+    imgSrc: 'KwanCheung.jpg',
     bio: '' }
 EdwanHernandez = { name: 'Edwan Hernandez',
     img: 'Sp14/EdwanHernandez.jpg',
@@ -402,8 +410,34 @@ StevenHolman = { name: 'Steven Holman',
     img: 'Sp14/StevenHolman.jpg',
     imgSrc: 'StevenHolman.jpg',
     bio: '' }
-
-
+AranyUthayakumar = { name: 'Arany Uthayakumar',
+    img: 'Sp14/AranyUthayakumar.jpg',
+    imgSrc: 'AranyUthayakumar.jpg',
+    bio: '' }
+JiaweiWillJiang = { name: 'Jiawei Will Jiang',
+    img: 'Sp14/JiaweiWillJiang.jpg',
+    imgSrc: 'JiaweiWillJiang.jpg',
+    bio: '' }
+KalleyThompson = { name: 'Kalley Thompson',
+    img: 'Sp14/KalleyThompson.jpg',
+    imgSrc: 'KalleyThompson.jpg',
+    bio: '' }
+MohanGanesan = { name: 'Mohan Ganesan',
+    img: 'Sp14/MohanGanesan.jpg',
+    imgSrc: 'MohanGanesan.jpg',
+    bio: '' }
+StevenTraversi = { name: 'Steven Traversi',
+    img: 'Sp14/StevenTraversi.jpg',
+    imgSrc: 'StevenTraversi.jpg',
+    bio: '' }
+VictoriaBian = { name: 'Victoria Bian',
+    img: 'Sp14/VictoriaBian.jpg',
+    imgSrc: 'VictoriaBian.jpg',
+    bio: '' }
+YibingChen = { name: 'Yibing Chen',
+    img: 'Sp14/YibingChen.jpg',
+    imgSrc: 'YibingChen.jpg',
+    bio: '' }
 // Lab Dev
 paulI = { name: 'Paul Irwin',
     img: 'Fa13/PaulIrwin.jpg',
@@ -443,7 +477,8 @@ las = [ NickRose, ZhenzhengHu, SerenaChan, JiaweiJiang, DerekChiu, MonaLee,
     AmyShu, MichelleHan, TierneyHenderson, HarrisQuraishi, PriscillaBermudez,
     AlisonTang, VeersuvratRajpal, FranklinLee, MateoMarindelReal, VictorSolis,
     BryceSmith, BrookeTencer, NavsharanSingh, KwanKitCheung, EdwanHernandez,
-    StevenHolman ]
+    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar, JiaweiWillJiang,
+    KalleyThompson, MohanGanesan, StevenTraversi, VictoriaBian, YibingChen ]
 
 labdev = [
     peterS, laurenM, jessicaA, paulI, andyS, michaelB
