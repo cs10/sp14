@@ -32,7 +32,7 @@ images per row (int)
 // Instructors
 danG = {
     name: 'Sr. Lecturer SOE Dan Garcia',
-    img: 'DanGarciaUCBFaculty2004.jpg',
+    img: 'http://www.cs.berkeley.edu/~ddgarcia/gifs/DanGarciaUCBFaculty2004.jpg',
     imgSrc: 'DanGarcia.jpg',
     web: 'http://www.cs.berkeley.edu/%7Eddgarcia/',
     bio: 'DanBio.txt',
@@ -198,7 +198,7 @@ carenT = { name: 'TAiT Caren Thomas',
     bio: '' }
 jobelV = { name: 'TAiT Jobel Kyle Vecino',
     img: 'Sp14/JobelVecino.jpg',
-    imgSrc: 'JobelVecino.jpg',
+    imgSrc: 'Jobelecino.jpg',
     bio: '' }
 brandonC = { name: 'TAiT Brandon Chen',
     img: 'Sp14/BrandonChen.jpg',
@@ -418,6 +418,10 @@ MohanGanesan = { name: 'Mohan Ganesan',
     img: 'Sp14/MohanGanesan.jpg',
     imgSrc: 'MohanGanesan.jpg',
     bio: '' }
+StevenTraversi = { name: 'Steven Traversi',
+    img: 'Sp14/StevenTraversi.jpg',
+    imgSrc: 'StevenTraversi.jpg',
+    bio: '' }
 VictoriaBian = { name: 'Victoria Bian',
     img: 'Sp14/VictoriaBian.jpg',
     imgSrc: 'VictoriaBian.jpg',
@@ -465,8 +469,8 @@ las = [ NickRose, ZhenzhengHu, SerenaChan, DerekChiu, MonaLee,
     AmyShu, MichelleHan, TierneyHenderson, HarrisQuraishi, PriscillaBermudez,
     AlisonTang, VeersuvratRajpal, FranklinLee, MateoMarindelReal, VictorSolis,
     BryceSmith, BrookeTencer, NavsharanSingh, KwanKitCheung, EdwanHernandez,
-    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar,
-    JiaweiWillJiang, MohanGanesan, VictoriaBian, YibingChen ]
+    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar, 
+    JiaweiWillJiang, MohanGanesan, StevenTraversi, VictoriaBian, YibingChen ]
 
 labdev = [
     peterS, laurenM, jessicaA, paulI, andyS, michaelB
@@ -474,7 +478,7 @@ labdev = [
 
 tait = [ benC, songS, josephC, seanS, sulaimanS, rafayelM, kalleyT, oliverO,
     kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
-    StevenTraversi, CarlosFlores ]
+    CarlosFlores ]
 
 edx = [ josephC, seanS, songS, laurenM, michaelB, ]
 
