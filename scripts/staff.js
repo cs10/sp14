@@ -485,7 +485,7 @@ tait = [ benC, songS, josephC, seanS, sulaimanS, rafayelM, kalleyT, oliverO,
 
 edx = [ KunalMarwaha, josephC, seanS, songS, laurenM, michaelB, ]
 
-snap = [ KunalMarwaha,  KyleZenter,]
+snap = [ KunalMarwaha,  KyleZenter, brandonC]
 
 
 // If you need to add a new SECTION add it to this object.
@@ -501,6 +501,7 @@ all = {
     labdev: labdev
 };
 
+//LOL - Ian
 LIST_OF_SHAME = [
 "KyleZenter.jpg",
 "KunalMarwaha.jpg",
