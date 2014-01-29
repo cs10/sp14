@@ -438,13 +438,20 @@ jessicaA = { name: 'Jessica Andrich',
     bio: '' }
 
 // edX
+KunalMarwaha = { name: 'edX Team Lead Kunal Marwaha',
+    img: 'KunalMarwaha.jpg',
+    imgSrc: 'KunalMarwaha.jpg',
+    bio: '' }
 seanS = { name: 'Sean Scofield',
     img: 'SeanScofield.jpg',
     imgSrc: 'SeanScofield.jpg',
     bio: '' }
 
 // snap
-
+KyleZenter = { name: 'Snap! Team Lead Kyle Zenter',
+    img: 'KyleZenter.jpg',
+    imgSrc: 'KyleZenter.jpg',
+    bio: '' }
 
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
@@ -476,9 +483,9 @@ tait = [ benC, songS, josephC, seanS, sulaimanS, rafayelM, kalleyT, oliverO,
     kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
     StevenTraversi, CarlosFlores ]
 
-edx = [ josephC, seanS, songS, laurenM, michaelB, ]
+edx = [ KunalMarwaha, josephC, seanS, songS, laurenM, michaelB, ]
 
-snap = [ ]
+snap = [ KunalMarwaha,  KyleZenter,]
 
 
 // If you need to add a new SECTION add it to this object.
@@ -495,6 +502,8 @@ all = {
 };
 
 LIST_OF_SHAME = [
+"KyleZenter.jpg",
+"KunalMarwaha.jpg",
 "YinxueBian.jpg",
 "SerenaChan.jpg",
 "DerekChiu.jpg",
