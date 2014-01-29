@@ -418,10 +418,6 @@ MohanGanesan = { name: 'Mohan Ganesan',
     img: 'Sp14/MohanGanesan.jpg',
     imgSrc: 'MohanGanesan.jpg',
     bio: '' }
-StevenTraversi = { name: 'Steven Traversi',
-    img: 'Sp14/StevenTraversi.jpg',
-    imgSrc: 'StevenTraversi.jpg',
-    bio: '' }
 VictoriaBian = { name: 'Victoria Bian',
     img: 'Sp14/VictoriaBian.jpg',
     imgSrc: 'VictoriaBian.jpg',
