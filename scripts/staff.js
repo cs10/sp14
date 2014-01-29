@@ -494,13 +494,39 @@ all = {
     labdev: labdev
 };
 
+LIST_OF_SHAME = [
+"YinxueBian.jpg",
+"SerenaChan.jpg",
+"DerekChiu.jpg",
+"ChristineLiu.jpg",
+"JiJunChen.jpg",
+"LuiseRygaard.jpg",
+"FangzhouChen.jpg",
+"GurubalaKotta.jpg",
+"AlexFreeman.jpg",
+"MichelleTsai.jpg",
+"CharlesThorson.jpg",
+"NicholasDill.jpg",
+"AmyShu.jpg",
+"PriscillaBermudez.jpg",
+"MichelleHan.jpg",
+"VictorSolis.jpg",
+"AlisonTang.jpg",
+"HarrisQuraishi.jpg",
+"SulaimanSaedHaruna.jpg",
+"LukeDodds.jpg",
+"HunterBrown.jpg",
+"NavsharanSingh.jpg",
+"BryceSmith.jpg",
+"StevenHolman.jpg",
+"AdamKuphaldt.jpg" ]
 /*****************************************************************************/
 /* DATA POPULATION FUNCTIONS  */
 /*****************************************************************************/
 function buildPerson(data, width) {
     // Given a JSON object build a div that contains all the person's info
     // width is used to control how many are on a row on the page.
-    if (!data.imgSrc) {
+    if (!data.imgSrc || LIST_OF_SHAME.indexOf(data.imgSrc) !== -1) {
         data.imgSrc = "../NPY3D.jpg"
         data.img    = ''
     }

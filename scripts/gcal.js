@@ -78,7 +78,6 @@ function transformOptions(sourceOptions, start, end) {
             var events = [];
             if (data.feed.entry) {
                 $.each(data.feed.entry, function(i, entry) {
-                    console.log("loop\n")
                     var startStr = entry['gd$when'][0]['startTime'];
                     var start = parseISO8601(startStr, true);
                     var end = parseISO8601(entry['gd$when'][0]['endTime'], true);
