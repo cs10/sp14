@@ -557,18 +557,6 @@ function buildGroup(group, w) {
     doc.innerHTML += content
 }
 
-/** TODO -- write a function to replace bad links w/ NYP3D.png? */
-//
-// $.ajax({
-//     type: 'HEAD',
-//     url: 'http://yoursite.com/page.html',
-// success: function() {
-//         // page exists
-// },
-// error: function() {
-//         // page does not exist
-// }
-// });
 
 /** EDIT THIS TO ADD NEW GROUPS */
 window.onload = function() {
