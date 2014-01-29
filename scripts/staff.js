@@ -469,8 +469,8 @@ las = [ NickRose, ZhenzhengHu, SerenaChan, DerekChiu, MonaLee,
     AmyShu, MichelleHan, TierneyHenderson, HarrisQuraishi, PriscillaBermudez,
     AlisonTang, VeersuvratRajpal, FranklinLee, MateoMarindelReal, VictorSolis,
     BryceSmith, BrookeTencer, NavsharanSingh, KwanKitCheung, EdwanHernandez,
-    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar, 
-    JiaweiWillJiang, MohanGanesan, StevenTraversi, VictoriaBian, YibingChen ]
+    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar,
+    JiaweiWillJiang, MohanGanesan, VictoriaBian, YibingChen ]
 
 labdev = [
     peterS, laurenM, jessicaA, paulI, andyS, michaelB
@@ -478,7 +478,7 @@ labdev = [
 
 tait = [ benC, songS, josephC, seanS, sulaimanS, rafayelM, kalleyT, oliverO,
     kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
-    CarlosFlores ]
+    StevenTraversi, CarlosFlores ]
 
 edx = [ josephC, seanS, songS, laurenM, michaelB, ]
 
