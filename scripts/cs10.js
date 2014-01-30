@@ -55,24 +55,6 @@ function updateCalendar() {
 function displaySpeech(img_name, img_src) {
     document[img_name].src = img_src;
 }
-
-window.onload = function() {
-
-    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=cs10_sp14.html";
-    links = $(".lablink");
-    for(var i = 0; i < links.length; i++) {
-        a = links[i]
-        a.href += urlEnd
-        a.style.fontWeight = 700
-        a.target = "_blank"
-    }
-
-    updateCalendar();
-
-
-    readings = $(".reading");
-    for(var i = 0; i < links.length; i++) {
-        a = links[i];
-        a.target = "_blank";
-    }
-};
+// 
+// window.onload = function() {
+// };
