@@ -27,7 +27,7 @@ function updateCalendar() {
                 lst.push(6)
         }
     }
-    
+
     cellcount = 0
     tableRows = document.getElementsByClassName("cal")
     for(var i = 1; i < tableRows.length; i += 1) {
@@ -57,7 +57,7 @@ function displaySpeech(img_name, img_src) {
 }
 
 window.onload = function() {
-    
+
     urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=cs10_sp14.html";
     links = $(".lablink");
     for(var i = 0; i < links.length; i++) {
@@ -66,7 +66,7 @@ window.onload = function() {
         a.style.fontWeight = 700
         a.target = "_blank"
     }
-    
+
     updateCalendar();
 
 
