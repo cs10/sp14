@@ -1,79 +1,30 @@
-    <div style="width: 25%; float: left; text-align: center;">
-      <a href="images/Fa13/AlexanderMcKinney.jpg"><img width="200" height="300" src="images/small/AlexanderMcKinney.jpg" alt="" h="" title="" class="staff" /></a> <br />
-      <strong> Alexander McKinney </strong> ( <a href="bios/AlexanderMcKinneyBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/CarenThomas.jpg"><img width="200" height="300" src="images/small/CarenThomas.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Caren Thomas </strong> ( <a href="bios/CarenThomasBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/GeorgeShum.jpg"><img width="200" height="300" src="images/small/GeorgeShum.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> George Shum </strong> ( <a href="bios/GeorgeShum.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/Fa13/IngridHong.jpg"><img width="200" height="300" src="images/small/IngridHong.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Ingrid Hong </strong> ( <a href="bios/IngridHongBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/Fa13/JessicaTran.jpg"><img width="200" height="300" src="images/small/JessicaTran.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Jessica Tran </strong> ( <a href="bios/JessicaTranBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
-      <a href="images/KarlaAguilar.jpg"><img width="200" height="300" src="images/small/NPY3D.jpg" alt="" h="" title="" class="staff" /></a> <br />
-      <strong> Karla Aguilar </strong> ( <a href="bios/KarlaAguilarBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="clear: both;">   </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/KatieCheu.jpg"><img width="200" height="300" src="images/small/KatieChen.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Katie Chen </strong> ( <a href="bios/KatieChenBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
-      <a href="images/KellyBackes.jpg"><img width="200" height="300" src="images/small/NPY3D.jpg" alt="" h="" title="" class="staff" /></a> <br />
-      <strong> Kelly Backes </strong> ( <a href="bios/KellyBackesBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/NabeelSaleem.jpg"><img width="200" height="300" src="images/small/NabeelSaleem.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Nabeel Saleem </strong> ( <a href="bios/NabeelSaleem.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/Fa13/NatnichaVanitchanant.jpg"><img width="200" height="300" src="images/small/NatnichaVanitchanant.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Natnicha Vanitchanant </strong> ( <a href="bios/NatnichaVanitchanantBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/TomLai.jpg"><img width="200" height="300" src="images/small/TomLai.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Tom Lai </strong> ( <a href="bios/TomLaiBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/RyanLim.jpg"><img width="200" height="300" src="images/small/RyanLim.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Ryan Lim </strong> ( <a href="bios/RyanLimBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;"> 
       <a href="images/SeanFontes.jpg"><img width="200" align="middle" height="300" src="images/small/NPY3D.jpg" alt="images/NPY3D.jpg" title="" class="staff" /></a> <br />
       <strong>Sean Fontes</strong> (<a href="bios/SeanFontesBio.txt">bio</a>) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;"> 
       <a href="images/StellaWalla.jpg"><img width="200" align="middle" height="300" src="images/small/StellaWalla.jpg" alt="images/Su13/StellaWalla.jpg" title="" class="staff" /></a> <br />
       <strong>Stella Walla</strong> (<a href="bios/StellaWallaBio.txt">bio</a>) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/Fa13/XioAlvarez.jpg"><img width="200" height="300" src="images/small/XioAlvarez.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Xio Alvarez </strong> ( <a href="bios/XioAlvarezBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
       <a href="images/XuChen.jpg"><img width="200" height="300" src="images/small/NPY3D.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Xu Chen </strong> ( <a href="bios/XuChenBio.txt"> bio</a> ) <br />
-    </div>
-    <div style="width: 25%; float: left; text-align: center;">
-      <a href="images/ZhenzhengHu.jpg"><img width="200" height="300" src="images/small/ZhenzhengHu.jpg" alt="" h="" title="" class="staff" /></a> <br />
-      <strong> Zhenzheng Hu </strong> ( <a href="bios/ZhenzhengHu.txt"> bio</a> ) <br />
-    </div>
-
-    <div style="width: 20%; float: left; text-align: center;">
       <a href="images/Fa13/AndyQin.jpg"><img width="200" height="300" src="images/small/AndyQin.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Andy Qin </strong> ( <a href="bios/AndyQinBio.txt"> bio</a> ) <br />
-    </div>
-
-    <div style="width: 20%; float: left; text-align: center;">
       <a href="images/InoSamaras.jpg"><img width="200" height="300" src="images/small/InoSamaras.jpg" alt="" h="" title="" class="staff" /></a> <br />
       <strong> Ino Samaras </strong> ( <a href="bios/InoSamarasBio.txt"> bio</a> ) <br />
-    </div>

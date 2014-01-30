@@ -322,7 +322,7 @@ AdamBrown = { name: 'Adam Brown',
     img: 'Sp14/AdamBrown.jpg',
     imgSrc: 'AdamBrown.jpg',
     bio: '' }
-AlexMcKinney = { name: 'Alex McKinney',
+AlexMcKinney = { name: 'TAiT Alex McKinney',
     img: 'Sp14/AlexMcKinney.jpg',
     imgSrc: 'AlexMcKinney.jpg',
     bio: '' }
@@ -472,7 +472,7 @@ las = [ NickRose, ZhenzhengHu, SerenaChan, DerekChiu, MonaLee,
     AmyShu, MichelleHan, TierneyHenderson, HarrisQuraishi, PriscillaBermudez,
     AlisonTang, VeersuvratRajpal, FranklinLee, MateoMarindelReal, VictorSolis,
     BryceSmith, BrookeTencer, NavsharanSingh, KwanKitCheung, EdwanHernandez,
-    StevenHolman, AlexMcKinney, ItzelMartinez, AranyUthayakumar,
+    StevenHolman, ItzelMartinez, AranyUthayakumar,
     JiaweiWillJiang, MohanGanesan, VictoriaBian, YibingChen ]
 
 labdev = [
@@ -481,7 +481,7 @@ labdev = [
 
 tait = [ benC, songS, josephC, seanS, sulaimanS, rafayelM, kalleyT, oliverO,
     kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
-    StevenTraversi, CarlosFlores ]
+    StevenTraversi, CarlosFlores, AlexMcKinney, ]
 
 edx = [ KunalMarwaha, josephC, seanS, songS, laurenM, michaelB, ]
 

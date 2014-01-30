@@ -1,56 +1,56 @@
+// Maps days since saturday to the appropriate cells
+// Item # is the days since
+// It's value is the cell numbers to deal with.
+since = [
+    [2],     // 0 days -- readings
+    [2],     // 1 day  -- readings
+    [3,4],   // 2 days -- monday: lec lab 1
+    [4],     // 3 days -- Tues: lab 1
+    [5], // 4 days -- Wed: lab 1, lec2, lab 2
+    [6],     // 5 days -- thurs: lab 2
+    [6,7,8]  // 6 days -- fri: lab 2, disc, hw
+]
+MS_DAY = 1000*60*60*24
 // Function used to highlight the current day.
 function updateCalendar() {
-    today  = new Date();
-    tdate  = today.getDate();
-    tmonth = today.getMonth() + 1;
-    tday   = today.getDay();
-
-    // tableCellArr = new Array();
-    tableCellArr = document.getElementsByClassName("cal")
-    tableCellArr = tableCellArr.slice(1) // Remove Header row
-    for(var i = 0; i < tableCellArr.length; i++) {
-        row = tableCellArr[i];
-        // Cells has 9 items
-        // Week, Dates, Readings, Lect, Lab, Lect, Lab, Disc, HW
-        cells = row.getElementsByTagName('td');
-        tmp = cells[1].innerHTML.trim().split(" to ");
-        if (!tmp) {
-            return;
+    // The SATURDAY before the first week of the calendar.
+    start = new Date(2014, 0, 18)
+    today = new Date()
+    days  = Math.floor((today - start) / MS_DAY)
+    wkday = days % 7
+    console.log(wkday)
+    lst = since[wkday]
+    if (wkday === 4) {
+            if (today.getHours() < 12) {
+                lst.push(4)
+        } else {
+                lst.push(6)
         }
-        tmp = tmp[0].split('-');
-        if (!tmp) {
-            return;
-        }
-        mon = tmp[0];
-        day = tmp[1];
-
-        //golden rectangle for current date
+    }
+    
+    cellcount = 0
+    tableRows = document.getElementsByClassName("cal")
+    for(var i = 1; i < tableRows.length; i += 1) {
+            row = tableRows[i];
+            cells = row.getElementsByTagName('td');
         for (var j = 2; j < cells.length - 1; j++) {
-            celldates = getCellDate(j, day);
-            if (celldate == tdate && mon == tmonth) {
-                cells[j].style.border = "10px solid Gold";
-            } else if (mon < tmonth || (mon == tmonth && celldate < tdate)) {
-                cells[j].style.backgroundColor = "#BABABA";
+            cellcount += 1
+            if (cellcount < days) {
+                cells[j].style.backgroundColor = "#BABABA"
+            } else if (cellcount > days) {
+                return
+            }
+            if (cellcount === days) {
+                console.log("Found it!")
+                console.log(cellcount)
+                for(c in lst) {
+                    cells[lst[c]].style.border = "10px solid Gold"
+                }
             }
         }
     } //closing for loop
 }
 
-/* TODO
-* Handle Month Edges
-* Handle multiple colspan
-* Handle multiple dates per cell
-    -- cells 4, 6 have 3 dates possible
-* Something else?
-*/
-
-function getCellDate(cellNum, date) {
-    if (cellNum === 2) {
-        return date - 1;
-    } else {
-        return date + cellNum - 3;
-    }
-}
 
 function displaySpeech(img_name, img_src) {
     document[img_name].src = img_src;

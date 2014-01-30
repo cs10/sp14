@@ -150,6 +150,14 @@ tr.cal > td:nth-child(2) {
 }
 
 /* The standard color for readings */
+/* Reading Assignments Key Box */
+.key {
+    margin: 5px 0px 10px 0px; /* FIXME */
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 30em;
+    padding: .2em;
+}
 .required, .required:visited {
     color: #00E;
 }
@@ -165,12 +173,6 @@ tr.cal > td:nth-child(2) {
 .optional, .optional:visited {
     color: #800;
     font-style: italic;
-}
-/* Reading Assignments Key Box */
-.key {
-    margin: 5px 0px 10px 0px; /* FIXME */
-    border: 1px solid black;
-    padding: .2em;
 }
 
 /* SPECIAL DATES BACKGROUND COLOLRS */
