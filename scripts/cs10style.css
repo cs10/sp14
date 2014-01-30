@@ -155,7 +155,7 @@ tr.cal > td:nth-child(2) {
     margin: 5px 0px 10px 0px; /* FIXME */
     border: 3px solid black;
     border-radius: 5px;
-    font-size: 30em;
+    font-size: 1em;
     padding: .2em;
 }
 .required, .required:visited {
