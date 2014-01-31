@@ -18,7 +18,6 @@ function updateCalendar() {
     today = new Date()
     days  = Math.floor((today - start) / MS_DAY)
     wkday = days % 7
-    console.log(wkday)
     lst = since[wkday]
     if (wkday === 4) {
             if (today.getHours() < 12) {
@@ -33,7 +32,7 @@ function updateCalendar() {
     for(var i = 1; i < tableRows.length; i += 1) {
             row = tableRows[i];
             cells = row.getElementsByTagName('td');
-        for (var j = 2; j < cells.length - 1; j++) {
+        for (var j = 1; j < cells.length - 1; j++) { // j=1 skips header
             cellcount += 1
             if (cellcount < days) {
                 cells[j].style.backgroundColor = "#BABABA"
@@ -41,7 +40,6 @@ function updateCalendar() {
                 return
             }
             if (cellcount === days) {
-                console.log("Found it!")
                 console.log(cellcount)
                 for(c in lst) {
                     cells[lst[c]].style.border = "10px solid Gold"
@@ -55,6 +53,6 @@ function updateCalendar() {
 function displaySpeech(img_name, img_src) {
     document[img_name].src = img_src;
 }
-// 
+//
 // window.onload = function() {
 // };
