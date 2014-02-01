@@ -594,6 +594,29 @@ function buildGroup(group, w) {
 }
 
 
-/** EDIT THIS TO ADD NEW GROUPS */
-// window.onload = function() {
-// }
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function() {
+      if (oldonload) {
+        oldonload();
+      }
+      func();
+    }
+  }
+}
+
+addLoadEvent(function() {
+  /* more code to run on page load */
+  // Parameters: a section (HTML 'id') and num of images per row.
+  buildGroup("instructors", 1);
+  buildGroup("tas", 5);
+  buildGroup("readers", 5);
+  buildGroup("tait", 5);
+  buildGroup("las", 5);
+  buildGroup("edx", 5);
+  buildGroup("snap", 5);
+  buildGroup("labdev", 5);
+});
