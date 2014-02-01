@@ -439,7 +439,7 @@ jessicaA = { name: 'Jessica Andrich',
 
 // edX
 KunalMarwaha = { name: 'edX Team Lead Kunal Marwaha',
-    img: 'KunalMarwaha.jpg',
+    img: 'Sp14/KunalMarwaha.jpg',
     imgSrc: 'KunalMarwaha.jpg',
     bio: '' }
 seanS = { name: 'Sean Scofield',
@@ -447,9 +447,13 @@ seanS = { name: 'Sean Scofield',
     imgSrc: 'SeanScofield.jpg',
     bio: '' }
 
+JocelynTakahashi = { name: 'Jocelyn Takahashi',
+    img: 'Sp13/JocelynTakahashi.jpg',
+    imgSrc: '../Sp13/t/JocelynTakahashi.jpg',
+    bio: '' }
 // snap
 KyleZenter = { name: 'Snap! Team Lead Kyle Zenter',
-    img: 'KyleZenter.jpg',
+    img: 'Sp14/KyleZenter.jpg',
     imgSrc: 'KyleZenter.jpg',
     bio: '' }
 
@@ -483,7 +487,7 @@ tait = [ benC, songS, josephC, seanS, sulaimanS, rafayelM, kalleyT, oliverO,
     kylaS, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
     StevenTraversi, CarlosFlores, AlexMcKinney, ]
 
-edx = [ KunalMarwaha, josephC, seanS, songS, laurenM, michaelB, ]
+edx = [ KunalMarwaha, josephC, seanS, songS, laurenM, michaelB, JocelynTakahashi, ]
 
 snap = [ KunalMarwaha,  KyleZenter, brandonC]
 
@@ -498,7 +502,8 @@ all = {
     tait: tait,
     edx: edx,
     snap: snap,
-    labdev: labdev
+    labdev: labdev,
+    bjc: bjc
 };
 
 //LOL - Ian
