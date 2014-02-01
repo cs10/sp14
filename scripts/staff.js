@@ -491,6 +491,8 @@ edx = [ KunalMarwaha, josephC, seanS, songS, laurenM, michaelB, JocelynTakahashi
 
 snap = [ KunalMarwaha,  KyleZenter, brandonC]
 
+bjc = [ laurenM, ]
+
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
