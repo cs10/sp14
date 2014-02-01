@@ -31,8 +31,8 @@ function updateCalendar() {
     tableRows = document.getElementsByClassName("cal")
     for(var i = 1; i < tableRows.length; i += 1) {
             row = tableRows[i];
-            cells = row.getElementsByTagName('td');
-        for (var j = 1; j < cells.length - 1; j++) { // j=1 skips header
+            cells = row.cells;
+        for (var j = 2; j < cells.length - 1; j++) {
             cellcount += 1
             if (cellcount < days) {
                 cells[j].style.backgroundColor = "#BABABA"
@@ -40,10 +40,15 @@ function updateCalendar() {
                 return
             }
             if (cellcount === days) {
-                console.log(cellcount)
-                for(c in lst) {
-                    cells[lst[c]].style.border = "10px solid Gold"
+                for(var k = 0; k < lst.length; k += 1) {
+                    c = lst[k]
+                    console.log(c)
+                    cells[c].style.border = "10px solid Gold"
+                    if (c === 2) {
+                        tableRows[i - 1].cells[8].style.border = "10px solid Gold"
+                    }
                 }
+
             }
         }
     } //closing for loop
