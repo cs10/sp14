@@ -491,7 +491,7 @@ edx = [ KunalMarwaha, josephC, seanS, songS, laurenM, michaelB, JocelynTakahashi
 
 snap = [ KunalMarwaha,  KyleZenter, brandonC]
 
-bjc = [ laurenM, ]
+bjc = [ laurenM, michaelB, peterS, KunalMarwaha,  KyleZenter ]
 
 
 // If you need to add a new SECTION add it to this object.
@@ -626,5 +626,5 @@ addLoadEvent(function() {
   buildGroup("edx", 5);
   buildGroup("snap", 5);
   buildGroup("labdev", 5);
-  buildGroup("bjc", 4);
+  buildGroup("bjc", 5);
 });
