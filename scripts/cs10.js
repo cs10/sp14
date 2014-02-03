@@ -55,20 +55,20 @@ function updateCalendar() {
 
 
 function displaySpeech(img_name, img_src) {
-    document[img_name].src = img_src;
+    document[img_name].src = img_src
 }
 
 function updateReadings() {
-    readings = $(".reading");
+    readings = $(".reading")
     for(var i = 0; i < links.length; i++) {
-        a = links[i];
-        a.target = "_blank";
+        a = links[i]
+        a.target = "_blank"
     }
 }
 
 function updateLabs() {
-    urlEnd = "&amp;novideo=true&amp;noreading=true&amp;nohomework=true&amp;course=cs10_sp14.html";
-    links = $(".lablink");
+    urlEnd = "&novideo=true&noreading=true&nohomework=true&course=cs10_sp14.html"
+    links = $(".lablink")
     for(var i = 0; i < links.length; i++) {
         a = links[i]
         a.href += urlEnd
