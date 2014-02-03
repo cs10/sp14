@@ -1,7 +1,7 @@
 // Maps days since **saturday** to the appropriate cell numbers
 // It's value is the cell numbers to deal with.
 // The file dynamically calculates days for the semester and doesn't read
-// dates from specific cells. 
+// dates from specific cells.
 since = [
     [2],      // 0 days -- readings
     [2],      // 1 day  -- readings
@@ -28,7 +28,7 @@ function updateCalendar() {
         }
     }
 
-    cellcount = 0
+    cellcount = 1
     tableRows = document.getElementsByClassName("cal")
     for(var i = 1; i < tableRows.length; i += 1) { //Skip Header
             row = tableRows[i]
