@@ -152,7 +152,7 @@ tr.cal > td:nth-child(2) {
 /* The standard color for readings */
 /* Reading Assignments Key Box */
 .key {
-    margin: 5px 0px 10px 0px; /* FIXME */
+    margin: 1% 0 2% 0;
     border: 3px solid black;
     border-radius: 5px;
     font-size: 1em;
@@ -164,10 +164,6 @@ tr.cal > td:nth-child(2) {
 /* Readings that are very technical */
 .hard, .hard:visited {
     color: #008000;
-}
-/* Readings which may need to be accessed from bCourses. */
-.bcourses, .bcourses:visited {
-    color: #00A383;
 }
 /* Recommended Readings */
 .optional, .optional:visited {
@@ -194,46 +190,36 @@ tr.cal > td:nth-child(2) {
     color: #FFF;
 }
 
-/* These classes are for getting nested tables to look more noraml.*/
-table.calendar > tbody > tr > td > table,
-.nested {
-    border: none;
-    background-color: #FFF;
+div.inner {
     vertical-align: middle;
-    padding: 0;
-}
-table.inner {
-    border: none;
-    display: inline-table;
-    margin: -4px; /* Compensate for table borders */
-    width: 100%;
-    padding: 2px;
-    vertical-align: middle;
-}
-tbody.inner {
-    width: 100%;
-    height: 100%;
-    padding: 2px;
-    vertical-align: middle;
-}
-tr.inner {
-    vertical-align: middle;
-    margin: 2px; /* FIXME */
-    border: 2px solid white;
-}
-td.inner {
-    display: block;
-    margin: 2px; /* FIXME */
-    padding: 2px; /* FIXME */
-    height: 3em;
-    vertical-align: middle;
-    width: 100%;
-}
-span.inner {
-    vertical-align: middle;
+    padding: .5em;
 }
 
 /* WEEKLY CALENDAR */
+#weekly {
+  width: 100%;
+  height: 820px;
+}
+
+/* Increase the default cell height */
+table.fc-agenda-slots > tbody > tr > td {
+    height: 4.7em;
+}
+/* Make today be highlighted in gold. */
+.fc-today {
+    background-color: #FFD700;
+}
+/* Set text settings for info in each event*/
+.fc-event-time, .fc-event-title,
+.fc-event-location, .fc-event-descrip {
+    color: #222;
+    font-size: 1em;
+    padding: 0 0 0 .5em;
+}
+.fc-agenda-axis {
+    text-align: center !important;
+    font-weight: bold !important;
+}
 .lecture {
     background-color: #FA8072;
 }

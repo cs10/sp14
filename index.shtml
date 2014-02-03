@@ -8,10 +8,6 @@
         <meta name="keywords" content="" />
         <link href="scripts/cs10style.css" rel="stylesheet" type="text/css" />
         <link href='scripts/fullcalendar.css' rel='stylesheet' type='text/css' />
-        <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
-        <script type="text/javascript" language="Javascript" src="scripts/cs10.js"></script>
-        <script type='text/javascript' src='scripts/fullcalendar.js'></script>
-        <script type='text/javascript' src='scripts/gcal.js'></script>
     </head>
 
     <body onload="updateCalendar()">
@@ -133,6 +129,10 @@
         License</a>
       </p>
     </body>
+    <script type="text/javascript" src="scripts/cs10.js"></script>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type='text/javascript' src='scripts/fullcalendar.js'></script>
+    <script type='text/javascript' src='scripts/gcal.js'></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

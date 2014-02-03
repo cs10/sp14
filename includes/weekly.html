@@ -3,30 +3,6 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <link href='scripts/fullcalendar.css' rel='stylesheet' type='text/css' />
-    <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
-    <script type='text/javascript' src='scripts/fullcalendar.js'></script>
-    <script type='text/javascript' src='scripts/gcal.js'></script>
-    <style>
-        /* Increase the default cell height */
-        table.fc-agenda-slots > tbody > tr > td {
-            height: 4.7em;
-        }
-        /* Make today be highlighted in gold. */
-        .fc-today {
-            background-color: Gold;
-        }
-        /* */
-        .fc-event-time, .fc-event-title,
-        .fc-event-location, .fc-event-descrip {
-            color: #333;
-            font-size: 1em;
-            padding: 0 0 0 .3em;
-        }
-        .fc-agenda-axis {
-            text-align: center !important;
-            font-weight: bold !important;
-        }
-    </style>
     <link href="scripts/cs10style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -34,10 +10,16 @@
           http://arshaw.com/fullcalendar/
           The CS10 scripts have been slightly modified for CS10 use
      -->
+    <h3>Click on any event to see the building location on a map.</h3>
+    <!-- Add key? -->
+    <div id="weekly"></div>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type='text/javascript' src='scripts/fullcalendar.js'></script>
+    <script type='text/javascript' src='scripts/gcal.js'></script>
     <script type="text/javascript" language="Javascript">
       $(document).ready(function() {
 
-          $('#calendar').fullCalendar({
+          $('#weekly').fullCalendar({
             allDaySlot: false,
             slotMinutes: 60,
             weekends: false,
@@ -46,33 +28,20 @@
             maxTime: 22,
             contentHeight: 820,
             eventSources: [
-              { // Lecture
-                  url: 'http://www.google.com/calendar/feeds/berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk%40group.calendar.google.com/public/basic',
-                  className: 'lecture'
-              },
-              { // Labs
-                  url: 'http://www.google.com/calendar/feeds/berkeley.edu_d358eocqj23pak3atie23vk35o%40group.calendar.google.com/public/basic',
-                  className: 'lab'
-              },
-              { // OH
-                  url: 'http://www.google.com/calendar/feeds/berkeley.edu_k2g60q1sehd2u0ujd257jqm7h0%40group.calendar.google.com/public/basic',
-                  className: 'oh'
-              },
-              { // Discussion
-                  url: 'http://www.google.com/calendar/feeds/berkeley.edu_1g3duo9lb53vu09orjictriud4%40group.calendar.google.com/public/basic',
-                  className: 'disc',
-              },
-              { // Discussion -- FIX FOR BUG WITH LAST 2 DISCUSSIONS
-                  url: 'http://www.google.com/calendar/feeds/berkeley.edu_21jprgg43p44oq62g94agbumv8%40group.calendar.google.com/public/basic',
-                  className: 'disc',
-                  currentTimezone: 'America/Chicago'
-              }
+              {   url: 'http://www.google.com/calendar/feeds/berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk%40group.calendar.google.com/public/basic',
+                  className: 'lecture' },
+              {   url: 'http://www.google.com/calendar/feeds/berkeley.edu_d358eocqj23pak3atie23vk35o%40group.calendar.google.com/public/basic',
+                  className: 'lab' },
+              {   url: 'http://www.google.com/calendar/feeds/berkeley.edu_k2g60q1sehd2u0ujd257jqm7h0%40group.calendar.google.com/public/basic',
+                  className: 'oh' },
+              {   url: 'http://www.google.com/calendar/feeds/berkeley.edu_1g3duo9lb53vu09orjictriud4%40group.calendar.google.com/public/basic',
+                  className: 'disc' },
+              {   url: 'http://www.google.com/calendar/feeds/berkeley.edu_21jprgg43p44oq62g94agbumv8%40group.calendar.google.com/public/basic',
+                  className: 'disc', // FIX FOR BUG WITH LAST 2 DISCUSSIONS
+                  currentTimezone: 'America/Chicago' }
             ]
           })
       });
     </script>
-    <h3>Click on any event to see the building location on a map.</h3>
-    <!-- Add key? -->
-    <div id="calendar"></div>
   </body>
 </html>
