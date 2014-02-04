@@ -509,32 +509,26 @@ all = {
 
 //LOL - Ian
 LIST_OF_SHAME = [
-"KyleZenter.jpg",
-"KunalMarwaha.jpg",
-"YinxueBian.jpg",
-"SerenaChan.jpg",
-"DerekChiu.jpg",
-"JiJunChen.jpg",
-"LuiseRygaard.jpg",
-"FangzhouChen.jpg",
-"GurubalaKotta.jpg",
-"AlexFreeman.jpg",
-"MichelleTsai.jpg",
-"CharlesThorson.jpg",
-"NicholasDill.jpg",
-"AmyShu.jpg",
-"PriscillaBermudez.jpg",
-"MichelleHan.jpg",
-"VictorSolis.jpg",
 "AlisonTang.jpg",
-"HarrisQuraishi.jpg",
-"SulaimanSaedHaruna.jpg",
-"LukeDodds.jpg",
-"HunterBrown.jpg",
-"NavsharanSingh.jpg",
+"AmyShu.jpg",
 "BryceSmith.jpg",
+"CharlesThorson.jpg",
+"DerekChiu.jpg",
+"HunterBrown.jpg",
+"JiJunChen.jpg",
+"KunalMarwaha.jpg",
+"KyleZenter.jpg",
+"LuiseRygaard.jpg",
+"MichelleHan.jpg",
+"NavsharanSingh.jpg",
+"NicholasDill.jpg",
+"PriscillaBermudez.jpg",
+"SerenaChan.jpg",
 "StevenHolman.jpg",
-"AdamKuphaldt.jpg" ]
+"SulaimanSaedHaruna.jpg",
+"VictorSolis.jpg",
+"YinxueBian.jpg",
+]
 
 // Prepend TAiT to names, except for Readers.
 for(var i = 0; i < tait.length; i++) {
@@ -550,7 +544,7 @@ function buildPerson(data, width) {
     // width is used to control how many are on a row on the page.
 
     // If there's no image, use 3D Alanzo
-    if (!data.imgSrc) { // || LIST_OF_SHAME.indexOf(data.imgSrc) !== -1
+    if (!data.imgSrc || LIST_OF_SHAME.indexOf(data.imgSrc) !== -1) {
         data.imgSrc = "../NPY3D.jpg"
         data.img    = ''
     }
