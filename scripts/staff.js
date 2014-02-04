@@ -43,7 +43,7 @@ danG = {
 // TAs
 michaelB = {
     name: 'Head TA Michael Ball',
-    img: 'Sp14/MichaelBall.jpg',
+    img: 'Sp14pt2/MichaelBalltake3.jpg',
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     bio: 'MichaelBall.txt',
@@ -447,7 +447,6 @@ seanS = { name: 'Sean Scofield',
     img: 'SeanScofield.jpg',
     imgSrc: 'SeanScofield.jpg',
     bio: '' }
-
 JocelynTakahashi = { name: 'Jocelyn Takahashi',
     img: 'Sp13/JocelynTakahashi.jpg',
     imgSrc: '../Sp13/t/JocelynTakahashi.jpg',
@@ -537,8 +536,8 @@ LIST_OF_SHAME = [
 "StevenHolman.jpg",
 "AdamKuphaldt.jpg" ]
 
+// Prepend TAiT to names, except for Readers.
 for(var i = 0; i < tait.length; i++) {
-    // Prepend TAiT to names, except for Readers.
     if (tait[i].name.indexOf('Reader') === -1) {
         tait[i].name = "TAiT " + tait[i].name
     }
@@ -551,7 +550,7 @@ function buildPerson(data, width) {
     // width is used to control how many are on a row on the page.
 
     // If there's no image, use 3D Alanzo
-    if (!data.imgSrc || LIST_OF_SHAME.indexOf(data.imgSrc) !== -1) {
+    if (!data.imgSrc) { // || LIST_OF_SHAME.indexOf(data.imgSrc) !== -1
         data.imgSrc = "../NPY3D.jpg"
         data.img    = ''
     }
