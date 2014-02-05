@@ -43,7 +43,7 @@ danG = {
 // TAs
 michaelB = {
     name: 'Head TA Michael Ball',
-    img: 'Sp14pt2/MichaelBalltake3.jpg',
+    img: 'Sp14/MichaelBalltake3.jpg',
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     bio: 'MichaelBall.txt',
@@ -99,7 +99,7 @@ rachelH = {
 }
 jannaG = {
     name: 'TA Janna Golden',
-    img: 'Su13/JannaGolden.jpg',
+    img: 'Sp14/JannaGolden.jpg',
     imgSrc: 'JannaGolden.jpg',
     web: '',
     bio: 'JannaBio.txt',
@@ -149,7 +149,7 @@ jaclynB = {
 }
 andyS   = {
     name: 'Reader Andrew Schmitt',
-    img: 'Sp13/AndrewSchmitt.jpg',
+    img: 'Sp14/AndrewSchmitt.jpg',
     imgSrc: 'AndrewSchmitt.jpg',
     web: '',
     bio: 'AndrewSchmitt.txt',
@@ -468,20 +468,70 @@ maxD, peterS ]
 
 readers = [ andyS, claireW, jaclynB, josephC, songS ]
 
-las = [ NickRose, ZhenzhengHu,  MonaLee, AmrutaYelamanchili, LiuxiaoZhang,
-    JiJunChen, YinxueBian, TammyChen, LuiseRygaard, AlexFreeman, MariaCan,
-    CarolineChan, RyanRiddle, CharlesThorson, FangzhouChen, NicholasDill,
-    GurubalaKotta, AdamBrown, KalonCheung, AmyShu, MichelleHan,
-    TierneyHenderson, HarrisQuraishi, PriscillaBermudez, AlisonTang,
-    FranklinLee, MateoMarindelReal, VictorSolis, BryceSmith,  BrookeTencer,
-    NavsharanSingh, StevenHolman, ItzelMartinez,  kylaS,
-    JiaweiWillJiang, MohanGanesan, VictoriaBian, YibingChen ]
+las = [ AdamBrown,
+        AlexFreeman,
+        AlisonTang,
+        AmrutaYelamanchili,
+        AmyShu,
+        BrookeTencer,
+        BryceSmith,
+        CarolineChan,
+        CharlesThorson,
+        FangzhouChen,
+        FranklinLee,
+        GurubalaKotta,
+        HarrisQuraishi,
+        ItzelMartinez,
+        JiaweiWillJiang,
+        JiJunChen,
+        KalonCheung,
+        kylaS,
+        LiuxiaoZhang,
+        LuiseRygaard,
+        MariaCan,
+        MateoMarindelReal,
+        MichelleHan,
+        MohanGanesan,
+        MonaLee,
+        NavsharanSingh,
+        NicholasDill,
+        NickRose,
+        PriscillaBermudez,
+        RyanRiddle,
+        StevenHolman,
+        TammyChen,
+        TierneyHenderson,
+        VictoriaBian,
+        VictorSolis,
+        YibingChen,
+        YinxueBian,
+        ZhenzhengHu ]
 
-tait = [benC, songS, josephC, andyS,seanS, sulaimanS, rafayelM, kalleyT,
-    oliverO, carenT, jobelV, brandonC, saagarB, lukeD, hunterB, adamK,
-    StevenTraversi, CarlosFlores, AlexMcKinney, DerekChiu, ChristopherKilian,
-    MichelleTsai, JoshuaPerline, AranyUthayakumar, KwanCheung, VeersuvratRajpal,
-    EdwanHernandez, NolanTakeshita, SerenaChan]
+tait = [benC, songS, josephC, andyS, seanS, 
+        adamK,
+        AlexMcKinney,
+        AranyUthayakumar,
+        brandonC,
+        carenT,
+        CarlosFlores,
+        ChristopherKilian,
+        DerekChiu,
+        EdwanHernandez,
+        hunterB,
+        jobelV,
+        JoshuaPerline,
+        kalleyT,
+        KwanCheung,
+        lukeD,
+        MichelleTsai,
+        NolanTakeshita,
+        oliverO,
+        rafayelM,
+        saagarB,
+        SerenaChan,
+        StevenTraversi,
+        sulaimanS,
+        VeersuvratRajpal ]
 
 labdev = [ peterS, laurenM, jessicaA, paulI, andyS, michaelB ]
 
@@ -525,7 +575,6 @@ LIST_OF_SHAME = [
 "PriscillaBermudez.jpg",
 "SerenaChan.jpg",
 "StevenHolman.jpg",
-"SulaimanSaedHaruna.jpg",
 "VictorSolis.jpg",
 "YinxueBian.jpg",
 ]
