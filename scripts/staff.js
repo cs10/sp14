@@ -494,7 +494,7 @@ for(var i = 0; i < tait.length; i++) {
 /*****************************************************************************/
 
 function baseObj(name) {
-    src = name.replace(' ', '')
+    src = name.replace(/ /g , '')
     return { name: name,
              img: 'Sp14/' + src + '.jpg',
              imgSrc: src + '.jpg' }
