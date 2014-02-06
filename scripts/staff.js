@@ -368,77 +368,77 @@ maxD, PeterSujan ]
 
 readers = [ andyS, claireW, jaclynB, josephC, songS ]
 
-las = [ "AdamBrown",
-        "AlexFreeman",
-        "AlisonTang",
-        "AmrutaYelamanchili",
-        "AmyShu",
-        "BrookeTencer",
-        "BryceSmith",
-        "CarolineChan",
-        "CharlesThorson",
-        "FangzhouChen",
-        "FranklinLee",
-        "GurubalaKotta",
-        "HarrisQuraishi",
-        "ItzelMartinez",
-        "JiaweiWillJiang",
-        "JiJunChen",
-        "KalonCheung",
+las = [ "Adam Brown",
+        "Alex Freeman",
+        "Alison Tang",
+        "Amruta Yelamanchili",
+        "Amy Shu",
+        "Brooke Tencer",
+        "Bryce Smith",
+        "Caroline Chan",
+        "Charles Thorson",
+        "Fangzhou Chen",
+        "Franklin Lee",
+        "Gurubala Kotta",
+        "Harris Quraishi",
+        "Itzel Martinez",
+        "JiaweiWill Jiang",
+        "Ji Jun Chen",
+        "Kalon Cheung",
         kylaS,
-        "LiuxiaoZhang",
-        "LuiseRygaard",
-        "MariaCan",
-        "MateoMarindelReal",
-        "MichelleHan",
-        "MohanGanesan",
-        "MonaLee",
-        "NavsharanSingh",
-        "NicholasDill",
-        "NickRose",
-        "PriscillaBermudez",
-        "RyanRiddle",
-        "StevenHolman",
-        "TammyChen",
-        "TierneyHenderson",
-        "VictoriaBian",
-        "VictorSolis",
-        "YibingChen",
-        "YinxueBian",
-        "ZhenzhengHu" ]
+        "Liuxiao Zhang",
+        "LuiseR ygaard",
+        "Maria Can",
+        "Mateo Marindel Real",
+        "Michelle Han",
+        "Mohan Ganesan",
+        "Mona Lee",
+        "Navsharan Singh",
+        "Nicholas Dill",
+        "Nick Rose",
+        "Priscilla Bermudez",
+        "Ryan Riddle",
+        "Steven Holman",
+        "Tammy Chen",
+        "Tierney Henderson",
+        "Victoria Bian",
+        "Victor Solis",
+        "Yibing Chen",
+        "Yinxue Bian",
+        "Helen Hu" ]
 
 tait = [benC, songS, josephC, andyS, seanS, 
         adamK,
-        "AlexMcKinney",
-        "AranyUthayakumar",
-        "BrandonChen",
+        "Alex McKinney",
+        "Arany Uthayakumar",
+        "Brandon Chen",
         carenT,
-        "CarlosFlores",
-        "ChristopherKilian",
-        "DerekChiu",
-        "EdwanHernandez",
+        "Carlos Flores",
+        "Christopher Kilian",
+        "Derek Chiu",
+        "Edwan Hernandez",
         hunterB,
         jobelV,
-        "JoshPerline",
+        "Josh Perline",
         kalleyT,
-        "KwanCheung",
+        "Kwan Cheung",
         lukeD,
-        "MichelleTsai",
-        "NolanTakeshita",
+        "Michelle Tsai",
+        "Nolan Takeshita",
         oliverO,
         rafayelM,
         saagarB,
-        "SerenaChan",
-        "StevenTraversi",
+        "Serena Chan",
+        "Steven Traversi",
         sulaimanS,
-        "VeersuvratRajpal" ]
+        "Veersuvrat Rajpal" ]
 
 labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS, MichaelBall ]
 
 edx = [ KunalMarwaha, josephC, seanS, songS, LaurenMock, MichaelBall,
-    JocelynTakahashi, "JoshPerline" ]
+    JocelynTakahashi, "Josh Perline" ]
 
-snap = [ KunalMarwaha,  KyleZenter, MichaelBall, "BrandonChen",  ]
+snap = [ KunalMarwaha,  KyleZenter, MichaelBall, "Brandon Chen",  ]
 
 bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZenter ]
 
@@ -481,33 +481,31 @@ LIST_OF_SHAME = [
 
 // Prepend TAiT to names, except for Readers.
 for(var i = 0; i < tait.length; i++) {
-    data = tait[i]
-    if (data.constructor === String) {
-        data = { name: data.replace(/([A-Z])/g, ' $1').trim(),
-                 img: 'Sp14/' + data + '.jpg',
-                 imgSrc: data + '.jpg' }
+    if (tait[i].constructor === String) {
+        tait[i] = baseObj(tait[i])
     }
     
-    if (data.name.indexOf('Reader') === -1) {
-        data.name = "TAiT " + data.name
+    if (tait[i].name.indexOf('Reader') === -1) {
+        tait[i].name = "TAiT " + tait[i].name
     }
-    
-    tait[i] = data
 }
 /*****************************************************************************/
 /* DATA POPULATION FUNCTIONS  */
 /*****************************************************************************/
+
+function baseObj(name) {
+    src = name.replace(' ', '')
+    return { name: name,
+             img: 'Sp14/' + src + '.jpg',
+             imgSrc: src + '.jpg' }
+}
 function buildPerson(data, width) {
     // Given a JSON object build a div that contains all the person's info
     // width is used to control how many are on a row on the page.
 
     // Build data objects for very simple cases with nothing special.
     if (data.constructor === String) {
-        data = {
-            name: data.replace(/([A-Z])/g, ' $1').trim(),
-            imgSrc: 'Sp14/' + data + '.jpg',
-            img: data + '.jpg'
-        }
+        data = baseObj(data)
     }
 
     // If there's no image, use 3D Alanzo
