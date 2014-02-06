@@ -484,8 +484,8 @@ for(var i = 0; i < tait.length; i++) {
     data = tait[i]
     if (data.constructor === String) {
         data = { name: data.replace(/([A-Z])/g, ' $1').trim(),
-                 imgSrc: 'Sp14/' + data + '.jpg',
-                 img: data + '.jpg' }
+                 img: 'Sp14/' + data + '.jpg',
+                 imgSrc: data + '.jpg' }
     }
     
     if (data.name.indexOf('Reader') === -1) {
