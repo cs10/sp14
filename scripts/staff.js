@@ -174,7 +174,7 @@ benC = { name: 'Ben Carvalho',
     bio: '' }
 sulaimanS = { name: 'Sulaiman Saed Haruna',
     img: 'Sp14/SulaimanSaedHaruna.jpg',
-    imgSrc: 'SulaimanSaedHaruna.jpg',
+    imgSrc: 'SulaimanHaruna.jpg',
     bio: '' }
 rafayelM = { name: 'Rafayel Mkrtchyan',
     img: 'Sp14/RafayelMkrtchyan.jpg',
@@ -451,6 +451,7 @@ JocelynTakahashi = { name: 'Jocelyn Takahashi',
     img: 'Sp13/JocelynTakahashi.jpg',
     imgSrc: '../Sp13/t/JocelynTakahashi.jpg',
     bio: '' }
+        
 // snap
 KyleZenter = { name: 'Snap! Team Lead Kyle Zenter',
     img: 'Sp14/KyleZenter.jpg',
