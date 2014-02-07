@@ -43,7 +43,7 @@ function updateCalendar() {
             if (cellcount === days) {
                 for(var k = 0; k < lst.length; k += 1) {
                     c = lst[k]
-                    cells[c].style.border = "10px solid Gold"
+                    // cells[c].style.border = "10px solid Gold"
                     if (c === 2) { //Highlight HW (prev row) on the weekends
                         tableRows[i - 1].cells[8].style.border = "10px solid Gold"
                     }

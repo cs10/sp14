@@ -1,10 +1,5 @@
 Header add Access-Control-Allow-Origin "*"
 
-<IfModule mod_deflate.c>
- DeflateCompressionLevel 3
-</IfModule>
-
-<Location />
  AddOutputFilterByType DEFLATE text/plain
  AddOutputFilterByType DEFLATE text/xml
  AddOutputFilterByType DEFLATE text/html
@@ -31,7 +26,6 @@ Header add Access-Control-Allow-Origin "*"
 
  # Proxies should not deliver wrong content
  Header append Vary User-Agent env=!dont-vary
-</Location>
 
 ExpiresDefault "access plus 4 weeks"
 ExpiresByType text/html "access plus 1 days"
