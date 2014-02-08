@@ -3,54 +3,52 @@
 // The file dynamically calculates days for the semester and doesn't read
 // dates from specific cells.
 since = [
-    [2],      // 0 days -- readings
-    [2],      // 1 day  -- readings
-    [3, 4],   // 2 days -- monday: lec lab 1
-    [4],      // 3 days -- Tues: lab 1
-    [5],      // 4 days -- Wed: lab 1, lec2, lab 2
-    [6],      // 5 days -- thurs: lab 2
-    [6, 7, 8] // 6 days -- fri: lab 2, disc, hw
+    [2],       // 0 days -- Sun: readings
+    [3, 4],    // 1 day  -- Mon: lec lab 1
+    [4],       // 2 days -- Tues: lab 1
+    [5],       // 3 days -- Wed: lab 1, lec2, lab 2
+    [6],       // 4 days -- thurs: lab 2
+    [6, 7],    // 5 days -- fri: lab 2, disc, hw
+    [2],       // 6 days -- Sat: readings
 ]
+
+STYLE  = "10px solid Gold"
 MS_DAY = 1000*60*60*24
 // Function used to highlight the current day.
 function updateCalendar() {
     // The SATURDAY before the first week of the calendar.
     start = new Date(2014, 0, 18)
     today = new Date()
-    days  = Math.floor((today - start) / MS_DAY)
-    wkday = days % 7
-    lst = since[wkday]
-    if (wkday === 4) { // THIS IS SO THE RIGHT LAB IS HIGHLIGHTED ON WEDS
-            if (today.getHours() < 12) {
-                lst.push(4)
-        } else {
-                lst.push(6)
-        }
+    highlight = since[today.getDay()]
+
+    if (today.getDay() === 3) { // HIGHLIGHT LAB ON WEDS BASED ON TIME OF DAY
+        n = (today.getHours() < 12) ? 4 : 6
+        highlight.push(n)
     }
 
-    cellcount = 1
-    tableRows = document.getElementsByClassName("cal")
-    for(var i = 1; i < tableRows.length; i += 1) { //Skip Header
-            row = tableRows[i]
-            cells = row.cells
-        for (var j = 2; j < cells.length - 1; j++) { //Skip week num, dates, HW
-            cellcount += 1
-            if (cellcount < days) {
-                cells[j].style.backgroundColor = "#BABABA"
-            } else if (cellcount > days) {
-                return
-            }
-            if (cellcount === days) {
-                for(var k = 0; k < lst.length; k += 1) {
-                    c = lst[k]
-                    // cells[c].style.border = "10px solid Gold"
-                    if (c === 2) { //Highlight HW (prev row) on the weekends
-                        tableRows[i - 1].cells[8].style.border = "10px solid Gold"
-                    }
-                }
-            } // end correct days
+    weeks = Math.floor(((today - start) / MS_DAY) / 7) // Weeks SINCE start
+    rows = document.getElementsByClassName("cal")
+    cells = rows[weeks + 1].cells // +1 is because row 0 is header
+
+    // Hack for weeks like spring break
+    c = (cells.length == 5) ? c = 3 : highlight[0]
+
+    cells[c].style.border = STYLE
+    if (c === 2 & weeks >= 2) { // HW, in the row before
+        rows[weeks].cells[8].style.border = STYLE
+    }
+    if (highlight[1] && c !== 3) { // Days w/ 2 boxes, != for Spring break
+        cells[highlight[1]].style.border = STYLE
+    }
+
+    // Grey out cells that have past
+    for(i = 1; i < rows.length; i += 1) {
+        cells = rows[i].cells
+        for(j = 2; j < cells.length; j += 1) {
+            if (cells[j].style.border.indexOf("10px") > -1) { return }
+            cells[j].style.backgroundColor = "#BABABA"
         }
-    } //closing i loop
+    }
 }
 
 
