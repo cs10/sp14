@@ -18,7 +18,7 @@ OR There is a simplified version for standard names:
 BrandonChen = { name: 'Brandon Chen',
     img: 'Sp14/BrandonChen.jpg',
     imgSrc: 'BrandonChen.jpg' }
-can be created with simply "Brandon Chen" as a string in the appropriate lists.
+can be created with simply 'Brandon Chen' as a string in the appropriate lists.
 NOTE: All images must be in the proper folders and match the name, w/o spaces.
 
 You can create any objects like this. REQUIRED ARE: name, img, imgSrc
@@ -139,46 +139,19 @@ LaurenMock = {
 }
 
 // Lab Assistants
-// TAiT
+// TAiT -- TAiT is auto added
 benC = { name: 'Ben Carvalho',
     img: 'Fa13/BenCarvalho.jpg',
     imgSrc: 'BenCarvalho.jpg',
     bio: 'BenjaminCarvalhoBio.txt' }
-sulaimanS = { name: 'Sulaiman Haruna',
-    img: 'Sp14/SulaimanHaruna.jpg',
-    imgSrc: 'SulaimanHaruna.jpg' }
-rafayelM = { name: 'Rafayel Mkrtchyan',
-    img: 'Sp14/RafayelMkrtchyan.jpg',
-    imgSrc: 'RafayelMkrtchyan.jpg' }
-kalleyT = { name: 'Kalley Thompson',
-    img: 'Sp14/KalleyThompson.jpg',
-    imgSrc: 'KalleyThompson.jpg' }
 oliverO = { name: 'Oliver O\'Donnell',
     img: 'Sp14/OliverODonnell.jpg',
     imgSrc: 'OliverODonnell.jpg',
     bio: 'Oliver ODonnell.txt' }
-kylaS = { name: 'Kyla Sorin',
-    img: 'Sp14/KylaSorin.jpg',
-    imgSrc: 'KylaSorin.jpg' }
 carenT = { name: 'Caren Thomas',
     img: 'Sp14/CarenThomas.jpg',
     imgSrc: 'CarenThomas.jpg',
     bio: 'CarenThomasBio.txt' }
-jobelV = { name: 'Jobel Kyle Vecino',
-    img: 'Sp14/JobelVecino.jpg',
-    imgSrc: 'JobelVecino.jpg' }
-saagarB = { name: 'Saagar Bakshi',
-    img: 'Sp14/SaagarBakshi.jpg',
-    imgSrc: 'SaagarBakshi.jpg' }
-lukeD = { name: 'Luke Dodds',
-    img: 'Sp14/LukeDodds.jpg',
-    imgSrc: 'LukeDodds.jpg' }
-hunterB = { name: 'Hunter Brown',
-    img: 'Sp14/HunterBrown.jpg',
-    imgSrc: 'HunterBrown.jpg' }
-adamK = { name: 'Adam Kuphaldt',
-    img: 'Sp14/AdamKuphaldt.jpg',
-    imgSrc: 'AdamKuphaldt.jpg' }
 
 // Lab Dev
 paulI = { name: 'Paul Irwin',
@@ -193,13 +166,11 @@ jessicaA = { name: 'Jessica Andrich',
 KunalMarwaha = { name: 'edX Team Lead Kunal Marwaha',
     img: 'Sp14/KunalMarwaha.jpg',
     imgSrc: 'KunalMarwaha.jpg' }
-seanS = { name: 'Sean Scofield',
-    img: 'SeanScofield.jpg',
-    imgSrc: 'SeanScofield.jpg' }
+
 JocelynTakahashi = { name: 'Jocelyn Takahashi',
     img: 'Sp13/JocelynTakahashi.jpg',
     imgSrc: '../Sp13/t/JocelynTakahashi.jpg' }
-        
+
 // snap
 KyleZenter = { name: 'Snap! Team Lead Kyle Zenter',
     img: 'Sp14/KyleZenter.jpg',
@@ -211,82 +182,83 @@ KyleZenter = { name: 'Snap! Team Lead Kyle Zenter',
 
 instructors = [ DanGarcia ];
 
-tas = [ LaurenMock, jannaG, rachelH, sumerM, victoriaS, MichaelBall, IanBirnam, jeffreyS,
-maxD, PeterSujan ]
+tas = [ LaurenMock, jannaG, rachelH, sumerM, victoriaS, MichaelBall, 
+        IanBirnam, jeffreyS, maxD, PeterSujan ]
 
 readers = [ andyS, claireW, jaclynB, josephC, songS ]
 
-las = [ "Adam Brown",
-        "Alex Freeman",
-        "Alison Tang",
-        "Amruta Yelamanchili",
-        "Amy Shu",
-        "Brooke Tencer",
-        "Bryce Smith",
-        "Caroline Chan",
-        "Charles Thorson",
-        "Fangzhou Chen",
-        "Franklin Lee",
-        "Gurubala Kotta",
-        "Harris Quraishi",
-        "Itzel Martinez",
-        "JiaweiWill Jiang",
-        "Ji Jun Chen",
-        "Kalon Cheung",
-        kylaS,
-        "Liuxiao Zhang",
-        "Luise Rygaard",
-        "Maria Can",
-        "Mateo O Marin",
-        "Michelle Han",
-        "Mohan Ganesan",
-        "Mona Lee",
-        "Navsharan Singh",
-        "Nicholas Dill",
-        "Nick Rose",
-        "Priscilla Bermudez",
-        "Ryan Riddle",
-        "Steven Holman",
-        "Tammy Chen",
-        "Tierney Henderson",
-        "Victoria Bian",
-        "Victor Solis",
-        "Yibing Chen",
-        "Yinxue Bian",
-        "Helen Hu" ]
+las = [ 'Adam Brown',
+        'Alex Freeman',
+        'Alison Tang',
+        'Amruta Yelamanchili',
+        'Amy Shu',
+        'Brooke Tencer',
+        'Bryce Smith',
+        'Caroline Chan',
+        'Charles Thorson',
+        'Fangzhou Chen',
+        'Franklin Lee',
+        'Gurubala Kotta',
+        'Harris Quraishi',
+        'Helen Hu',
+        'Itzel Martinez',
+        'JiaweiWill Jiang',
+        'Ji Jun Chen',
+        'Kalon Cheung',
+        'Kayla Sorin',
+        'Liuxiao Zhang',
+        'Luise Rygaard',
+        'Maria Can',
+        'Mateo O Marin',
+        'Michelle Han',
+        'Mohan Ganesan',
+        'Mona Lee',
+        'Navsharan Singh',
+        'Nicholas Dill',
+        'Nick Rose',
+        'Priscilla Bermudez',
+        'Ryan Riddle',
+        'Steven Holman',
+        'Tammy Chen',
+        'Tierney Henderson',
+        'Victoria Bian',
+        'Victor Solis',
+        'Yibing Chen',
+        'Yinxue Bian' ]
 
-tait = [benC, songS, josephC, andyS, seanS, 
-        adamK,
-        "Alex McKinney",
-        "Arany Uthayakumar",
-        "Brandon Chen",
-        carenT,
-        "Carlos Flores",
-        "Christopher Kilian",
-        "Derek Chiu",
-        "Edwan Hernandez",
-        hunterB,
-        jobelV,
-        "Josh Perline",
-        kalleyT,
-        "Kwan Cheung",
-        lukeD,
-        "Michelle Tsai",
-        "Nolan Takeshita",
-        oliverO,
-        rafayelM,
-        saagarB,
-        "Serena Chan",
-        "Steven Traversi",
-        sulaimanS,
-        "Veersuvrat Rajpal" ]
+tait = [ benC, songS, josephC, andyS,
+    'Adam Kuphaldt',
+    'Alex McKinney',
+    'Arany Uthayakumar',
+    'Brandon Chen',
+    'Carlos Flores',
+    carenT,
+    'Christopher Kilian',
+    'Derek Chiu',
+    'Edwan Hernandez',
+    'Hunter Brown',
+    'Jobel Vecino',
+    'Josh Perline',
+    'Kalley Thompson',
+    'Kwan Cheung',
+    'Luke Dodds',
+    'Michelle Tsai',
+    'Nolan Takeshita',
+    oliverO,
+    'Rafayel Mkrtchyan',
+    'Saagar Bakshi',
+    'Sean Scofield',
+    'Serena Chan',
+    'Steven Traversi',
+    'Sulaiman Haruna',
+    'Veersuvrat Rajpal' ]
 
 labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS ]
 
-edx = [ KunalMarwaha, josephC, seanS, songS, LaurenMock,
-    JocelynTakahashi, "Josh Perline" ]
+edx = [ KunalMarwaha, josephC, 'Sean Scofield', songS, LaurenMock,
+    JocelynTakahashi, 'Josh Perline' ]
 
-snap = [ KunalMarwaha,  KyleZenter, "Brandon Chen",  ]
+snap = [ KunalMarwaha,  KyleZenter, 'Brandon Chen',  ]
 
 bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZenter ]
 
@@ -307,24 +279,24 @@ all = {
 
 //LOL - Ian
 LIST_OF_SHAME = [
-"AlisonTang.jpg",
-"AmyShu.jpg",
-"BryceSmith.jpg",
-"CharlesThorson.jpg",
-"DerekChiu.jpg",
-"HunterBrown.jpg",
-"JiJunChen.jpg",
-"KunalMarwaha.jpg",
-"KyleZenter.jpg",
-"LuiseRygaard.jpg",
-"MichelleHan.jpg",
-"NavsharanSingh.jpg",
-"NicholasDill.jpg",
-"PriscillaBermudez.jpg",
-"SerenaChan.jpg",
-"StevenHolman.jpg",
-"VictorSolis.jpg",
-"YinxueBian.jpg"
+'AlisonTang.jpg',
+'AmyShu.jpg',
+'BryceSmith.jpg',
+'CharlesThorson.jpg',
+'DerekChiu.jpg',
+'HunterBrown.jpg',
+'JiJunChen.jpg',
+'KunalMarwaha.jpg',
+'KyleZenter.jpg',
+'LuiseRygaard.jpg',
+'MichelleHan.jpg',
+'NavsharanSingh.jpg',
+'NicholasDill.jpg',
+'PriscillaBermudez.jpg',
+'SerenaChan.jpg',
+'StevenHolman.jpg',
+'VictorSolis.jpg',
+'YinxueBian.jpg'
 ]
 
 // Prepend TAiT to names, except for Readers.
@@ -332,9 +304,9 @@ for(var i = 0; i < tait.length; i++) {
     if (tait[i].constructor === String) {
         tait[i] = baseObj(tait[i])
     }
-    
+
     if (tait[i].name.indexOf('Reader') === -1) {
-        tait[i].name = "TAiT " + tait[i].name
+        tait[i].name = 'TAiT ' + tait[i].name
     }
 }
 /*****************************************************************************/
@@ -358,38 +330,38 @@ function buildPerson(data, width) {
 
     // If there's no image, use 3D Alanzo
     if (!data.imgSrc || LIST_OF_SHAME.indexOf(data.imgSrc) !== -1) {
-        data.imgSrc = "../NPY3D.jpg"
+        data.imgSrc = '../NPY3D.jpg'
         data.img    = ''
     }
     // Create a table element with this person's data, setting a class for width
-    elm = "<div style=\"width:" + 100/width + "%;\">";
+    elm = '<div style=\'width:' + 100/width + '%;\'>';
     if (!!data.img) {
-        elm += "<a href=\"images/" + data.img + "\">"
+        elm += '<a href=\'images/' + data.img + '\'>'
     }
-    elm += "<img class=\"staff\" width=\"200\" height=\"300\" align=\"center\" "
-    elm += "alt=\"" + data.name + "\" title=\"" + data.name + "\" src=\"images/small/"
-    elm += data.imgSrc + "\" />"
+    elm += '<img class=\'staff\' width=\'200\' height=\'300\' align=\'center\' '
+    elm += 'alt=\'' + data.name + '\' title=\'' + data.name + '\' src=\'images/small/'
+    elm += data.imgSrc + '\' />'
     if (!!data.img) {
-        elm += "</a>"
+        elm += '</a>'
     }
-    elm += "<br /><strong>"
+    elm += '<br /><strong>'
     if (!!data.web) {
-        elm += "<a href=\"" + data.web + "\">" + data.name + "</a>"
+        elm += '<a href=\'' + data.web + '\'>' + data.name + '</a>'
     } else {
         elm += data.name
     }
-    elm += "</strong> "
+    elm += '</strong> '
     if (!!data.bio) {
-        elm += "(<a href=\"bios/" + data.bio + "\">bio</a>)"
+        elm += '(<a href=\'bios/' + data.bio + '\'>bio</a>)'
     }
     if (!!data.email) {
-        elm += "<br /><a href=\"mailto:" + data.email +
-        "?subject=[CS10] SUBJECT\"><code>" + data.email + "</code></a>";
+        elm += '<br /><a href=\'mailto:' + data.email +
+        '?subject=[CS10] SUBJECT\'><code>' + data.email + '</code></a>';
     }
     if (!!data.office) {
-        elm +=  "<br />" + data.office
+        elm +=  '<br />' + data.office
     }
-    elm += "</div>";
+    elm += '</div>';
     return elm;
 }
 
@@ -401,15 +373,15 @@ function buildGroup(group, w) {
     doc = document.getElementById(group)
     content = ''
     for (var i = 0; i < ppl.length; i += w) {
-        content += "<div class=\"staffimg\">"
+        content += '<div class=\'staffimg\'>'
         for(var j = i; j < (i + w) && j < ppl.length; j += 1) {
             if (i + w > ppl.length) {
                  w = ppl.length - i
              }
             content += buildPerson(ppl[j], w)
         }
-        content += "</div>"
-        content += "<div style=\"clear: both;\"></div>";
+        content += '</div>'
+        content += '<div style=\'clear: both;\'></div>';
     }
     doc.innerHTML += content
 }
@@ -432,13 +404,13 @@ function addLoadEvent(func) {
 addLoadEvent(function() {
   /* more code to run on page load */
   // Parameters: a section (HTML 'id') and num of images per row.
-  buildGroup("instructors", 1);
-  buildGroup("tas", 5);
-  buildGroup("readers", 5);
-  buildGroup("tait", 5);
-  buildGroup("las", 5);
-  buildGroup("edx", 5);
-  buildGroup("snap", 5);
-  buildGroup("labdev", 5);
-  buildGroup("bjc", 5);
+  buildGroup('instructors', 1);
+  buildGroup('tas', 5);
+  buildGroup('readers', 5);
+  buildGroup('tait', 5);
+  buildGroup('las', 5);
+  buildGroup('edx', 5);
+  buildGroup('snap', 5);
+  buildGroup('labdev', 5);
+  buildGroup('bjc', 5);
 });
