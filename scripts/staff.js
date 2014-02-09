@@ -134,7 +134,6 @@ LaurenMock = {
     img: 'Sp14/LaurenMock.jpg',
     imgSrc: 'LaurenMock.jpg',
     web: 'http://linkedin.com/in/laurenmock',
-    bio: 'LaurenMock.txt',
     email: 'lmock@berkeley.edu'
 }
 
@@ -182,7 +181,7 @@ KyleZenter = { name: 'Snap! Team Lead Kyle Zenter',
 
 instructors = [ DanGarcia ];
 
-tas = [ LaurenMock, jannaG, rachelH, sumerM, victoriaS, MichaelBall, 
+tas = [ LaurenMock, jannaG, rachelH, sumerM, victoriaS, MichaelBall,
         IanBirnam, jeffreyS, maxD, PeterSujan ]
 
 readers = [ andyS, claireW, jaclynB, josephC, songS ]
@@ -255,10 +254,10 @@ tait = [ benC, songS, josephC, andyS,
 
 labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS ]
 
-edx = [ KunalMarwaha, josephC, 'Sean Scofield', songS, LaurenMock,
+edx = [ KunalMarwaha, LaurenMock, josephC, 'Sean Scofield', songS,
     JocelynTakahashi, 'Josh Perline' ]
 
-snap = [ KunalMarwaha,  KyleZenter, 'Brandon Chen',  ]
+snap = [ KunalMarwaha,  KyleZenter, 'Brandon Chen' ]
 
 bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZenter ]
 
