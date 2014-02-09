@@ -281,12 +281,12 @@ tait = [benC, songS, josephC, andyS, seanS,
         sulaimanS,
         "Veersuvrat Rajpal" ]
 
-labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS, MichaelBall ]
+labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS ]
 
-edx = [ KunalMarwaha, josephC, seanS, songS, LaurenMock, MichaelBall,
+edx = [ KunalMarwaha, josephC, seanS, songS, LaurenMock,
     JocelynTakahashi, "Josh Perline" ]
 
-snap = [ KunalMarwaha,  KyleZenter, MichaelBall, "Brandon Chen",  ]
+snap = [ KunalMarwaha,  KyleZenter, "Brandon Chen",  ]
 
 bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZenter ]
 
