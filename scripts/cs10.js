@@ -65,7 +65,7 @@ function updateReadings() {
 }
 
 function updateLabs() {
-    urlEnd = "&novideo=true&noreading=true&nohomework=true&course=cs10_sp14.html"
+    urlEnd = "&novideo=true&noreading=true&noassingment=true&course=cs10_sp14.html"
     links = $(".lablink")
     for(var i = 0; i < links.length; i++) {
         a = links[i]
