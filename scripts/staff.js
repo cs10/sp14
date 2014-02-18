@@ -137,6 +137,16 @@ LaurenMock = {
     email: 'lmock@berkeley.edu'
 }
 
+// edX
+KunalMarwaha = { name: 'edX Team Lead Kunal Marwaha',
+    img: 'Sp14/KunalMarwaha.jpg',
+    imgSrc: 'KunalMarwaha.jpg' }
+
+// snap
+KyleZentner = { name: 'Snap! Team Lead Kyle Zentner',
+    img: 'Sp14/KyleZentner.jpg',
+    imgSrc: 'KyleZentner.jpg' }
+
 // Lab Assistants
 // TAiT -- TAiT is auto added
 benC = { name: 'Ben Carvalho',
@@ -160,20 +170,11 @@ paulI = { name: 'Paul Irwin',
 jessicaA = { name: 'Jessica Andrich',
     img: 'Fa13/JessicaAndrich.jpg',
     imgSrc: 'JessicaAndrich.jpg' }
-
-// edX
-KunalMarwaha = { name: 'edX Team Lead Kunal Marwaha',
-    img: 'Sp14/KunalMarwaha.jpg',
-    imgSrc: 'KunalMarwaha.jpg' }
-
+    
+// Snap
 JocelynTakahashi = { name: 'Jocelyn Takahashi',
     img: 'Sp13/JocelynTakahashi.jpg',
     imgSrc: '../Sp13/t/JocelynTakahashi.jpg' }
-
-// snap
-KyleZentner = { name: 'Snap! Team Lead Kyle Zentner',
-    img: 'Sp14/KyleZentner.jpg',
-    imgSrc: 'KyleZentner.jpg' }
 
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
@@ -252,7 +253,8 @@ tait = [ benC, songS, josephC, andyS,
     'Sulaiman Haruna',
     'Veersuvrat Rajpal' ]
 
-labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS, 'Manisha Sharma' ]
+labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS, 
+           'Manisha Sharma', 'Sulaiman Haruna' ]
 
 edx = [ KunalMarwaha, 
         LaurenMock, 
@@ -353,12 +355,14 @@ for(var i = 0; i < tait.length; i++) {
 /* DATA POPULATION FUNCTIONS  */
 /*****************************************************************************/
 
+// Build a basic object for a person from the current semester.
 function baseObj(name) {
     src = name.replace(/ /g , '')
     return { name: name,
              img: 'Sp14/' + src + '.jpg',
              imgSrc: src + '.jpg' }
 }
+
 function buildPerson(data, width) {
     // Given a JSON object build a div that contains all the person's info
     // width is used to control how many are on a row on the page.
@@ -444,13 +448,13 @@ function addLoadEvent(func) {
 addLoadEvent(function() {
   /* more code to run on page load */
   // Parameters: a section (HTML 'id') and num of images per row.
-  buildGroup('instructors', 1);
-  buildGroup('tas', 5);
-  buildGroup('readers', 5);
-  buildGroup('tait', 5);
-  buildGroup('las', 5);
-  buildGroup('edx', 5);
-  buildGroup('labdev', 3);
-  buildGroup('snap', 5);
-  buildGroup('bjc', 5);
-});
+  buildGroup('instructors', 1)
+  buildGroup('tas', 5)
+  buildGroup('readers', 5)
+  buildGroup('tait', 5)
+  buildGroup('las', 5)
+  buildGroup('edx', 5)
+  buildGroup('labdev', 5)
+  buildGroup('snap', 5)
+  buildGroup('bjc', 5)
+})
