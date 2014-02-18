@@ -246,6 +246,7 @@ img.staff {
 
 div.staffimg {
   width: 100%;
+  height: 350px;
   float: center;
   text-align: center;
 }

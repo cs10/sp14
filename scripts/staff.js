@@ -267,7 +267,7 @@ edx = [ KunalMarwaha,
         'Rebecca Kuan',
         'Saeam Kwon',
         songS,
-        'Sophia Cooper',
+        'Sophie Cooper',
         'Stephen Shan'  ]
 
 snap = [ KunalMarwaha,  
@@ -277,7 +277,7 @@ snap = [ KunalMarwaha,
          'Angela So',
          'Brandon Chen',
          'Carlos Flores',
-         'Dibyo Majumdar',
+         'Dibyo Majundar',
          'Elizabeth Stella Walla',
          'Gilbert Ghang',
          'Irene Lee',
@@ -317,30 +317,27 @@ all = {
 //LOL - Ian
 LIST_OF_SHAME = [
 'AmyShu.jpg',
+'AndyCheon.jpg',
+'AngelaSo.jpg',
 'HunterBrown.jpg',
+'IreneLee.jpg',
+'JesarShah.jpg',
 'JiJunChen.jpg',
+'JisooHan.jpg',
+'JoanneXu.jpg',
+'JosephBarreto.jpg',
 'LuiseRygaard.jpg',
 'MichelleHan.jpg',
 'NavsharanSingh.jpg',
 'NicholasDill.jpg',
+'Pei-YuanChu.jpg',
 'PriscillaBermudez.jpg',
+'RebeccaKuan.jpg',
 'SerenaChan.jpg',
+'StephenShan.jpg',
 'StevenHolman.jpg',
 'VictorSolis.jpg',
-'YinxueBian.jpg',
-'RebeccaKuan.jpg',
-'StephenShan.jpg',
-'SophiaCooper.jpg',
-'AndyCheon.jpg',
-'AngelaSo.jpg',
-'DibyoMajumdar.jpg',
-'JoanneXu.jpg',
-'JisooHan.jpg',
-'JesarShah.jpg',
-'IreneLee.jpg',
-'Pei-YuanChu.jpg',
-'JosephBarreto.jpg',
-]
+'YinxueBian.jpg', ]
 
 // Prepend TAiT to names, except for Readers.
 for(var i = 0; i < tait.length; i++) {
@@ -377,7 +374,7 @@ function buildPerson(data, width) {
         data.img    = ''
     }
     // Create a table element with this person's data, setting a class for width
-    elm = '<div style=\'width:' + 100/width + '%;\'>';
+    elm = '<div style="width:' + 100/width + '%;">'
     if (!!data.img) {
         elm += '<a href=\'images/' + data.img + '\'>'
     }
@@ -424,7 +421,7 @@ function buildGroup(group, w) {
             content += buildPerson(ppl[j], w)
         }
         content += '</div>'
-        content += '<div style=\'clear: both;\'></div>';
+        // content += '<div style=\'clear: both;\'></div>';
     }
     doc.innerHTML += content
 }
@@ -452,8 +449,8 @@ addLoadEvent(function() {
   buildGroup('readers', 5);
   buildGroup('tait', 5);
   buildGroup('las', 5);
-  buildGroup('labdev', 3);
   buildGroup('edx', 5);
+  buildGroup('labdev', 3);
   buildGroup('snap', 5);
   buildGroup('bjc', 5);
 });
