@@ -204,7 +204,7 @@ las = [ 'Adam Brown',
         'JiaweiWill Jiang',
         'Ji Jun Chen',
         'Kalon Cheung',
-        'Kayla Sorin',
+        'Kyla Sorin',
         'Liuxiao Zhang',
         'Luise Rygaard',
         'Maria Can',
@@ -438,15 +438,13 @@ addLoadEvent(function() {
   /* more code to run on page load */
   // Parameters: a section (HTML 'id') and num of images per row.
   // Put window width as x.
-  var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth;
-  var num = Math.floor((x-100) / 200);
   buildGroup('instructors', 1);
   buildGroup('tas', 5);
   buildGroup('readers', 5);
-  buildGroup('tait', num);
-  buildGroup('las', num);
-  buildGroup('edx', num);
-  buildGroup('snap', num);
-  buildGroup('labdev', num);
+  buildGroup('tait', 5);
+  buildGroup('las', 5);
+  buildGroup('edx', 5);
+  buildGroup('snap', 5);
+  buildGroup('labdev', 5);
   buildGroup('bjc', 5);
 });
