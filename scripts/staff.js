@@ -452,8 +452,8 @@ addLoadEvent(function() {
   buildGroup('readers', 5);
   buildGroup('tait', 5);
   buildGroup('las', 5);
+  buildGroup('labdev', 3);
   buildGroup('edx', 5);
   buildGroup('snap', 5);
-  buildGroup('labdev', 3);
   buildGroup('bjc', 5);
 });
