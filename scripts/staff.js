@@ -171,9 +171,9 @@ JocelynTakahashi = { name: 'Jocelyn Takahashi',
     imgSrc: '../Sp13/t/JocelynTakahashi.jpg' }
 
 // snap
-KyleZenter = { name: 'Snap! Team Lead Kyle Zenter',
-    img: 'Sp14/KyleZenter.jpg',
-    imgSrc: 'KyleZenter.jpg' }
+KyleZentner = { name: 'Snap! Team Lead Kyle Zentner',
+    img: 'Sp14/KyleZentner.jpg',
+    imgSrc: 'KyleZentner.jpg' }
 
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
@@ -252,14 +252,54 @@ tait = [ benC, songS, josephC, andyS,
     'Sulaiman Haruna',
     'Veersuvrat Rajpal' ]
 
-labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS ]
+labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS, 'Manisha Sharma' ]
 
-edx = [ KunalMarwaha, LaurenMock, josephC, 'Sean Scofield', songS,
-    JocelynTakahashi, 'Josh Perline' ]
+edx = [ KunalMarwaha, 
+        LaurenMock, 
+        josephC, 
+        'Sean Scofield', 
+        'Akhila Raju',
+        JocelynTakahashi,        
+        'Josh Perline',
+        'Kevin Chen',
+        'Manisha Sharma',
+        'Nick Rose',
+        'Nidhi Swamy',
+        'Rebecca Kuan',
+        'Saeam Kwon',
+        songS,
+        'Sophia Cooper',
+        'Stephen Shan'  ]
 
-snap = [ KunalMarwaha,  KyleZenter, 'Brandon Chen', KyleZenter ]
+snap = [ KunalMarwaha,  
+         KyleZentner, 
+         'Aaron Yuan',
+         'Andy Cheon',
+         'Angela So',
+         'Brandon Chen',
+         'Carlos Flores',
+         'Dibyo Majumdar',
+         'Elizabeth Stella Walla',
+         'Gilbert Ghang',' ',
+         'Irene Lee',
+         'Jesar Shah',
+         'Jisoo Han',
+         'Joanne Xu',
+         JocelynTakahashi,
+         'Joseph Barreto',
+         'Kyle Hotchkiss',
+         'Lingtian Cheng',
+         'Michelle Han',
+         'Mohan Ganesan',
+         'Natasha Sandy',
+         'Pei-Yuan Chu',
+         'Randy Wei',
+         'Sulaiman Haruna',
+         'Tanisha Singh',
+         'Tanvi Kamath',
+         'Yuan Yuan' ]
 
-bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZenter ]
+bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZentner ]
 
 
 // If you need to add a new SECTION add it to this object.
@@ -397,13 +437,16 @@ function addLoadEvent(func) {
 addLoadEvent(function() {
   /* more code to run on page load */
   // Parameters: a section (HTML 'id') and num of images per row.
+  // Put window width as x.
+  var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth;
+  var num = Math.floor((x-100) / 200);
   buildGroup('instructors', 1);
   buildGroup('tas', 5);
   buildGroup('readers', 5);
-  buildGroup('tait', 5);
-  buildGroup('las', 5);
-  buildGroup('edx', 5);
-  buildGroup('snap', 5);
-  buildGroup('labdev', 5);
+  buildGroup('tait', num);
+  buildGroup('las', num);
+  buildGroup('edx', num);
+  buildGroup('snap', num);
+  buildGroup('labdev', num);
   buildGroup('bjc', 5);
 });
