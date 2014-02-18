@@ -447,7 +447,6 @@ function addLoadEvent(func) {
 addLoadEvent(function() {
   /* more code to run on page load */
   // Parameters: a section (HTML 'id') and num of images per row.
-  // Put window width as x.
   buildGroup('instructors', 1);
   buildGroup('tas', 5);
   buildGroup('readers', 5);
@@ -455,6 +454,6 @@ addLoadEvent(function() {
   buildGroup('las', 5);
   buildGroup('edx', 5);
   buildGroup('snap', 5);
-  buildGroup('labdev', 5);
+  buildGroup('labdev', 3);
   buildGroup('bjc', 5);
 });
