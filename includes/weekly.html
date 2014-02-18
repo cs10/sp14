@@ -9,10 +9,13 @@
     <!-- This uses the "FullCalendar" JS tool
           http://arshaw.com/fullcalendar/
           The CS10 scripts have been slightly modified for CS10 use -->
-    <h3>Click on any event to see the building location on a map.</h3>
-    <h3>Please note: Review sessions are usually on Sundays.</h3>
+    <h3>Click on any event to see the building location on a map.
+      <br />
+      Please note: Review sessions are usually on Sundays.
+    </h3>
     <!-- Add key? -->
     <div id="weekly"></div>
+
     <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
     <script type='text/javascript' src='scripts/fullcalendar.js'></script>
     <script type='text/javascript' src='scripts/gcal.js'></script>
@@ -24,15 +27,15 @@
       fin   = daysUntil(new Date(2014, 4, 11))
 
       function daysUntil(day) {
-        MS_DAY = 1000*60*60*24
+        var MS_DAY = 1000*60*60*24
         return Math.floor((new Date() - day) / MS_DAY)
       }
 
       function inRange(num) { return num >= -7 && num <= 1 }
 
       // Show weeks when we are close to at least one session.
-      days  = [ inRange(quest), inRange(mt), inRange(fin) ]
-      wkends = (days[0] || days[1] || days[2])
+      var days   = [ inRange(quest), inRange(mt), inRange(fin) ],
+          wkends = (days[0] || days[1] || days[2])
 
       $(document).ready(function() {
           $('#weekly').fullCalendar({
