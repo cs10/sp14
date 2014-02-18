@@ -257,7 +257,7 @@ labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS ]
 edx = [ KunalMarwaha, LaurenMock, josephC, 'Sean Scofield', songS,
     JocelynTakahashi, 'Josh Perline' ]
 
-snap = [ KunalMarwaha,  KyleZenter, 'Brandon Chen' ]
+snap = [ KunalMarwaha,  KyleZenter, 'Brandon Chen', KyleZenter ]
 
 bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZenter ]
 
@@ -278,15 +278,9 @@ all = {
 
 //LOL - Ian
 LIST_OF_SHAME = [
-'AlisonTang.jpg',
 'AmyShu.jpg',
-'BryceSmith.jpg',
-'CharlesThorson.jpg',
-'DerekChiu.jpg',
 'HunterBrown.jpg',
 'JiJunChen.jpg',
-'KunalMarwaha.jpg',
-'KyleZenter.jpg',
 'LuiseRygaard.jpg',
 'MichelleHan.jpg',
 'NavsharanSingh.jpg',
