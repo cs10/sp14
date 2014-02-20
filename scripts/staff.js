@@ -57,7 +57,7 @@ MichaelBall = {
 }
 maxD = {
     name: 'TA Max Dougherty',
-    img: 'Fa12/MaxDougherty.jpg',
+    img: 'Sp14/MaxDougherty.jpg',
     imgSrc: 'MaxDougherty.jpg',
     email: 'mdougherty@berkeley.edu'
 }
@@ -207,7 +207,6 @@ las = [ 'Adam Brown',
         'Kalon Cheung',
         'Kyla Sorin',
         'Liuxiao Zhang',
-        'Luise Rygaard',
         'Maria Can',
         'Mateo O Marin',
         'Michelle Han',
@@ -318,17 +317,13 @@ all = {
 
 //LOL - Ian
 LIST_OF_SHAME = [
-'AmyShu.jpg',
-'AndyCheon.jpg',
 'AngelaSo.jpg',
 'HunterBrown.jpg',
 'IreneLee.jpg',
 'JesarShah.jpg',
 'JiJunChen.jpg',
 'JisooHan.jpg',
-'JoanneXu.jpg',
 'JosephBarreto.jpg',
-'LuiseRygaard.jpg',
 'MichelleHan.jpg',
 'NavsharanSingh.jpg',
 'NicholasDill.jpg',
