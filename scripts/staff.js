@@ -202,8 +202,10 @@ las = [ 'Adam Brown',
         'Harris Quraishi',
         'Helen Hu',
         'Itzel Martinez',
-        'JiaweiWill Jiang',
+        'Jason Do',
+        'Jiawei Will Jiang',
         'Ji Jun Chen',
+        'Joel Terry',
         'Kalon Cheung',
         'Kyla Sorin',
         'Liuxiao Zhang',
@@ -236,6 +238,7 @@ tait = [ benC, songS, josephC, andyS,
     'Derek Chiu',
     'Edwan Hernandez',
     'Hunter Brown',
+    'Jeffrey Jacinto'
     'Jobel Vecino',
     'Josh Perline',
     'Kalley Thompson',
@@ -247,26 +250,30 @@ tait = [ benC, songS, josephC, andyS,
     'Rafayel Mkrtchyan',
     'Saagar Bakshi',
     'Sean Scofield',
-    'Serena Chan',
     'Steven Traversi',
     'Sulaiman Haruna',
     'Veersuvrat Rajpal' ]
 
-labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS, 
-           'Manisha Sharma', 'Sulaiman Haruna' ]
+labdev = [ PeterSujan, LaurenMock, jessicaA, paulI, andyS, 'Liuxiao Zhang',
+           'Manisha Sharma', 'Samy Hajal', 'Sulaiman Haruna' ]
 
 edx = [ KunalMarwaha, 
         LaurenMock, 
         josephC, 
         'Sean Scofield', 
         'Akhila Raju',
+        'Alex Chao',
+        'Harsh Mujoo',
         'Josh Perline',
         'Kevin Chen',
         'Manisha Sharma',
+        'Mrindula Dilip',
         'Nick Rose',
         'Nidhi Swamy',
+        'Patrick Lu',
         'Rebecca Kuan',
         'Saeam Kwon',
+        'Sneha Dilip',
         songS,
         'Sophie Cooper',
         'Stephen Shan'  ]
@@ -276,24 +283,27 @@ snap = [ KunalMarwaha,
          'Aaron Yuan',
          'Andy Cheon',
          'Angela So',
+         'Ashkan Hosseini',
          'Brandon Chen',
          'Carlos Flores',
          'Dibyo Majundar',
          'Elizabeth Stella Walla',
+         'Farzin Jahani',
          'Gilbert Ghang',
          'Irene Lee',
+         'Janet Chu',
          'Jesar Shah',
          'Jisoo Han',
          'Joanne Xu',
          JocelynTakahashi,
-         'Joseph Barreto',
+         'Joey Barreto',
          'Kyle Hotchkiss',
          'Lingtian Cheng',
          'Michelle Han',
          'Mohan Ganesan',
          'Natasha Sandy',
-         'Pei-Yuan Chu',
          'Randy Wei',
+         'Sara Seacat',
          'Tanisha Singh',
          'Tanvi Kamath',
          'Yuan Yuan' ]
@@ -318,23 +328,23 @@ all = {
 //LOL - Ian
 LIST_OF_SHAME = [
 'AngelaSo.jpg',
+'HarshMujoo.jpg',
 'HunterBrown.jpg',
 'IreneLee.jpg',
 'JesarShah.jpg',
 'JiJunChen.jpg',
 'JisooHan.jpg',
-'JosephBarreto.jpg',
 'MichelleHan.jpg',
 'NavsharanSingh.jpg',
 'NicholasDill.jpg',
-'Pei-YuanChu.jpg',
 'PriscillaBermudez.jpg',
 'RebeccaKuan.jpg',
+'SamyHajal.jpg',
 'SerenaChan.jpg',
 'StephenShan.jpg',
 'StevenHolman.jpg',
 'VictorSolis.jpg',
-'YinxueBian.jpg', ]
+'YinxueBian.jpg' ]
 
 // Prepend TAiT to names, except for Readers.
 for(var i = 0; i < tait.length; i++) {
@@ -424,7 +434,6 @@ function buildGroup(group, w) {
     }
     doc.innerHTML += content
 }
-
 
 function addLoadEvent(func) {
   var oldonload = window.onload;

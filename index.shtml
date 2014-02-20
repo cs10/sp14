@@ -7,8 +7,8 @@
         <meta http-equiv="Pragma" content="no-cache">
         <meta name="description" content="CS10, The Beauty and Joy of Computing is an introductory computer science class designed for anyone and everyone." />
         <meta name="keywords" content="CS10, UC, Berkeley, CS, computer science, BJC, computing, education, Michael Ball" />
+
         <link href="scripts/cs10style.css" rel="stylesheet" type="text/css" />
-        <link href='scripts/fullcalendar.css' rel='stylesheet' type='text/css' />
     </head>
 
     <body onload="updateCalendar()">
