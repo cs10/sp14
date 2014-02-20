@@ -238,7 +238,7 @@ tait = [ benC, songS, josephC, andyS,
     'Derek Chiu',
     'Edwan Hernandez',
     'Hunter Brown',
-    'Jeffrey Jacinto'
+    'Jeffrey Jacinto',
     'Jobel Vecino',
     'Josh Perline',
     'Kalley Thompson',
