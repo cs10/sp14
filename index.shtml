@@ -7,7 +7,6 @@
         <meta http-equiv="Pragma" content="no-cache">
         <meta name="description" content="CS10, The Beauty and Joy of Computing is an introductory computer science class designed for anyone and everyone." />
         <meta name="keywords" content="CS10, UC, Berkeley, CS, computer science, BJC, computing, education, Michael Ball" />
-
         <link href="scripts/cs10style.css" rel="stylesheet" type="text/css" />
     </head>
 
@@ -16,10 +15,7 @@
       <table class="top-table">
           <tbody>
               <tr class="white">
-                  <td class="left">
-                      <!-- <div> style="position:absolute;top:40px;left:200px;z-index:40;"
-                          <img src="images/blank.gif" name="speech">
-                      </div> -->
+                  <td class="left" width="250">
                       <img width="250" border="0" align="bottom" height="244" src="images/snap_nav.gif" class="navbar" alt="Your Navigation Bar didn't load." title="Click me to navigate." usemap="#gobo">
                       <map name="gobo">
                           <area shape="rect" coords="0,70,110,97" alt="Overview" href="#overview" onmouseover="displaySpeech('speech', 'images/overview_jump.gif')" onmouseout="displaySpeech('speech', 'images/blank.gif')">
@@ -31,16 +27,16 @@
                       </map>
                   </td>
                   <td class="center">
-                      <p class="logo">
+                      <h2 class="center">
                           CS10 : BJC (The Beauty and Joy of Computing)
                           <br />
                           UC Berkeley EECS
                           <br />
                           Spring 2014
-                      </p>
+                      </h2>
                   </td>
-                  <td class="right">
-                      <a href="http://www.berkeley.edu/">
+                  <td class="right" width="250">
+                      <a href="http://www.bjc.berkeley.edu/">
                           <img border="0" src="images/bjc186.png" alt="BJC">
                       </a>
                   </td>

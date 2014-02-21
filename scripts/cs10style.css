@@ -1,23 +1,13 @@
 /* ALL PAGES CSS */
-body { /*code for watermark*/
-    background-image: url('../images/gobo_watermark.gif');
+body {
+    background-image: url('images/gobo_watermark.gif'); /* watermark */
     background-repeat: no-repeat;
     background-position: bottom right;
     background-attachment: fixed;
-    font-family: 'Helvetica', Verdana, sans-serif;
+    font-family: 'Helvetica', 'Helvetica Neue', Verdana, Arial, sans-serif;
     font-size: 12px;
     width: 98%;
     margin: 1%;
-}
-
-p.logo {
-    width: auto;
-    margin: auto;
-    font-size: 1.75em;
-    color: #0F4D92;
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
 }
 
 h1 {
@@ -31,13 +21,12 @@ h1 {
 }
 
 h2 { /* Used for Staff Headings */
-    font-family: 'Helvetica', Verdana, Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #0F4D92;
     margin: .4em;
 }
 
-.ql { text-align: center; }
+.center, .ql { text-align: center; }
 
 div.ql {
     display: inline-block;
