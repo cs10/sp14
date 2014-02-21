@@ -44,9 +44,8 @@
           </tbody>
       </table>
 
-      <h1 class="ql">
-        <a name="quicklinks">Quick Links</a>
-      </h1>
+      <a name="quicklinks"></a>
+      <h1 class="ql">Quick Links</h1>
       <div>
             <div class="ql">
               <a href="http://snap.berkeley.edu/run/">Snap!</a>
@@ -67,27 +66,24 @@
       </div>
       <div style="clear: both"></div>
 
-      <h1>Overview</h1>
       <a name="overview"></a>
+      <h1>Overview</h1>
       <!--#include file="includes/overview.html"-->
 
-      <a name="calendar">
-        <h1>Calendar</h1>
-      </a>
+      <h1>Calendar</h1>
+      <a name="calendar"></a>
       <!--#include file="includes/calendar.html"-->
 
-      <a name="weekly">
-        <h1>Weekly Schedule</h1>
-      </a>
+      <a name="weekly"></a>
+      <h1>Weekly Schedule</h1>
       <!--#include file="includes/weekly.html"-->
 
-      <h1>Staff</h1>
       <a name="staff"></a>
+      <h1>Staff</h1>
       <!--#include file="includes/staff.html"-->
 
-      <!-- grades -->
-      <h1>Grading</h1>
       <a name="grades"></a>
+      <h1>Grading</h1>
       <!--#include file="includes/grading.html"-->
 
       <a name="resources"></a>
@@ -108,24 +104,18 @@
       </p>
 
       <hr />
-      <!-- Page Footer, ql class centers -->
-      <div class="ql">
-        <code>
-          <!-- <script language="JavaScript">var datedate=document.lastModifieddocument.write("Last modified on "+date)</script>-->
-          <!--#config timefmt="%Y-%m-%d@%H:%M:%S %Z"-->
-          <!--#flastmod file="index.shtml"-->
-       </code>
+      <div class="center">
+          This work is licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+              Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License
+          </a>.
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+              <img align="right" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+          </a>
       </div>
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"> <img
-        align="right" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
-      </a>
-      <p align="center"> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-        Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported
-        License</a>
-      </p>
     </body>
-    <script type="text/javascript" src="scripts/cs10.js"></script>
     <!--
+    <script type="text/javascript" src="scripts/cs10.js"></script>
     <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
     <script type='text/javascript' src='scripts/fullcalendar.js'></script>
     <script type='text/javascript' src='scripts/gcal.js'></script>
