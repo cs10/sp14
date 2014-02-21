@@ -22,7 +22,7 @@ can be created with simply 'Brandon Chen' as a string in the appropriate lists.
 NOTE: All images must be in the proper folders and match the name, w/o spaces.
 
 You can create any objects like this. REQUIRED ARE: name, img, imgSrc
-'imgSrc' should be a small image in the directory ~/public_html/images/small/*
+'imgSrc' should be a small image in the directory ~/public_html/images/small/ *
 
 There are a few lists of objects:
 instructors, tas, readers, las -- more can be created if necessary:
@@ -224,8 +224,7 @@ las = [ 'Adam Brown',
         'Tierney Henderson',
         'Victoria Bian',
         'Victor Solis',
-        'Yibing Chen',
-        'Yinxue Bian' ]
+        'Yibing Chen' ]
 
 tait = [ benC, songS, josephC, andyS,
     'Adam Kuphaldt',
@@ -343,8 +342,7 @@ LIST_OF_SHAME = [
 'SerenaChan.jpg',
 'StephenShan.jpg',
 'StevenHolman.jpg',
-'VictorSolis.jpg',
-'YinxueBian.jpg' ]
+'VictorSolis.jpg' ]
 
 // Prepend TAiT to names, except for Readers.
 for(var i = 0; i < tait.length; i++) {
