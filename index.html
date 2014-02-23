@@ -8,6 +8,16 @@
         <meta name="description" content="CS10, The Beauty and Joy of Computing is an introductory computer science class designed for anyone and everyone." />
         <meta name="keywords" content="CS10, UC, Berkeley, CS, computer science, BJC, computing, education, Michael Ball" />
         <link href="scripts/cs10style.css" rel="stylesheet" type="text/css" />
+        <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+        <script>
+        (function() {
+          $('.inc').each(function (idx) {
+            $(this).load($(this).attr('src'), function() {
+               $(this).contents().unwrap();
+            })
+          });
+        })();
+        </script>
         <link href="scripts/fullcalendar.css" rel="stylesheet" type="text/css" />
     </head>
 
@@ -73,7 +83,7 @@
 
       <h1>Calendar</h1>
       <a name="calendar"></a>
-      <div class="inc" id="test" src="includes/calendar.html"></div>
+      <div class="inc" src="includes/calendar.html"></div>
 
       <a name="weekly"></a>
       <h1>Weekly Schedule</h1>
@@ -114,17 +124,6 @@
               <img align="right" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
           </a>
       </div>
-      <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
-      <script>
-      (function() {
-        $('.inc').each(function (idx) {
-          $(this).load($(this).attr('src'), function() {
-             $(this).contents().unwrap();
-          })
-        });
-        // $('#test').load($('#test').src);
-      })();
-      </script>
       <script type="text/javascript" src="scripts/cs10.js"></script>
       <script type='text/javascript' src='scripts/fullcalendar.js'></script>
       <script type='text/javascript' src='scripts/gcal.js'></script>
