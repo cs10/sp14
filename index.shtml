@@ -10,7 +10,7 @@
         <link href="scripts/cs10style.css" rel="stylesheet" type="text/css" />
     </head>
 
-    <body onload="updateCalendar()">
+    <body>
       <!-- Top Section and Title -->
       <table class="top-table">
           <tbody>
