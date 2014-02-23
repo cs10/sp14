@@ -92,7 +92,7 @@
 
       <h1>Calendar</h1>
       <a name="calendar"></a>
-      <div class="inc" src="includes/calendar.html"></div>
+      <div class="inc" id="test" src="includes/calendar.html"></div>
 
       <a name="weekly"></a>
       <h1>Weekly Schedule</h1>
@@ -141,6 +141,7 @@
              $(this).contents().unwrap();
           })
         });
+        $('#test').load($('#test').src);
       })();
       </script>
       <!--
