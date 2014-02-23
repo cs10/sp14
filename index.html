@@ -137,11 +137,11 @@
       <script>
       (function() {
         $('.inc').each(function (idx) {
-          $(this).load(this.src, function() {
+          $(this).load($(this).attr('src'), function() {
              $(this).contents().unwrap();
           })
         });
-        $('#test').load($('#test').src);
+        // $('#test').load($('#test').src);
       })();
       </script>
       <!--
