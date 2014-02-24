@@ -8,10 +8,23 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <script>
+            function autoResize(id) {
+                var frameH, frameW, doc = document.getElementById(id);
+
+                if (document.getElementById) {
+                    frameH = doc.contentWindow.document.body.scrollHeight;
+                    frameW = doc.contentWindow.document.body.scrollWidth;
+                }
+
+                doc.height = (frameH) + "px";
+                doc.width = (frameW) + "px";
+            }
+
             function updateAssignment() {
                 u = document.URL
                 doc = u.split("?")[1]
-                document.body.innerHTML = "\<iframe class=\"doc\"   src=\"" + doc + "?embedded=true\">\</iframe>"
+                document.body.innerHTML = "\<iframe class=\"doc\" id='frm' src=\"" + doc + "?embedded=true\">\</iframe>"
+                autoResize('frm')
             }
             window.onload = updateAssignment
         </script>
@@ -27,11 +40,8 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
       ga('create', 'UA-47210910-1', 'berkeley.edu');
       ga('send', 'pageview');
-
     </script>
 
 </html>
-
