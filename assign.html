@@ -30,17 +30,28 @@
           There should be an assignment here. Oops!
         </iframe>
         <script type="text/javascript">
-          // Create browser compatible event handler.
-          var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-          var eventer = window[eventMethod];
-          var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
-
-          // Listen for a message from the iframe.
-          eventer(messageEvent, function(e) {
-            if (e.origin !== 'http://inst.eecs.berkeley.edu' || isNaN(e.data)) return;
-            document.getElementById('frm').style.height = e.data + 'px';
-            document.getElementById('frm').style.height = 500 + 'px'
-          }, false);
+        if (window.addEventListener)
+        {
+          function resize(id, other_domain) {
+            var iframe = document.getElementById(id);
+            window.addEventListener('message', function(event) {
+              var height = parseInt(event.data) + 32; 
+              iframe.height = height + "px";
+            }, false);
+          }
+        }
+        else if (((window.attachEvent) )
+        {
+          function resize(id, other_domain) {
+            var iframe = document.getElementById(id);
+            window.attachEvent('onmessage', function(event) {
+              var height = parseInt(event.data) + 32; 
+              iframe.height = height + "px";
+            }, false);
+          }
+        }
+        
+        resize('frm', document.getElementById('frm').src);
         </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
