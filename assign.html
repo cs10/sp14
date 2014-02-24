@@ -1,47 +1,41 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <title>CS10 Assignment:</title>
-        <meta name="robots" content="noindex,follow">
+        <title>CS10 Assignment</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+        <link href="scripts/assign.css" type="text/css" rel="stylesheet">
         <script>
-            function autoResize(id) {
-                var frameH, frameW, doc = document.getElementById(id);
+            function autoRes(id) {
+                var newheight;
 
                 if (document.getElementById) {
-                    frameH = doc.contentWindow.document.body.scrollHeight;
-                    frameW = doc.contentWindow.document.body.scrollWidth;
+                    newheight = document.getElementById(id).contentWindow.document.body.scrollHeight;
                 }
 
-                doc.height = (frameH) + "px";
-                doc.width = (frameW) + "px";
+                document.getElementById(id).height = (newheight) + "px";
             }
-
             function updateAssignment() {
-                u = document.URL
-                doc = u.split("?")[1]
-                document.body.innerHTML = "\<iframe class=\"doc\" id='frm' src=\"" + doc + "?embedded=true\">\</iframe>"
-                autoResize('frm')
+                doc = document.URL.split("?")[1];
+                document.getElementById('frm').src = doc + "?embedded=true"
             }
             window.onload = updateAssignment
         </script>
-        <link href="scripts/assign.css" type="text/css" rel="stylesheet">
     </head>
 
     <body onload="updateAssignment()">
-        There should be an assignment here. Oops!
+        <iframe id='frm' onload='autoRes("frm")' src="">
+          There should be an assignment here. Oops!
+        </iframe>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-47210910-1', 'berkeley.edu');
+          ga('send', 'pageview');
+        </script>
     </body>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-47210910-1', 'berkeley.edu');
-      ga('send', 'pageview');
-    </script>
-
 </html>
