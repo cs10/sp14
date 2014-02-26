@@ -17,27 +17,27 @@ MS_DAY = 1000*60*60*24
 // Function used to highlight the current day.
 function updateCalendar() {
     // The SATURDAY before the first week of the calendar.
-    start = new Date(2014, 0, 18)
-    today = new Date()
-    highlight = since[today.getDay()]
+    var start = new Date(2014, 0, 18),
+        today = new Date(),
+        highlight = since[today.getDay()],
+        weeks = Math.floor(((today - start) / MS_DAY) / 7), // Weeks SINCE start
+        rows = document.getElementsByClassName("cal"),
+        cells = rows[weeks + 1].cells // +1 is because row 0 is header
 
     if (today.getDay() === 3) { // HIGHLIGHT LAB ON WEDS BASED ON TIME OF DAY
-        n = (today.getHours() < 12) ? 4 : 6
+        var n = (today.getHours() < 12) ? 4 : 6
         highlight.push(n)
     }
 
-    weeks = Math.floor(((today - start) / MS_DAY) / 7) // Weeks SINCE start
-    rows = document.getElementsByClassName("cal")
-    cells = rows[weeks + 1].cells // +1 is because row 0 is header
-
-    // Hack for weeks like spring break
-    c = (cells.length == 5) ? c = 3 : highlight[0]
+    // Hack for weeks like spring break, deadweek
+    // Not a robust hack, but it should work OK.
+    c = (cells.length == 5) ? 3 : highlight[0]
 
     cells[c].style.border = STYLE
     if (c === 2 & weeks >= 2) { // HW, in the row before
         rows[weeks].cells[8].style.border = STYLE
     }
-    if (highlight[1] && c !== 3) { // Days w/ 2 boxes, != for Spring break
+    if (highlight[1] && c !== 3) { // Days w/ 2 boxes, ! for Spring break
         cells[highlight[1]].style.border = STYLE
     }
 
@@ -45,32 +45,29 @@ function updateCalendar() {
     for(i = 1; i < rows.length; i += 1) {
         cells = rows[i].cells
         for(j = 2; j < cells.length; j += 1) {
-            if (cells[j].style.border.indexOf("10px") > -1) { return }
-            cells[j].style.backgroundColor = "#BABABA"
+            if (cells[j].style.border) { return }
+            cells[j].style.background = "#BBB"
         }
     }
 }
-
 
 function displaySpeech(img_name, img_src) {
     document[img_name].src = img_src
 }
 
 function updateReadings() {
-    readings = $(".reading")
-    for(var i = 0; i < links.length; i++) {
-        a = links[i]
-        a.target = "_blank"
+    var readings = document.getElementsByClassName("reading"), i = 0
+    for(; i < readings.length; i++) {
+        readings[i].target = "_blank"
     }
 }
 
 function updateLabs() {
-    urlEnd = "&novideo=true&noreading=true&noassingment=true&course=cs10_sp14.html"
-    links = $(".lablink")
-    for(var i = 0; i < links.length; i++) {
-        a = links[i]
-        a.href += urlEnd
-        a.style.fontWeight = 700
-        a.target = "_blank"
+    var urlEnd = "&novideo=true&noreading=true&noassingment=true&course=cs10_sp14.html",
+        links = document.getElementsByClassName("lablink"), i = 0
+    for(; i < links.length; i++) {
+        links[i].href += urlEnd
+        links[i].style.fontWeight = 700
+        links[i].target = "_blank"
     }
 }
