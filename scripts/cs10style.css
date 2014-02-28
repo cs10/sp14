@@ -1,11 +1,11 @@
 /* ALL PAGES CSS */
 body {
-    background-image: url('images/gobo_watermark.gif'); /* watermark */
+    background-image: url('/~cs10/images/gobo_watermark.gif'); /* watermark */
     background-repeat: no-repeat;
     background-position: bottom right;
     background-attachment: fixed;
     font-family: 'Helvetica', 'Helvetica Neue', Verdana, Arial, sans-serif;
-    font-size: 12px;
+    font-size: .8em;
     width: 98%;
     margin: 1%;
 }
@@ -15,13 +15,13 @@ h1 {
     background-color: #0F4D92;
     padding: .2em .8em;
     color: white;
-    font-size: 18pt;
+    font-size: 2em;
     font-weight: 400;
     vertical-align: middle;
 }
 
 h2 { /* Used for Staff Headings */
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #0F4D92;
     margin: .4em;
 }
