@@ -187,16 +187,15 @@ div.inner {
 /* WEEKLY CALENDAR */
 #weekly {
   width: 100%;
-  height: 840px;
 }
 
 /* Increase the default cell height */
 table.fc-agenda-slots > tbody > tr > td {
-    height: 4.7em;
+    height: 4em;
 }
 /* Make today be highlighted in gold. */
 .fc-today {
-    background-color: #FFD700;
+    background-color: #FD0;
 }
 /* Set text settings for info in each event*/
 .fc-event-time, .fc-event-title,
