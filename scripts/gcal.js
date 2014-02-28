@@ -4,7 +4,7 @@
  * (c) 2013 Adam Shaw
  */
 
-//
+// Addition to modify links for CS10 calendar.
 function getRoomUrl(loc) {
     var base = "http://www.berkeley.edu/map/3dmap/3dmap.shtml?",
         url  = { SD: 'sutardja',
@@ -12,7 +12,7 @@ function getRoomUrl(loc) {
                  Soda: 'soda',
                  VLSB: 'valleylifesciences' },
         room = "",
-        rm = loc.split(' ')[1];
+        rm   = loc.split(' ')[1];
         
     if (url[rm]) {
         room = url[rm];
