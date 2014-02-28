@@ -6,22 +6,19 @@
 
 //
 function getRoomUrl(loc) {
-    // TODO refactor to be more flexible. Use JSON object
-    // TODO TEST...
-    base = "http://www.berkeley.edu/map/3dmap/3dmap.shtml?"
-    if (loc.indexOf("SD") > -1) {
-        room = "sutardja"
-    } else if (loc.indexOf("Soda") > -1) {
-        room = "soda"
-    } else if (loc.indexOf("VLSB") > -1) {
-        room = "valleylifesciences"
-    } else if (loc.indexOf("LKS") > -1) {
-        room = "likashing"
-    } else {
-        room = ''
+    var base = "http://www.berkeley.edu/map/3dmap/3dmap.shtml?",
+        url  = { SD: 'sutardja',
+                 LKS: 'likashing',
+                 Soda: 'soda',
+                 VLSB: 'valleylifesciences' },
+        room = "",
+        rm = loc.split(' ')[1];
+        
+    if (url[rm]) {
+        room = url[rm];
     }
-
-    return base + room
+    
+    return base + room;
 }
 
 (function($) {
