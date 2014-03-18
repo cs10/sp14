@@ -11,12 +11,16 @@ body {
 }
 
 h1 {
-    display: block;
-    background-color: #0F4D92;
+    display: block; /* #0F4D92 */
+    background: #0F4D92;
+    background: linear-gradient(#0F4D92, #2F6DB2, #0F4D92);
+    border-radius: 25px;
+    box-shadow: 2px 3px 6px #606060;
     padding: .2em .8em;
     color: white;
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 400;
+    text-shadow: 1px 1px 1px #222;
     vertical-align: middle;
 }
 
