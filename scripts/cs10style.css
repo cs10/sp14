@@ -246,14 +246,14 @@ img.staff {
     border-radius: 4px;
 }
 
-div.staffimg {
+div.staffimgrow {
   width: 100%;
   height: 350px;
   float: center;
   text-align: center;
 }
 
-div.staffimg > div {
+div.staffimgrow > div {
   float: left;
   text-align: center;
   padding: .5em 0em;
