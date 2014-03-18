@@ -354,6 +354,7 @@ for(var i = 0; i < tait.length; i++) {
         tait[i].name = 'TAiT ' + tait[i].name
     }
 }
+
 /*****************************************************************************/
 /* DATA POPULATION FUNCTIONS  */
 /*****************************************************************************/
@@ -428,7 +429,7 @@ function buildGroup(group, w) {
             content += buildPerson(ppl[j], w)
         }
         content += '</div>'
-        // content += '<div style=\'clear: both;\'></div>';
+        content += '<div style=\'clear: both;\'></div>';
     }
     doc.innerHTML += content
 }
