@@ -93,6 +93,7 @@ table.top-table {
 
 td {
     border: none;
+    border-radius: 4px;
     text-align: center;
 }
 th {
