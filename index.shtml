@@ -29,9 +29,11 @@
                   <td class="center">
                       <h2 class="logo">
                           CS10 : The Beauty and Joy of Computing
-                          <br />
+                      </h2>
+                    <h2 class="logo">
                           UC Berkeley EECS
-                          <br />
+                      </h2>
+                    <h2 class="logo">
                           Spring 2014
                       </h2>
                   </td>
