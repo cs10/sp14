@@ -3,13 +3,14 @@ html {
 }
 body {
     width: 90%;
-    height: 94%;
+    height: 98%;
     margin: 2% auto 2% auto;
     background-color: #FFF;
     padding: 20px;
     border-radius: 20px;
     border: 4px solid #000;
 }
+
 #frm {
     width: 100%;
     height: 100%;
