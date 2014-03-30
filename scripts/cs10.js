@@ -35,7 +35,8 @@ function updateCalendar() {
 
     cells[c].style.border = STYLE
     if (c === 2 & weeks >= 2) { // HW, in the row before
-        rows[weeks].cells[8].style.border = STYLE
+        // CANT USE 8 BECAUSE ALL WEEKS ARENT THE SAME DARNIT.
+        rows[weeks].cells[cells.length - 1].style.border = STYLE
     }
     if (highlight[1] && c !== 3) { // Days w/ 2 boxes, ! for Spring break
         cells[highlight[1]].style.border = STYLE
