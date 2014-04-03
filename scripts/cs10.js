@@ -49,6 +49,12 @@ function updateCalendar() {
         for(j = 2; j < cells.length; j += 1) {
             if (cells[j].style.border) { return }
             cells[j].style.background = "#BBB"
+            // Go 1 level deep to change the background on inner divs.
+            // FIXME: Banish the jQuery? or make this recursive... or
+            // not because I wont ever need it? But it might be fun...
+            if ($(cells[j]).has('div')) {
+                $(cells[j]).children().css('background', '#BBB')
+            }
         }
     }
 }
