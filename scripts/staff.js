@@ -322,6 +322,7 @@ all = {
     tait: tait,
     edx: edx,
     snap: snap,
+    bb: bb,
     labdev: labdev,
     bjc: bjc
 };
