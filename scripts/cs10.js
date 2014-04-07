@@ -39,7 +39,7 @@ function updateCalendar() {
         prev = rows[weeks].cells
         rows[weeks].cells[prev.length - 1].style.border = STYLE
     }
-    if (highlight[1] && c !== 3) { // Days w/ 2 boxes, ! for Spring break
+    if (highlight[1] && cells.length > highlight[1]) {
         cells[highlight[1]].style.border = STYLE
     }
 
