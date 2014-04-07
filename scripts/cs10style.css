@@ -6,8 +6,9 @@ body {
     background-attachment: fixed;
     font-family: 'Helvetica', 'Helvetica Neue', Verdana, Arial, sans-serif;
     font-size: .8em;
-    width: 98%;
-    margin: 1%;
+    width: 95%;
+    margin: 2%;
+    padding: .3em;
 }
 
 .logo {
@@ -37,7 +38,8 @@ h1 {
     padding: .2em .8em;
     color: white;
     font-size: 2.1em;
-    font-weight: 400;
+/*    width: 105%;
+*/    font-weight: 400;
     text-shadow: 1px 1px 1px #222;
     vertical-align: middle;
 }
@@ -57,6 +59,9 @@ div.ql {
     float: left;
 }
 
+p {
+  width: 98%;
+}
 b, .bold {
     font-weight: bold;
 }
