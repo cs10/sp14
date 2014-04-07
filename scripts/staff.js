@@ -1,4 +1,4 @@
-/*****************************************************************************/
+w/*****************************************************************************/
 /*
 CS10 -- staff.js
 This file builds the staff images section from JSON data and makes working with
@@ -309,6 +309,8 @@ snap = [ KunalMarwaha,
 
 bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZentner ]
 
+bb = [ 'Akhila Raju', benC, songS, carenT, andyS ]
+
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
@@ -458,6 +460,7 @@ addLoadEvent(function() {
   buildGroup('las', 5)
   buildGroup('edx', 5)
   buildGroup('labdev', 5)
+  buildGroup('bb', 5)
   buildGroup('snap', 5)
   buildGroup('bjc', 5)
 })
