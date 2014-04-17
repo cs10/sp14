@@ -307,9 +307,9 @@ snap = [ KunalMarwaha,
          'Tanvi Kamath',
          'Yuan Yuan' ]
 
-bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZentner ]
+bjc = [ LaurenMock, MichaelBall, PeterSujan, KunalMarwaha,  KyleZentner, 'Omoju Miller' ]
 
-bb = [ 'Akhila Raju', benC, songS, carenT, andyS ]
+bb = [ 'Omoju Miller', 'Akhila Raju', benC, songS, carenT, andyS ]
 
 
 // If you need to add a new SECTION add it to this object.
@@ -339,6 +339,7 @@ LIST_OF_SHAME = [
 'MichelleHan.jpg',
 'NavsharanSingh.jpg',
 'NicholasDill.jpg',
+'OmojuMiller.jpg',
 'PriscillaBermudez.jpg',
 'RebeccaKuan.jpg',
 'SamyHajal.jpg',
