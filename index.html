@@ -7,19 +7,110 @@
         <meta http-equiv="Pragma" content="no-cache">
         <meta name="description" content="CS10, The Beauty and Joy of Computing is an introductory computer science class designed for anyone and everyone." />
         <meta name="keywords" content="CS10, UC, Berkeley, CS, computer science, BJC, computing, education, Michael Ball" />
-        <link href="scripts/cs10style.css" rel="stylesheet" type="text/css">
 
-        <!-- ickkkkk
-        <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js'></script>
-        -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../fa14/assets/css/bootstrap.min.css">
+
+        <style type="text/css">
+        body {
+            background-image: url(resources/images/gobo_watermark.gif); /* watermark */
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-attachment: fixed;
+            font-family: 'Helvetica', sans-serif;
+            width: 90%;
+            margin: .5% 5%;
+            padding: 0 .3em .3em .3em;
+        }
+        .logo {
+            font-family: 'VAG Rounded Light';
+            font-size: 2.25em;
+            margin: .1em;
+            text-align: center;
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        .header {
+            display: inline-block;
+            width: 100%;
+        }
+        .header, .header > div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .left {
+            width: 250px;
+        }
+        .header > .center {
+            min-width: 50px;
+            width: 60%;
+            max-width: 100%;
+        }
+        .right {
+            text-align: right;
+            min-width: 100px;
+            width: 17%;
+            max-width: 250px;
+        }
+        /*
+        display table-cell auto width
+        Specifiy:
+        min-width -- presentation / readbility
+        width -- size, set smaller than 1/(num items)
+        max-width -- set >= 1/(num items) */
+        .ql {
+            font-size: 1.1em;
+            text-align: center;
+            display: table-cell;
+        }
+        h1 {
+            display: block;
+            background: #003A70;
+            background: -moz-linear-gradient(top,  #003A70 0%, #3f7dc2 50%, #003A70 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#003A70), color-stop(50%,#3f7dc2), color-stop(100%,#003A70)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #003A70 0%,#3f7dc2 50%,#003A70 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #003A70 q%,#3f7dc2 50%,#003A70 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #003A70 0%,#3f7dc2 50%,#003A70 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  #003A70 0%,#3f7dc2 50%,#003A70 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003A70', endColorstr='#003A70', GradientType=0); /* IE6-9 */
+            border-radius: 2em;
+            box-shadow: 2px 3px 6px #606060;
+            padding: .3em 1em;
+            color: #FFF;
+            font-family: 'VAG Rounded Light';
+            font-size: 1.6em;
+            text-shadow: 1px 1px 2px #555;
+            vertical-align: middle;
+        }
+        .vcenter {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        /* centered columns styles */
+        .row-centered {
+            text-align:center;
+        }
+        .col-centered {
+            display:inline-block;
+            float:none;
+            /* reset the text-align */
+            text-align:center;
+            /* inline-block space fix */
+            margin-right:-4px;
+        }
+        </style>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-47210910-1', 'berkeley.edu');
+          ga('create', 'UA-47210910-1', 'auto');
           ga('send', 'pageview');
+
         </script>
     </head>
 
@@ -58,7 +149,7 @@
       </table>
 
       <a name="quicklinks"></a>
-      <h1 class="ql">Quick Links</h1>
+      <h1 id="quicklinks">Quick Links</h1>
       <div>
             <div class="ql">
               <a href="http://snap.berkeley.edu/run/">Snap!</a>
@@ -1183,57 +1274,69 @@
           </a>
       </div>
 
-      <link href='scripts/fullcalendar.css' rel='stylesheet' type='text/css'>
       <link href='scripts/cs10style.css' rel='stylesheet' type='text/css'>
 
+      <link href="../fa14/assets/lib/fullcalendar/fullcalendar.min.css" rel="stylesheet"/>
+      <link href="../fa14/assets/cs10style.css" rel="stylesheet"/>
       <script type="text/javascript" src="scripts/cs10.js"></script>
       <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js'></script>
-      <script type='text/javascript' src='scripts/fullcalendar.js'></script>
-      <script type='text/javascript' src='scripts/gcal.js'></script>
       <!-- This populates the webpage with staff resources/images -->
       <script type="text/javascript" src="scripts/staff.js"></script>
 
-      <script type="text/javascript">
-        // Review session dates
-        var quest = daysUntil(new Date(2014, 1, 16)),
-            mt    = daysUntil(new Date(2014, 2, 16)),
-            fin   = daysUntil(new Date(2014, 4, 11))
 
-        function daysUntil(day) {
-          var MS_DAY = 1000*60*60*24
-          return Math.floor((new Date() - day) / MS_DAY)
-        }
+      <!-- JS For the Weekly Schedule uses fullcalendar.io -->
+      <script src='../fa14/assets/lib/moment.min.js'></script>=
+      <script src='../fa14/assets/lib/fullcalendar/fullcalendar.min.js'></script>
+      <script src='../fa14/assets/lib/fullcalendar/gcal.js'></script>
+      <script>
+      // Review session dates, JS Dates: 0 == Jan!!
+      // Review session dates
+      var quest      = daysUntil(new Date(2014, 1, 16)),
+          midterm    = daysUntil(new Date(2014, 2, 16)),
+          final      = daysUntil(new Date(2014, 4, 11))
 
-        function inRange(num) { return num >= -7 && num < 1 }
+      function daysUntil(from, to) {
+        var MS_DAY = 1000*60*60*24;
+        return Math.floor((from - (to || new Date())) / MS_DAY);
+      }
 
-        // Show weeks when we are close to at least one session.
-        var wkends = (inRange(quest) || inRange(mt) || inRange(fin))
+      function inRange(num) { return num >= -7 && num < 1; }
 
-        $(document).ready(function() {
-            $('#weekly').fullCalendar({
-              allDaySlot: false,
-              slotMinutes: 60,
-              weekends: wkends,
-              defaultView: 'agendaWeek',
-              minTime: 8,
-              maxTime: 22,
-              contentHeight: 750,
-              eventSources: [
-                {   url: 'https://www.google.com/calendar/feeds/berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk%40group.calendar.google.com/public/basic',
-                    className: 'lecture' },
-                {   url: 'https://www.google.com/calendar/feeds/berkeley.edu_d358eocqj23pak3atie23vk35o%40group.calendar.google.com/public/basic',
-                    className: 'lab' },
-                {   url: 'https://www.google.com/calendar/feeds/berkeley.edu_k2g60q1sehd2u0ujd257jqm7h0%40group.calendar.google.com/public/basic',
-                    className: 'oh' },
-                {   url: 'https://www.google.com/calendar/feeds/berkeley.edu_1g3duo9lb53vu09orjictriud4%40group.calendar.google.com/public/basic',
-                    className: 'disc' },
-                {   url: 'https://www.google.com/calendar/feeds/berkeley.edu_21jprgg43p44oq62g94agbumv8%40group.calendar.google.com/public/basic',
-                    className: 'disc', // FIX FOR BUG WITH LAST 2 DISCUSSIONS
-                    currentTimezone: 'America/Chicago' }
-              ]
-            })
-        });
+      $(document).ready(function() {
+          // Show weekends when we are close to at least one review session.
+          var wkends = inRange(quest) || inRange(midterm) || inRange(final);
+
+          // Google API KEY:
+          var gcalkey = 'AIzaSyBcbN6F79dPHiGMvftIKZB86A6Ki2eIKZs';
+          $('#weekly').fullCalendar({
+            allDaySlot: false,
+            slotDuration: "1:00:00",
+            slotEventOverlap: false,
+            weekends: wkends,
+            defaultView: 'agendaWeek',
+            minTime: "09:00:00",
+            maxTime: "20:00:00",
+            contentHeight: "auto",
+            eventSources: [
+              {   googleCalendarId: 'berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk@group.calendar.google.com',
+                  cache: true,
+                  googleCalendarApiKey: gcalkey,
+                  className: 'lecture' },
+              {   googleCalendarId: 'berkeley.edu_d358eocqj23pak3atie23vk35o@group.calendar.google.com',
+                  cache: true,
+                  googleCalendarApiKey: gcalkey,
+                  className: 'lab' },
+              {   googleCalendarId: 'berkeley.edu_k2g60q1sehd2u0ujd257jqm7h0@group.calendar.google.com',
+                  cache: true,
+                  googleCalendarApiKey: gcalkey,
+                  className: 'oh' },
+              {   googleCalendarId: 'berkeley.edu_1g3duo9lb53vu09orjictriud4@group.calendar.google.com',
+                  cache: true,
+                  googleCalendarApiKey: gcalkey,
+                  className: 'disc' }
+            ]
+          });
+      });
       </script>
-
     </body>
 </html>
