@@ -1,8 +1,8 @@
 /*****************************************************************************/
 /*
 CS10 -- staff.js
-This file builds the staff images section from JSON data and makes working with
-these images much easier.
+This file builds the staff resources/images section from JSON data and makes working with
+these resources/images much easier.
 Here is a sample object (with all properities):
 DanGarcia = {
     name: 'Sr. Lecturer SOE Dan Garcia',
@@ -19,10 +19,10 @@ BrandonChen = { name: 'Brandon Chen',
     img: 'Sp14/BrandonChen.jpg',
     imgSrc: 'BrandonChen.jpg' }
 can be created with simply 'Brandon Chen' as a string in the appropriate lists.
-NOTE: All images must be in the proper folders and match the name, w/o spaces.
+NOTE: All resources/images must be in the proper folders and match the name, w/o spaces.
 
 You can create any objects like this. REQUIRED ARE: name, img, imgSrc
-'imgSrc' should be a small image in the directory ~/public_html/images/small/ *
+'imgSrc' should be a small image in the directory ~/public_html/resources/images/small/ *
 
 There are a few lists of objects:
 instructors, tas, readers, las -- more can be created if necessary:
@@ -30,11 +30,11 @@ To add a new section:
 1. Add a div with an ID to staff.html
 2. Add the same ID name to the 'all' object.
 3. Add a call to buildGroup(), with the ID name (string) and the number of
-images per row (int)
+resources/images per row (int)
 */
 /*****************************************************************************/
 
-// JSON mappings for staff images / info.
+// JSON mappings for staff resources/images / info.
 // Instructors
 DanGarcia = {
     name: 'Sr. Lecturer SOE Dan Garcia',
@@ -387,10 +387,10 @@ function buildPerson(data, width) {
     // Create a table element with this person's data, setting a class for width
     elm = '<div style="width:' + 100/width + '%;">'
     if (!!data.img) {
-        elm += '<a href=\'images/' + data.img + '\'>'
+        elm += '<a href=\'resources/images/' + data.img + '\'>'
     }
     elm += '<img class=\'staff\' width=\'200\' height=\'300\' align=\'center\' '
-    elm += 'alt=\'' + data.name + '\' title=\'' + data.name + '\' src=\'images/small/'
+    elm += 'alt=\'' + data.name + '\' title=\'' + data.name + '\' src=\'resources/images/small/'
     elm += data.imgSrc + '\' />'
     if (!!data.img) {
         elm += '</a>'
@@ -453,7 +453,7 @@ function addLoadEvent(func) {
 
 addLoadEvent(function() {
   /* more code to run on page load */
-  // Parameters: a section (HTML 'id') and num of images per row.
+  // Parameters: a section (HTML 'id') and num of resources/images per row.
   buildGroup('instructors', 1)
   buildGroup('tas', 5)
   buildGroup('readers', 5)
